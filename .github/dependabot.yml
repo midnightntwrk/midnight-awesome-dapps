@@ -1,0 +1,30 @@
+version: 2
+
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      
+#  - package-ecosystem: "cargo"
+#    directory: "/"
+#    registries: "*"
+#    schedule:
+#      interval: "daily"
+#
+#  - package-ecosystem: "npm"
+#    directory: "/"
+#    schedule:
+#      interval: "daily"
+#
+#  - package-ecosystem: "docker"
+#    directory: "/"
+#    schedule:
+#      interval: "weekly"
+#
+#registries:
+#   github:
+#     type: git
+#     url: https://github.com
+#     username: MidnightCI
+#     password: ${{ secrets.MIDNIGHTCI_REPO }}

@@ -1,0 +1,10 @@
+* @midnightntwrk/mn-security
+/.github/ISSUE_TEMPLATE/ @midnightntwrk/mn-security @midnightntwrk/mn-it
+/.github/PULL_REQUEST_TEMPLATE/ @midnightntwrk/mn-security @midnightntwrk/mn-it
+/.github/workflows/checkmarx.yaml @midnightntwrk/mn-security @midnightntwrk/mn-it
+/.github/workflows/dependabot.yml @midnightntwrk/mn-security @midnightntwrk/mn-it
+CODE_OF_CONDUCT.md @midnightntwrk/mn-security @midnightntwrk/mn-it
+CODEOWNERS @midnightntwrk/mn-security @midnightntwrk/mn-it
+CONTRIBUTING.md @midnightntwrk/mn-security @midnightntwrk/mn-it
+LICENSE @midnightntwrk/mn-security @midnightntwrk/mn-it
+SECURITY.md @midnightntwrk/mn-security @midnightntwrk/mn-it

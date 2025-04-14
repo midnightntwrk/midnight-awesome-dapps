@@ -1,0 +1,77 @@
+name: Checkmarx One Scan
+
+on:
+  pull_request:
+    branches: [ '**' ]
+  push:
+    branches: [ 'main' ]
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    permissions:
+      contents: read
+      pull-requests: write
+      statuses: write
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  #v4.2.2
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install beautifulsoup4 requests
+
+      - name: Scrape Checkmarx status
+        run: |
+          cat <<'EOF' > scrape_checkmarx.py
+          import requests
+          from bs4 import BeautifulSoup
+
+          # URL of the status page
+          url = "https://eu2-status.ast.checkmarx.net/"
+
+          try:
+              # Send a GET request to fetch the HTML content
+              response = requests.get(url)
+              response.raise_for_status()  # Check for request errors
+
+              # Parse the HTML content
+              soup = BeautifulSoup(response.text, 'html.parser')
+
+              # Locate the status element based on its HTML structure
+              status_element = soup.find('aside', class_='operational state-bar')
+
+              # Check if the status is operational
+              if status_element and 'Operating Normally' in status_element.text:
+                  print("The status is operational with status")
+                  print(status_element.text)
+              else:
+                  print("The status is not operational.")
+          except requests.exceptions.RequestException as e:
+              print(f"An error occurred: {e}")
+          EOF
+          python3 scrape_checkmarx.py
+
+      - name: Check Checkmarx One server health
+        run: |
+          response=$(curl -s -o /dev/null -w "%{http_code}" https://ind-status.ast.checkmarx.net/)
+          if [ "$response" != "200" ]; then
+            echo "Checkmarx One server is down. Proceeding without breaking the build."
+            exit 0  # Do not fail the build
+          else
+            echo "Checkmarx One server is healthy. Proceeding with scan."
+          fi
+
+      - name: Checkmarx One CLI Action
+        uses: checkmarx/ast-github-action@29f8e683871dd794778db6514fa609b40d541a5e #2.3.18
+        with:
+          cx_tenant: ${{ secrets.CX_TENANT }}
+          base_uri: https://eu-2.ast.checkmarx.net/
+          cx_client_id: ${{ secrets.CX_CLIENT_ID }}
+          cx_client_secret: ${{ secrets.CX_CLIENT_SECRET_EU }}
+          additional_params: --scs-repo-url https://github.com/midnightntwrk/midnight-template-repo --scs-repo-token ${{ secrets.MIDNIGHTCI_REPO }}
