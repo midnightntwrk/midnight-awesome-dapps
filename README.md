@@ -22,8 +22,19 @@ These are example applications owned by the Midnight **ecosystem**:
    * by the [Mesh Midnight team](https://midnight.meshjs.dev/en)
 * Midnight Tutorial in Korean https://github.com/jungmyeong96/midnight_tutorial/tree/main
 
+# Learning Resources
+### Midnight Docs Blog
+* https://docs.midnight.network/blog
+
+### Midnight ZKP Course
+* Coming soon!  
+ 
 # Hackathon Projects 
-## ZK Identity Hackathon entries:
+ 
+## [Zero-Limits Hackathon](https://midnight.network/hackathon/zero-limits) entries: 
+* coming soon!  
+ 
+ ## ZK Identity Hackathon entries:
 
 * https://github.com/bricktowers/midnight-identity
 
