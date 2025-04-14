@@ -2,7 +2,7 @@
 name: Bug report
 about: Submit a bug report
 title: ""
-labels: midnight-template-repo, public
+labels: midnight-awesome-dapps, public
 assignees: ""
 ---
 

@@ -2,7 +2,7 @@
 name: Feature request
 about: Submit a proposal for a new feature
 title: ""
-labels: midnight-template-repo, public
+labels: midnight-awesome-dapps, public
 assignees: ""
 ---
 

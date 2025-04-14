@@ -1,4 +1,4 @@
-* @midnightntwrk/mn-security
+* @midnightntwrk/mn-codeowners-awsome-dapps
 /.github/ISSUE_TEMPLATE/ @midnightntwrk/mn-security @midnightntwrk/mn-it
 /.github/PULL_REQUEST_TEMPLATE/ @midnightntwrk/mn-security @midnightntwrk/mn-it
 /.github/workflows/checkmarx.yaml @midnightntwrk/mn-security @midnightntwrk/mn-it

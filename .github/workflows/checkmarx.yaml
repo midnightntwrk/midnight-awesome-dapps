@@ -74,4 +74,4 @@ jobs:
           base_uri: https://eu-2.ast.checkmarx.net/
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET_EU }}
-          additional_params: --scs-repo-url https://github.com/midnightntwrk/midnight-template-repo --scs-repo-token ${{ secrets.MIDNIGHTCI_REPO }}
+          additional_params: --scs-repo-url https://github.com/midnightntwrk/midnight-awesome-dapps --scs-repo-token ${{ secrets.MIDNIGHTCI_REPO }}
