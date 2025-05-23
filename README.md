@@ -19,6 +19,12 @@ These are examples owned and maintained by the **Midnight team**.
 * Bulletin Board (bboard) dApp example: 
     *   https://docs.midnight.network/develop/tutorial/creating/scenario
 
+## 📚 Learning Resources
+
+* #### Midnight Docs Blog, [Dev Diaries](https://docs.midnight.network/blog) 
+
+* #### Midnight Developer Academy [Modules 1-3 now live!](https://docs.midnight.network/academy/) 
+
 
 ## 🌱 Community Projects
 These are example applications owned by the Midnight **ecosystem**: 
@@ -35,19 +41,14 @@ These are example applications owned by the Midnight **ecosystem**:
    * by the [Mesh Midnight team](https://midnight.meshjs.dev/en)
 * Midnight Tutorial in Korean https://github.com/jungmyeong96/midnight_tutorial/tree/main
 
-## 📚 Learning Resources
-
-#### Midnight Docs [Blog](https://docs.midnight.network/blog)
-
-#### Midnight ZKP Academy
-* Coming soon!  
  
 ## 🏆 Hackathon Project Showcases
+ 
 
- 
-### [Zero-Limits Hackathon](https://midnight.network/hackathon/zero-limits) entries: 
-* coming soon!  
- 
+#### Ecosystem Tooling Challenge 
+* Projects are due June 16th!
+* [Registration](https://midnight.network/hackathon/ecosystem-tooling) closes Friday, June 13th! 
+
  ### ZK Identity Hackathon entries:
 
 * https://github.com/bricktowers/midnight-identity
