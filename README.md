@@ -23,7 +23,7 @@ These are examples owned and maintained by the **Midnight team**.
 
 * #### Midnight Docs Blog, [Dev Diaries](https://docs.midnight.network/blog) 
 
-* #### Midnight Developer Academy [Modules 1-3 now live!](https://docs.midnight.network/academy/) 
+* #### Midnight Developer Academy [Modules 1-5 now live!](https://docs.midnight.network/academy/) 
 
 
 ## 🌱 Community Projects
@@ -46,8 +46,7 @@ These are example applications owned by the Midnight **ecosystem**:
  
 
 #### Ecosystem Tooling Challenge 
-* Projects are due June 16th!
-* [Registration](https://midnight.network/hackathon/ecosystem-tooling) closes Friday, June 13th! 
+* Pitches Live Stream is June 20th, 3pm GMT on [Midnight's YouTube](https://www.youtube.com/@midnight.network) 
 
  ### ZK Identity Hackathon entries:
 
