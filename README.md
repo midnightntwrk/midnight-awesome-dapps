@@ -1,4 +1,4 @@
-# 🌌 Awesome Midnight dApps
+# 🚀 Build with Midnight: Open Source dApps & Tools
 
 Welcome to the Midnight ecosystem's curated list of example dApps, starter templates, tutorials, learning resources, and hackathon projects. This repo is designed to help developers get inspired, learn from real-world projects, and build more confidently with privacy-preserving tools on Midnight.
 
@@ -10,14 +10,11 @@ You'll find:
 
 We welcome contributions! If you’ve built something on Midnight or adapted an existing tool, [open a pull request](https://github.com/midnightntwrk/midnight-awesome-dapps/pulls) to share it with the community.
 
-## 🔧 Midnight's dApp Examples
-These are examples owned and maintained by the **Midnight team**. 
+## 🌱 Core Examples
+*Official dApps maintained by the Midnight's DevRel team (for education + onboarding)*
+* [Counter dApp](https://github.com/midnightntwrk/example-counter) – A simple increment/decrement app using Midnight smart contracts
 
-* Counter dApp example (🆕 Newly open sourced!) 
-    *   https://github.com/midnightntwrk/example-counter
-
-* Bulletin Board (bboard) dApp example: 
-    *   https://docs.midnight.network/develop/tutorial/creating/scenario
+* [Bulletin Board](https://github.com/midnightntwrk/example-bboard) – A basic public message board built on Midnight
 
 ## 📚 Learning Resources
 
@@ -25,50 +22,72 @@ These are examples owned and maintained by the **Midnight team**.
 
 * #### Midnight Developer Academy [Modules 1-5 now live!](https://docs.midnight.network/academy/) 
 
-
-## 🌱 Community Projects
-These are example applications owned by the Midnight **ecosystem**: 
-
-* Hello World starter template https://github.com/CylinderAdmin/midnight-starter
-
-* Anonymous Q+A dashboard https://github.com/ErickRomeroDev/hackathon-midnight-2
+> [!IMPORTANT]  
+> Community-contributed projects are shared for inspiration and exploration. These repositories are not maintained by the Midnight team, and their functionality may vary. 
 
 
+# Ecosystem-Contributed dApps & Tools
+> [!NOTE]  
+> 🔹 = Official Midnight Ecosystem Partner
 
-## 🎥 Community Video Tutorials
+## 🔦 Ecosystem dApp of the Month!  
+[FundAGoal](https://github.com/codeBigInt/fundagoal), the winning project of the [African Blockchain Championship](https://www.africanblockchamp.com/), is a decentralized funding platform built on the Midnight network. It enables creators to propose project ideas, secure funding, and protect the identities of both campaign creators and backers. By prioritizing privacy and transparency, [FundAGoal](https://github.com/codeBigInt/fundagoal) fosters trust in crowdfunding while empowering communities to support innovative initiatives.   
+The open-source code is available on GitHub, encouraging collaboration and further development.
 
-* [Edda Labs](https://www.youtube.com/@eddalabs): Midnight examples and their "Understand the code" series (available in Spanish, English, and Portuguese)
-   * by the [Mesh Midnight team](https://midnight.meshjs.dev/en)
-* Midnight Tutorial in Korean https://github.com/jungmyeong96/midnight_tutorial/tree/main
+## 🧱 Smart Contract Primitives (by [🔹OpenZeppelin](https://github.com/OpenZeppelin/compact-contracts))
 
- 
-## 🏆 Hackathon Project Showcases
- 
+- **[🔹 Fungible Token](https://github.com/OpenZeppelin/compact-contracts/tree/main/contracts/fungibleToken)** — Midnight-native equivalent of ERC-20 for tokens like stablecoins or rewards  
+- **[🔹 Non-Fungible Token (NFT)](https://github.com/OpenZeppelin/compact-contracts/tree/main/contracts/nonFungibleToken)** — Create and manage NFTs on Midnight using Compact  
+- **[🔹 MultiToken (ERC-1155)](https://github.com/OpenZeppelin/compact-contracts/tree/main/contracts/multitoken)** — Efficient multi-asset standard supporting both fungible and non-fungible tokens  
 
-#### Ecosystem Tooling Challenge 
-* Pitches Live Stream is June 20th, 3pm GMT on [Midnight's YouTube](https://www.youtube.com/@midnight.network) 
+## 🧑‍💻 Starter Templates
+*Community-created boilerplates or dev scaffolds*
 
- ### ZK Identity Hackathon entries:
+- **[🔹 MeshJS Starter Template](https://github.com/MeshJS/midnight-starter-template)** —  A complete template with smart contracts, tests, UI, and all batteries included to kickstart your project 
+- **[Scaffold Midnight](https://github.com/kaleababayneh/scaffold-midnight)** — Full-stack dev scaffold with Midnight integration  
+- **[Create Midnight App (npm)](https://www.npmjs.com/package/create-midnight-app)** —  Build Midnight smart contracts with automated CLI generation. Includes enhanced data types, pre-generated wallet, and full contract-deploy pipeline
+- **[midnightpy](https://github.com/Techgethr/midnightpy)** — Midnight smart contract bindings for Python  
+- **[wybe](https://github.com/lamg/wybe)** — A minimal and expressive contract language for Midnight  
 
-* https://github.com/bricktowers/midnight-identity
 
-* https://github.com/ErickRomeroDev/midnight-identity-token
+## 🧩 Ecosystem Tooling
+*Tools that help other devs build, test, deploy, or index*
 
-* https://github.com/HeikkiRuhanen/ethiopian-identity-wallet
+- **[Statera Protocol](https://github.com/LucentLabss/statera-protocol)** — A framework for building modular dApps on Midnight  
+- **[MidnightForge](https://github.com/bytewizard42i/MidnightForge)** — Infrastructure scripts and DevOps for Midnight dApp deployment  
+- **[Midnightscan](https://github.com/mediocrehacker/Midnightscan)** — Blockchain scanner for tracking Midnight contract deployments  
+- **[Explorer](https://github.com/AIQUANT-Tech/explorer)** — Simple block explorer for Midnight networks  
+- **[Midnight MNN Helm](https://github.com/0xstrong/midnight-mnn-helm)** — Helm charts for running Midnight full nodes or services  
+- **[Midnight Indexer](https://github.com/semsorock/midnight-indexer)** — An indexing tool for querying Midnight blockchain data  
 
-* https://github.com/midnames-protocol/MidnightHackathon
 
-* https://github.com/bytewizard42i/SentinelDID-poc
+## 🧠 ZK Identity Projects
+*Privacy-preserving identity, credentials, and proof of personhood* 
 
-* https://github.com/laughtt/face-recognition-midnight
+- **[Midnames](https://github.com/midnames-protocol/MidnightHackathon)** — ZK-powered DID and credential registry with selective disclosure  
+- **[🔹 midnight-identity](https://github.com/bricktowers/midnight-identity)** — Brick Towers’ ZK identity system for self-issued credentials  
+- **[Ethiopian Identity Wallet](https://github.com/HeikkiRuhanen/ethiopian-identity-wallet/tree/main)** — Self-Sovereign Identity (SSI) for verifying crypto wallet eligibility for National Stablecoin holding
+- **[SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc)** — ZK identity and access prototype with selective attributes  
+- **[face-recognition-midnight](https://github.com/laughtt/face-recognition-midnight)** — Facial recognition used to gate ZK-verified identity contracts  
+- **[zkID](https://github.com/quantus0/zkID)** — A zk-SNARK-based identity layer  
 
-### SeaBattle Hackathon entries:
- 
-* https://github.com/bricktowers/midnight-seabattle 
 
-* https://github.com/eddex/midnight-sea-battle-hackathon
+## ⚔️ Game Examples
+*Interactive, zero-knowledge-powered games*
 
-* https://github.com/mediocrehacker/midnight-battleship
+- **[🔹 midnight-seabattle](https://github.com/bricktowers/midnight-seabattle)** — SeaBattle implementation by Brick Towers   
+- **[midnight-battleship](https://github.com/mediocrehacker/midnight-battleship)** — A ZK-powered battleship game  
+- **[midnight-sea-battle-hackathon](https://github.com/eddex/midnight-sea-battle-hackathon)** — Jan & Eddex’s SeaBattle submission  
 
-* https://github.com/ErickRomeroDev/naval-battle-game_v2 
+## 🧪 Hackathon dApps
+*Experimental apps from community hackathons*
 
+- **[FundAGoal](https://github.com/codeBigInt/fundagoal)** — Crowdfunding smart contracts for verified projects  
+- **[Midnight Vote](https://github.com/armsves/midnightVotingW3PN)** — An anonymous governance and polling app  
+
+## 🎓 Video + Tutorial Content
+*Learn how to build with Midnight, from the community*
+
+- **[🔹 Edda Labs YouTube Series](https://www.youtube.com/@eddalabs)** — In-depth Midnight examples and “Understand the Code” in Spanish, English, and Portuguese   
+- **[Midnight Korean Tutorial](https://github.com/jungmyeong96/midnight_tutorial/tree/main)** — Step-by-step development guide for Korean-speaking developers  
+- **[🔹 Mesh Midnight](https://midnight.meshjs.dev/en)** — A unified repository that brings together packages, examples, and documentation to streamline development
