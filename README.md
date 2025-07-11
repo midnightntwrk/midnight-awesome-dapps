@@ -31,7 +31,7 @@ We welcome contributions! If you’ve built something on Midnight or adapted an 
 > 🔹 = Official Midnight Ecosystem Partner
 
 ## 🔦 Ecosystem dApp of the Month!  
-[FundAGoal](https://github.com/codeBigInt/fundagoal), the winning project of the [African Blockchain Championship](https://www.africanblockchamp.com/), is a decentralized funding platform built on the Midnight network. It enables creators to propose project ideas, secure funding, and protect the identities of both campaign creators and backers. By prioritizing privacy and transparency, [FundAGoal](https://github.com/codeBigInt/fundagoal) fosters trust in crowdfunding while empowering communities to support innovative initiatives.   
+A part of the [African Blockchain Championship](https://www.africanblockchamp.com/), [FundAGoal](https://github.com/codeBigInt/fundagoal) is a decentralized funding platform built on the Midnight network. It enables creators to propose project ideas, secure funding, and protect the identities of both campaign creators and backers. By prioritizing privacy and transparency, [FundAGoal](https://github.com/codeBigInt/fundagoal) fosters trust in crowdfunding while empowering communities to support innovative initiatives.   
 The open-source code is available on GitHub, encouraging collaboration and further development.
 
 ## 🧱 Smart Contract Primitives (by [🔹OpenZeppelin](https://github.com/OpenZeppelin/compact-contracts))
