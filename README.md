@@ -64,7 +64,7 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 ## 🧠 ZK Identity Projects
 *Privacy-preserving identity, credentials, and proof of personhood* 
 
-- **[Midnames](https://github.com/midnames-protocol/MidnightHackathon)** — ZK-powered DID and credential registry with selective disclosure  
+- **[Midnames](https://github.com/midnames/core)** — ZK-powered DID and credential registry with selective disclosure  
 - **[🔹 midnight-identity](https://github.com/bricktowers/midnight-identity)** — Brick Towers’ ZK identity system for self-issued credentials  
 - **[Ethiopian Identity Wallet](https://github.com/HeikkiRuhanen/ethiopian-identity-wallet/tree/main)** — Self-Sovereign Identity (SSI) for verifying crypto wallet eligibility for National Stablecoin holding
 - **[SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc)** — ZK identity and access prototype with selective attributes  
