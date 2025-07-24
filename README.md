@@ -48,6 +48,7 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 - **[Create Midnight App (npm)](https://www.npmjs.com/package/create-midnight-app)** —  Build Midnight smart contracts with automated CLI generation. Includes enhanced data types, pre-generated wallet, and full contract-deploy pipeline
 - **[midnightpy](https://github.com/Techgethr/midnightpy)** — Midnight smart contract bindings for Python  
 - **[wybe](https://github.com/lamg/wybe)** — A minimal and expressive contract language for Midnight  
+- **[Midnight Quick Starter](https://github.com/luislucena16/midnight-quick-starter)** — Modern base template for building dApps on the Midnight Network. Includes smart contracts, backend APIs, CLI tools, and frontend UI
 
 
 ## 🧩 Ecosystem Tooling
@@ -59,6 +60,7 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 - **[Explorer](https://github.com/AIQUANT-Tech/explorer)** — Simple block explorer for Midnight networks  
 - **[Midnight MNN Helm](https://github.com/0xstrong/midnight-mnn-helm)** — Helm charts for running Midnight full nodes or services  
 - **[Midnight Indexer](https://github.com/semsorock/midnight-indexer)** — An indexing tool for querying Midnight blockchain data  
+- **[Midnight Validator Dashboard](https://github.com/luislucena16/midnight-validator-dashboard)** — Professional dashboard to monitor validator nodes and explore data on the Midnight blockchain. Includes real-time metrics, RPC access, system monitoring, and block explorer
 
 
 ## 🧠 ZK Identity Projects
@@ -70,6 +72,10 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 - **[SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc)** — ZK identity and access prototype with selective attributes  
 - **[face-recognition-midnight](https://github.com/laughtt/face-recognition-midnight)** — Facial recognition used to gate ZK-verified identity contracts  
 - **[zkID](https://github.com/quantus0/zkID)** — A zk-SNARK-based identity layer  
+
+
+## 🏗️ Real-World Asset (RWA) dApps
+- **[Tokenless](https://github.com/luislucena16/tokenless)** — Privacy-first tokenization platform built on Midnight. It records contributions on-chain using zk-proofs — no tokens, no exposure. Modular by design, with Compact contracts, API, and React UI for compliant and verifiable investments
 
 
 ## ⚔️ Game Examples
