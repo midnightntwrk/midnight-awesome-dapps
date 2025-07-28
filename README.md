@@ -58,7 +58,8 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 - **[Midnightscan](https://github.com/mediocrehacker/Midnightscan)** — Blockchain scanner for tracking Midnight contract deployments  
 - **[Explorer](https://github.com/AIQUANT-Tech/explorer)** — Simple block explorer for Midnight networks  
 - **[Midnight MNN Helm](https://github.com/0xstrong/midnight-mnn-helm)** — Helm charts for running Midnight full nodes or services  
-- **[Midnight Indexer](https://github.com/semsorock/midnight-indexer)** — An indexing tool for querying Midnight blockchain data  
+- **[Midnight Indexer](https://github.com/semsorock/midnight-indexer)** — An indexing tool for querying Midnight blockchain data
+- **[Midnight Live View](https://github.com/Midnight-Scripts/Midnight-Live-View)** - A simple script that allows users to monitor key information about their Midnight node.  
 
 
 ## 🧠 ZK Identity Projects
