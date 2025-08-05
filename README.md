@@ -58,13 +58,14 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 - **[Midnightscan](https://github.com/mediocrehacker/Midnightscan)** — Blockchain scanner for tracking Midnight contract deployments  
 - **[Explorer](https://github.com/AIQUANT-Tech/explorer)** — Simple block explorer for Midnight networks  
 - **[Midnight MNN Helm](https://github.com/0xstrong/midnight-mnn-helm)** — Helm charts for running Midnight full nodes or services  
-- **[Midnight Indexer](https://github.com/semsorock/midnight-indexer)** — An indexing tool for querying Midnight blockchain data  
+- **[Midnight Indexer](https://github.com/semsorock/midnight-indexer)** — An indexing tool for querying Midnight blockchain data
+- **[Midnight Live View](https://github.com/Midnight-Scripts/Midnight-Live-View)** - A simple script that allows users to monitor key information about their Midnight node.  
 
 
 ## 🧠 ZK Identity Projects
 *Privacy-preserving identity, credentials, and proof of personhood* 
 
-- **[Midnames](https://github.com/midnames/core)** — ZK-powered DID and credential registry with selective disclosure  
+- **[🔹 Midnames](https://github.com/midnames/core)** — ZK-powered DID and credential registry with selective disclosure  
 - **[🔹 midnight-identity](https://github.com/bricktowers/midnight-identity)** — Brick Towers’ ZK identity system for self-issued credentials  
 - **[Ethiopian Identity Wallet](https://github.com/HeikkiRuhanen/ethiopian-identity-wallet/tree/main)** — Self-Sovereign Identity (SSI) for verifying crypto wallet eligibility for National Stablecoin holding
 - **[SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc)** — ZK identity and access prototype with selective attributes  
