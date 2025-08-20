@@ -20,7 +20,7 @@ We welcome contributions! If you’ve built something on Midnight or adapted an 
 
 * #### Midnight Docs Blog, [Dev Diaries](https://docs.midnight.network/blog) 
 
-* #### Midnight Developer Academy [Modules 1-5 now live!](https://docs.midnight.network/academy/) 
+* #### Midnight Developer Academy [Modules 1-7 now live!](https://docs.midnight.network/academy/) 
 
 > [!IMPORTANT]  
 > Community-contributed projects are shared for inspiration and exploration. These repositories are not maintained by the Midnight team, and their functionality may vary. 
