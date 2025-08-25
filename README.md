@@ -86,17 +86,17 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 - **[FundAGoal](https://github.com/codeBigInt/fundagoal)** — Crowdfunding smart contracts for verified projects  
 - **[Midnight Vote](https://github.com/armsves/midnightVotingW3PN)** — An anonymous governance and polling app
 -  **[kyc-midnight](https://github.com/joacolinares/kyc-midnight)** – Know Your Customer (KYC) attestation system
--  **[Asset Tokenization Platform](https://github.com/nicolasLuduena/2025-hackathon-midnight)** – decentralized asset tokenization platform
+-  **[Asset Tokenization Platform](https://github.com/nicolasLuduena/2025-hackathon-midnight)** – Decentralized asset tokenization platform
 -  **[Midnauction](https://github.com/eryxcoop/midnauction)** – Sealed-bid round-based auction platform
 
 
 ## 💻 Mini dApps
 -  **[midnight-bank](https://github.com/nel349/midnight-bank)** – Privacy-first banking DApp
--  **[zkbadge](https://github.com/Imdavyking/zkbadge)** – Allows users to prove they hold valid certifications or identity attributes without revealing any sensitive information.
+-  **[zkbadge](https://github.com/Imdavyking/zkbadge)** – (Private Achievement Verifier) Allows users to prove they hold valid certifications or identity attributes without revealing any sensitive information
 -  **[statera-protocol-midnight](https://github.com/statera-protocol/statera-protocol-midnight)** – Over-collateralized stablecoin protocol 
 -  **[SilentLedger](https://github.com/bytewizard42i/SilentLedger)** – A privacy-preserving verified orderbook DApp
 -  **[tokenless](https://github.com/luislucena16/tokenless)** – Natively Midnight-based asset tokenization system
--  **[zk-mastermind](https://github.com/kjayapra/zk-mastermind)** – Reimagining the classic Mastermind game with privacy-first principles
+-  **[zk-mastermind](https://github.com/kjayapra/zk-mastermind)** – (Privacy-First Code Breaking) Reimagining the classic Mastermind game with privacy-first principles
 -  **[ZK Ocean Combat](https://github.com/Angleito/midnighthackathon)** – Ocean-themed combat game
 
 
