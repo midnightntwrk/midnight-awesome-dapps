@@ -70,7 +70,7 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 - **[Ethiopian Identity Wallet](https://github.com/HeikkiRuhanen/ethiopian-identity-wallet/tree/main)** — Self-Sovereign Identity (SSI) for verifying crypto wallet eligibility for National Stablecoin holding
 - **[SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc)** — ZK identity and access prototype with selective attributes  
 - **[face-recognition-midnight](https://github.com/laughtt/face-recognition-midnight)** — Facial recognition used to gate ZK-verified identity contracts  
-- **[zkID](https://github.com/quantus0/zkID)** — A zk-SNARK-based identity layer  
+- **[zkID](https://github.com/quantus0/zkID)** — A zk-SNARK-based identity layer
 
 
 ## ⚔️ Game Examples
@@ -84,7 +84,21 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 *Experimental apps from community hackathons*
 
 - **[FundAGoal](https://github.com/codeBigInt/fundagoal)** — Crowdfunding smart contracts for verified projects  
-- **[Midnight Vote](https://github.com/armsves/midnightVotingW3PN)** — An anonymous governance and polling app  
+- **[Midnight Vote](https://github.com/armsves/midnightVotingW3PN)** — An anonymous governance and polling app
+-  **[kyc-midnight](https://github.com/joacolinares/kyc-midnight)** – Know Your Customer (KYC) attestation system
+-  **[Asset Tokenization Platform](https://github.com/nicolasLuduena/2025-hackathon-midnight)** – decentralized asset tokenization platform
+-  **[Midnauction](https://github.com/eryxcoop/midnauction)** – Sealed-bid round-based auction platform
+
+
+## 💻 Mini dApps
+-  **[midnight-bank](https://github.com/nel349/midnight-bank)** – Privacy-first banking DApp
+-  **[zkbadge](https://github.com/Imdavyking/zkbadge)** – Allows users to prove they hold valid certifications or identity attributes without revealing any sensitive information.
+-  **[statera-protocol-midnight](https://github.com/statera-protocol/statera-protocol-midnight)** – Over-collateralized stablecoin protocol 
+-  **[SilentLedger](https://github.com/bytewizard42i/SilentLedger)** – A privacy-preserving verified orderbook DApp
+-  **[tokenless](https://github.com/luislucena16/tokenless)** – Natively Midnight-based asset tokenization system
+-  **[zk-mastermind](https://github.com/kjayapra/zk-mastermind)** – Reimagining the classic Mastermind game with privacy-first principles
+-  **[ZK Ocean Combat](https://github.com/Angleito/midnighthackathon)** – Ocean-themed combat game
+
 
 ## 🎓 Video + Tutorial Content
 *Learn how to build with Midnight, from the community*
