@@ -31,7 +31,7 @@ We welcome contributions! If you’ve built something on Midnight or adapted an 
 > 🔹 = Official Midnight Ecosystem Partner
 
 ## 🔦 Ecosystem dApp of the Month!  
-A part of the [African Blockchain Championship](https://www.africanblockchamp.com/), [FundAGoal](https://github.com/codeBigInt/fundagoal) is a decentralized funding platform built on the Midnight network. It enables creators to propose project ideas, secure funding, and protect the identities of both campaign creators and backers. By prioritizing privacy and transparency, [FundAGoal](https://github.com/codeBigInt/fundagoal) fosters trust in crowdfunding while empowering communities to support innovative initiatives.   
+A part of the Midnight LATAM Hackathon, [KYC Midnight]([https://github.com/codeBigInt/fundagoal](https://github.com/joacolinares/kyc-midnight) is a privacy-preserving KYC attestation dApp on the Midnight network. It verifies user eligibility—such as age and country—using zero-knowledge proofs without revealing personal data on-chain. The project ships with both a web UI and a CLI, includes admin-managed policy controls, and is testnet-ready—making it a practical template for compliant, privacy-first onboarding flows.  
 The open-source code is available on GitHub, encouraging collaboration and further development.
 
 ## 🧱 Smart Contract Primitives (by [🔹OpenZeppelin](https://github.com/OpenZeppelin/compact-contracts))
@@ -85,18 +85,18 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 
 - **[FundAGoal](https://github.com/codeBigInt/fundagoal)** — Crowdfunding smart contracts for verified projects  
 - **[Midnight Vote](https://github.com/armsves/midnightVotingW3PN)** — An anonymous governance and polling app
--  **[kyc-midnight](https://github.com/joacolinares/kyc-midnight)** – Know Your Customer (KYC) attestation system
+-  **[KYC Midnight](https://github.com/joacolinares/kyc-midnight)** – Know Your Customer (KYC) attestation system
 -  **[Asset Tokenization Platform](https://github.com/nicolasLuduena/2025-hackathon-midnight)** – Decentralized asset tokenization platform
 -  **[Midnauction](https://github.com/eryxcoop/midnauction)** – Sealed-bid round-based auction platform
 
 
 ## 💻 Mini dApps
--  **[midnight-bank](https://github.com/nel349/midnight-bank)** – Privacy-first banking DApp
--  **[zkbadge](https://github.com/Imdavyking/zkbadge)** – (Private Achievement Verifier) Allows users to prove they hold valid certifications or identity attributes without revealing any sensitive information
--  **[statera-protocol-midnight](https://github.com/statera-protocol/statera-protocol-midnight)** – Over-collateralized stablecoin protocol 
+-  **[Midnight Bank - Privacy-First Banking DApp](https://github.com/nel349/midnight-bank)** – Privacy-first banking DApp
+-  **[zkBadge](https://github.com/Imdavyking/zkbadge)** – (Private Achievement Verifier) Allows users to prove they hold valid certifications or identity attributes without revealing any sensitive information
+-  **[Statera](https://github.com/statera-protocol/statera-protocol-midnight)** – Over-collateralized stablecoin protocol 
 -  **[SilentLedger](https://github.com/bytewizard42i/SilentLedger)** – A privacy-preserving verified orderbook DApp
--  **[tokenless](https://github.com/luislucena16/tokenless)** – Natively Midnight-based asset tokenization system
--  **[zk-mastermind](https://github.com/kjayapra/zk-mastermind)** – (Privacy-First Code Breaking) Reimagining the classic Mastermind game with privacy-first principles
+-  **[Tokenless](https://github.com/luislucena16/tokenless)** – Natively Midnight-based asset tokenization system
+-  **[ZK-Mastermind](https://github.com/kjayapra/zk-mastermind)** – (Privacy-First Code Breaking) Reimagining the classic Mastermind game with privacy-first principles
 -  **[ZK Ocean Combat](https://github.com/Angleito/midnighthackathon)** – Ocean-themed combat game
 
 
