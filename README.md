@@ -20,7 +20,7 @@ We welcome contributions! If you’ve built something on Midnight or adapted an 
 
 * #### Midnight Docs Blog, [Dev Diaries](https://docs.midnight.network/blog) 
 
-* #### Midnight Developer Academy [Modules 1-5 now live!](https://docs.midnight.network/academy/) 
+* #### Midnight Developer Academy [Modules 1-7 now live!](https://docs.midnight.network/academy/) 
 
 > [!IMPORTANT]  
 > Community-contributed projects are shared for inspiration and exploration. These repositories are not maintained by the Midnight team, and their functionality may vary. 
@@ -31,7 +31,7 @@ We welcome contributions! If you’ve built something on Midnight or adapted an 
 > 🔹 = Official Midnight Ecosystem Partner
 
 ## 🔦 Ecosystem dApp of the Month!  
-A part of the Midnight LATAM Hackathon, [KYC Midnight]([https://github.com/codeBigInt/fundagoal](https://github.com/joacolinares/kyc-midnight) is a privacy-preserving KYC attestation dApp on the Midnight network. It verifies user eligibility—such as age and country—using zero-knowledge proofs without revealing personal data on-chain. The project ships with both a web UI and a CLI, includes admin-managed policy controls, and is testnet-ready—making it a practical template for compliant, privacy-first onboarding flows.  
+A part of the Midnight LATAM Hackathon, [KYC Midnight](https://github.com/joacolinares/kyc-midnight) is a privacy-preserving KYC attestation dApp on the Midnight network. It verifies user eligibility—such as age and country—using zero-knowledge proofs without revealing personal data on-chain. The project ships with both a web UI and a CLI, includes admin-managed policy controls, and is testnet-ready—making it a practical template for compliant, privacy-first onboarding flows.  
 The open-source code is available on GitHub, encouraging collaboration and further development.
 
 ## 🧱 Smart Contract Primitives (by [🔹OpenZeppelin](https://github.com/OpenZeppelin/compact-contracts))
@@ -91,13 +91,11 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 
 
 ## 💻 Mini dApps
--  **[Midnight Bank - Privacy-First Banking DApp](https://github.com/nel349/midnight-bank)** – Privacy-first banking DApp
+-  **[Midnight Bank](https://github.com/nel349/midnight-bank)** – (Privacy-First Banking DApp) Privacy-first banking DApp
 -  **[zkBadge](https://github.com/Imdavyking/zkbadge)** – (Private Achievement Verifier) Allows users to prove they hold valid certifications or identity attributes without revealing any sensitive information
 -  **[Statera](https://github.com/statera-protocol/statera-protocol-midnight)** – Over-collateralized stablecoin protocol 
 -  **[SilentLedger](https://github.com/bytewizard42i/SilentLedger)** – A privacy-preserving verified orderbook DApp
 -  **[Tokenless](https://github.com/luislucena16/tokenless)** – Natively Midnight-based asset tokenization system
--  **[ZK-Mastermind](https://github.com/kjayapra/zk-mastermind)** – (Privacy-First Code Breaking) Reimagining the classic Mastermind game with privacy-first principles
--  **[ZK Ocean Combat](https://github.com/Angleito/midnighthackathon)** – Ocean-themed combat game
 
 
 ## 🎓 Video + Tutorial Content
