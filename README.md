@@ -20,7 +20,7 @@ We welcome contributions! If you’ve built something on Midnight or adapted an 
 
 * #### Midnight Docs Blog, [Dev Diaries](https://docs.midnight.network/blog) 
 
-* #### Midnight Developer Academy [Modules 1-5 now live!](https://docs.midnight.network/academy/) 
+* #### Midnight Developer Academy [Modules 1-7 now live!](https://docs.midnight.network/academy/) 
 
 > [!IMPORTANT]  
 > Community-contributed projects are shared for inspiration and exploration. These repositories are not maintained by the Midnight team, and their functionality may vary. 
@@ -31,7 +31,7 @@ We welcome contributions! If you’ve built something on Midnight or adapted an 
 > 🔹 = Official Midnight Ecosystem Partner
 
 ## 🔦 Ecosystem dApp of the Month!  
-A part of the [African Blockchain Championship](https://www.africanblockchamp.com/), [FundAGoal](https://github.com/codeBigInt/fundagoal) is a decentralized funding platform built on the Midnight network. It enables creators to propose project ideas, secure funding, and protect the identities of both campaign creators and backers. By prioritizing privacy and transparency, [FundAGoal](https://github.com/codeBigInt/fundagoal) fosters trust in crowdfunding while empowering communities to support innovative initiatives.   
+A part of the Midnight LATAM Hackathon, [KYC Midnight](https://github.com/joacolinares/kyc-midnight) is a privacy-preserving KYC attestation dApp on the Midnight network. It verifies user eligibility—such as age and country—using zero-knowledge proofs without revealing personal data on-chain. The project ships with both a web UI and a CLI, includes admin-managed policy controls, and is testnet-ready—making it a practical template for compliant, privacy-first onboarding flows.  
 The open-source code is available on GitHub, encouraging collaboration and further development.
 
 ## 🧱 Smart Contract Primitives (by [🔹OpenZeppelin](https://github.com/OpenZeppelin/compact-contracts))
@@ -70,7 +70,7 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 - **[Ethiopian Identity Wallet](https://github.com/HeikkiRuhanen/ethiopian-identity-wallet/tree/main)** — Self-Sovereign Identity (SSI) for verifying crypto wallet eligibility for National Stablecoin holding
 - **[SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc)** — ZK identity and access prototype with selective attributes  
 - **[face-recognition-midnight](https://github.com/laughtt/face-recognition-midnight)** — Facial recognition used to gate ZK-verified identity contracts  
-- **[zkID](https://github.com/quantus0/zkID)** — A zk-SNARK-based identity layer  
+- **[zkID](https://github.com/quantus0/zkID)** — A zk-SNARK-based identity layer
 
 
 ## ⚔️ Game Examples
@@ -84,7 +84,19 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 *Experimental apps from community hackathons*
 
 - **[FundAGoal](https://github.com/codeBigInt/fundagoal)** — Crowdfunding smart contracts for verified projects  
-- **[Midnight Vote](https://github.com/armsves/midnightVotingW3PN)** — An anonymous governance and polling app  
+- **[Midnight Vote](https://github.com/armsves/midnightVotingW3PN)** — An anonymous governance and polling app
+-  **[KYC Midnight](https://github.com/joacolinares/kyc-midnight)** – Know Your Customer (KYC) attestation system
+-  **[Asset Tokenization Platform](https://github.com/nicolasLuduena/2025-hackathon-midnight)** – Decentralized asset tokenization platform
+-  **[Midnauction](https://github.com/eryxcoop/midnauction)** – Sealed-bid round-based auction platform
+
+
+## 💻 Mini dApps
+-  **[Midnight Bank](https://github.com/nel349/midnight-bank)** – (Privacy-First Banking DApp) Privacy-first banking DApp
+-  **[zkBadge](https://github.com/Imdavyking/zkbadge)** – (Private Achievement Verifier) Allows users to prove they hold valid certifications or identity attributes without revealing any sensitive information
+-  **[Statera](https://github.com/statera-protocol/statera-protocol-midnight)** – Over-collateralized stablecoin protocol 
+-  **[SilentLedger](https://github.com/bytewizard42i/SilentLedger)** – A privacy-preserving verified orderbook DApp
+-  **[Tokenless](https://github.com/luislucena16/tokenless)** – Natively Midnight-based asset tokenization system
+
 
 ## 🎓 Video + Tutorial Content
 *Learn how to build with Midnight, from the community*
