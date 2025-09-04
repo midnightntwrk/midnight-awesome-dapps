@@ -74,7 +74,7 @@ jobs:
           fi
 
       - name: Checkmarx One CLI Action
-        uses: checkmarx/ast-github-action@427623bbb54f318e690463e11302a1eb1b9b2b5a #2.3.25
+        uses: checkmarx/ast-github-action@ef313c2c19e03e90ae35e795724fb1d20830dc33 #2.3.26
         with:
           cx_tenant: ${{ secrets.CX_TENANT }}
           base_uri: https://eu-2.ast.checkmarx.net/
