@@ -15,6 +15,8 @@ We welcome contributions! If you’ve built something on Midnight or adapted an 
 * [Counter dApp](https://github.com/midnightntwrk/example-counter) – A simple increment/decrement app using Midnight smart contracts
 
 * [Bulletin Board](https://github.com/midnightntwrk/example-bboard) – A basic public message board built on Midnight
+  
+* - [Proofshare](https://github.com/midnightntwrk/example-proofshare) – A privacy-focused dApp demonstrating selective disclosure of personal data (Under construction)
 
 ## 📚 Learning Resources
 
