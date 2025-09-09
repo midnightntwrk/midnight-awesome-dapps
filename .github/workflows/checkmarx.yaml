@@ -11,6 +11,9 @@ on:
     branches: [ '**' ]
   push:
     branches: [ 'main' ]
+  workflow_dispatch: {}   # so you can still run it manually
+  schedule:
+    - cron: "0 0 * * *"   # run daily at midnight UTC
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref }}
   cancel-in-progress: true
