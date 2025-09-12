@@ -21,6 +21,8 @@ _Official dApps maintained by the Midnight's DevRel team (for education + onboar
 
 - [Decentralized Exchange](https://github.com/midnightntwrk/example-dex) – A simple decentralized exchange built on Midnight using the OpenZeppelin `FungibleToken` library (Under construction)
 
+- [Proofshare](https://github.com/midnightntwrk/example-proofshare) – A privacy-focused dApp demonstrating selective disclosure of personal data (Under construction)
+
 ## 📚 Learning Resources
 
 - #### Midnight Docs Blog, [Dev Diaries](https://docs.midnight.network/blog)
