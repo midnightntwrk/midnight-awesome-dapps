@@ -11,6 +11,9 @@ on:
     branches: [ '**' ]
   push:
     branches: [ 'main' ]
+  workflow_dispatch: {}   # so you can still run it manually
+  schedule:
+    - cron: "0 0 * * *"   # run daily at midnight UTC
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref }}
   cancel-in-progress: true
@@ -19,65 +22,30 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
-      statuses: write
+      security-events: write
 
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8  #v5.0.0
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8
 
-      - name: Install dependencies
-        run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install beautifulsoup4 requests
-
-      - name: Scrape Checkmarx status
-        run: |
-          cat <<'EOF' > scrape_checkmarx.py
-          import requests
-          from bs4 import BeautifulSoup
-
-          # URL of the status page
-          url = "https://eu2-status.ast.checkmarx.net/"
-
-          try:
-              # Send a GET request to fetch the HTML content
-              response = requests.get(url)
-              response.raise_for_status()  # Check for request errors
-
-              # Parse the HTML content
-              soup = BeautifulSoup(response.text, 'html.parser')
-
-              # Locate the status element based on its HTML structure
-              status_element = soup.find('aside', class_='operational state-bar')
-
-              # Check if the status is operational
-              if status_element and 'Operating Normally' in status_element.text:
-                  print("The status is operational with status")
-                  print(status_element.text)
-              else:
-                  print("The status is not operational.")
-          except requests.exceptions.RequestException as e:
-              print(f"An error occurred: {e}")
-          EOF
-          python3 scrape_checkmarx.py
-
-      - name: Check Checkmarx One server health
-        run: |
-          response=$(curl -s -o /dev/null -w "%{http_code}" https://ind-status.ast.checkmarx.net/)
-          if [ "$response" != "200" ]; then
-            echo "Checkmarx One server is down. Proceeding without breaking the build."
-            exit 0  # Do not fail the build
-          else
-            echo "Checkmarx One server is healthy. Proceeding with scan."
-          fi
-
-      - name: Checkmarx One CLI Action
-        uses: checkmarx/ast-github-action@ef313c2c19e03e90ae35e795724fb1d20830dc33 #2.3.26
+      # TODO: Remove this checkout step once upload-sarif-github-action repo is made public
+      # Currently required because GitHub Actions can't directly reference private repos
+      - name: Checkout Upload action repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8
         with:
-          cx_tenant: ${{ secrets.CX_TENANT }}
-          base_uri: https://eu-2.ast.checkmarx.net/
-          cx_client_id: ${{ secrets.CX_CLIENT_ID }}
-          cx_client_secret: ${{ secrets.CX_CLIENT_SECRET_EU }}
-          additional_params: --scs-repo-url https://github.com/midnightntwrk/midnight-awesome-dapps --scs-repo-token ${{ secrets.MIDNIGHTCI_REPO }}
+          repository: midnightntwrk/upload-sarif-github-action
+          ref: 8202d2182e4c0ebec293f9d9140c3378a2afe16e
+          path: upload-sarif-github-action
+          token: ${{ secrets.MIDNIGHTCI_REPO }}
+
+      # Once public, can simplify to: uses: midnightntwrk/upload-sarif-github-action/checkmarx-scan@8202d2182e4c0ebec293f9d9140c3378a2afe16e
+      - name: Checkmarx Full Scan
+        uses: ./upload-sarif-github-action/checkmarx-scan
+        with:
+          cx-client-id: ${{ secrets.CX_CLIENT_ID }}
+          cx-client-secret: ${{ secrets.CX_CLIENT_SECRET_EU }}
+          cx-tenant: ${{ secrets.CX_TENANT }}
+          scs-repo-token: ${{ secrets.MIDNIGHTCI_REPO }}
+          upload-to-github: 'true'
