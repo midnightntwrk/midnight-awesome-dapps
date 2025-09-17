@@ -44,9 +44,9 @@ The open-source code is available on GitHub, encouraging collaboration and furth
 
 ## 🧱 Smart Contract Primitives (by [🔹OpenZeppelin](https://github.com/OpenZeppelin/compact-contracts))
 
-- **[🔹 Fungible Token](https://github.com/OpenZeppelin/compact-contracts/tree/main/contracts/fungibleToken)** — Midnight-native equivalent of ERC-20 for tokens like stablecoins or rewards
-- **[🔹 Non-Fungible Token (NFT)](https://github.com/OpenZeppelin/compact-contracts/tree/main/contracts/nonFungibleToken)** — Create and manage NFTs on Midnight using Compact
-- **[🔹 MultiToken (ERC-1155)](https://github.com/OpenZeppelin/compact-contracts/tree/main/contracts/multitoken)** — Efficient multi-asset standard supporting both fungible and non-fungible tokens
+- **[🔹 Fungible Token](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/FungibleToken.compact)** — Midnight-native equivalent of ERC-20 for tokens like stablecoins or rewards  
+- **[🔹 Non-Fungible Token (NFT)](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/NonFungibleToken.compact)** — Create and manage NFTs on Midnight using Compact  
+- **[🔹 MultiToken (ERC-1155)](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/MultiToken.compact)** — Efficient multi-asset standard supporting both fungible and non-fungible tokens  
 
 ## 🧑‍💻 Starter Templates
 
