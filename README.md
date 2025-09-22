@@ -23,6 +23,10 @@ _Official dApps maintained by the Midnight's DevRel team (for education + onboar
 
 - [Proofshare](https://github.com/midnightntwrk/example-proofshare) – A privacy-focused dApp demonstrating selective disclosure of personal data (Under construction)
 
+- [NFT Smart Contract Library](https://github.com/riusricardo/midnight-contracts) - A comprehensive smart contract library for NFTs on the Midnight network.
+
+- [Midnight Kitties](https://github.com/riusricardo/midnight-kitties) - A full stack Dapp using the NFT smart contract library to deploy Crypto Kitties on Midnight network.
+
 ## 📚 Learning Resources
 
 - #### Midnight Docs Blog, [Dev Diaries](https://docs.midnight.network/blog)
