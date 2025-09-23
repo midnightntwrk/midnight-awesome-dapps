@@ -43,6 +43,8 @@ _Official dApps maintained by the Midnight's DevRel team (for education + onboar
 - [Example Bboard](https://github.com/midnightntwrk/example-bboard) - Bulletin board with multi-user interactions and privacy patterns
 - [Example Dex](https://github.com/midnightntwrk/example-dex) - Decentralized exchange using OpenZeppelin FungibleToken (WIP)
 - [Example Proofshare](https://github.com/midnightntwrk/example-proofshare) - Selective disclosure of personal data (WIP)
+- [NFT Smart Contract Library](https://github.com/riusricardo/midnight-contracts) - A comprehensive smart contract library for NFTs on the Midnight network.
+- [Midnight Kitties](https://github.com/riusricardo/midnight-kitties) - A full stack Dapp using the NFT smart contract library to deploy Crypto Kitties on Midnight network.
 
 ## Smart Contract Primitives
 
