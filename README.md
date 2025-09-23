@@ -96,8 +96,8 @@ _Experimental apps from community hackathons_
 - **[FundAGoal](https://github.com/codeBigInt/fundagoal)** — Crowdfunding smart contracts for verified projects
 - **[Midnight Vote](https://github.com/armsves/midnightVotingW3PN)** — An anonymous governance and polling app
 - **[KYC Midnight](https://github.com/joacolinares/kyc-midnight)** – Know Your Customer (KYC) attestation system
-- **[Asset Tokenization Platform](https://github.com/nicolasLuduena/2025-hackathon-midnight)** – Decentralized asset tokenization platform
 - **[Midnauction](https://github.com/eryxcoop/midnauction)** – Sealed-bid round-based auction platform
+- **[Gracias Esteban](https://github.com/nicolasLuduena/2025-hackathon-midnight)** – Decentralized asset tokenization platform, representing real-world assets as privacy-preserving digital shares.
 
 ## 💻 Mini dApps
 
