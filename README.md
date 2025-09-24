@@ -96,6 +96,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
 - [ZkBadge](https://github.com/Imdavyking/zkbadge) - Private achievement verifier that allows users to prove they hold valid certifications without revealing sensitive information
 - [ZkID](https://github.com/quantus0/zkID) - A zk-SNARK-based identity layer
+- [Blockenfy](https://github.com/kevan1/kyc-midnight-hackathon) — Decentralized identity platform built on the Midnight network. It enables user data registration and validation through zkProof, integrating the Lace wallet and ensuring privacy in KYC processes.
 
 ## Gaming
 
