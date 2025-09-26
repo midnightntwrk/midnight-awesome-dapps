@@ -89,6 +89,7 @@ _Tools that help other devs build, test, deploy, or index_
 
 _Privacy-preserving identity, credentials, and proof of personhood_
 
+- [Dawn](https://github.com/sandipndev/dawn) — Censorship-resistant media where users can only post to boards they’re verified for
 - [Ethiopian Identity Wallet](https://github.com/HeikkiRuhanen/ethiopian-identity-wallet) - Self-Sovereign Identity (SSI) for verifying crypto wallet eligibility for National Stablecoin holding
 - [Face Recognition Midnight](https://github.com/laughtt/face-recognition-midnight) - Facial recognition used to gate ZK-verified identity contracts
 - [🔹 Midnames](https://github.com/midnames/core) - ZK-powered DID and credential registry with selective disclosure
