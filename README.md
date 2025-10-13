@@ -75,6 +75,8 @@ _Tools that help other devs build, test, deploy, or index_
 - [Web3Fast Midnight](https://midnight.web3fast.dev/) - Fast development tools and services for Midnight blockchain
 - [MidnightForge](https://github.com/bytewizard42i/MidnightForge) - Infrastructure scripts and DevOps for Midnight dApp deployment
 - [Midnightscan](https://github.com/mediocrehacker/Midnightscan) - Blockchain scanner for tracking Midnight contract deployments
+- [@meshsdk/midnight-setup](https://github.com/MeshJS/midnight-setup) - MeshJS Developer SDK to deploy and interact with Midnight smart contracts. Provides wallet connection, ledger state reading, function querying, and seamless API integration for dApp builders.
+
 
 ## Finance & DeFi
 
