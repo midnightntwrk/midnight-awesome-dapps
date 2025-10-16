@@ -31,19 +31,8 @@ jobs:
       # CRITICAL: DO NOT CHECKOUT THE PR CODE
       # This is what makes it safe with pull_request_target
 
-      # TODO: Remove this checkout step once upload-sarif-github-action repo is made public
-      # Currently required because GitHub Actions can't directly reference private repos
-      - name: Checkout Upload action repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8
-        with:
-          repository: midnightntwrk/upload-sarif-github-action
-          ref: 02bb219118a8e40799065c9edd16175b77cd0d0d
-          path: upload-sarif-github-action
-          token: ${{ secrets.MIDNIGHTCI_REPO }}
-
-      # Once public, can simplify to: uses: midnightntwrk/upload-sarif-github-action/checkmarx-scan@02bb219118a8e40799065c9edd16175b77cd0d0d
       - name: Checkmarx Full Scan
-        uses: ./upload-sarif-github-action/checkmarx-scan-public
+        uses: midnightntwrk/upload-sarif-github-action/checkmarx-scan-public@53cdf3148dbbd85518ecc5e8f1ec485852c99c36
         with:
           cx-client-id: ${{ secrets.CX_CLIENT_ID }}
           cx-client-secret: ${{ secrets.CX_CLIENT_SECRET_EU }}
