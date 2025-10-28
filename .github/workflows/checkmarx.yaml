@@ -7,7 +7,8 @@ permissions:
   pull-requests: write       # to comment on or label PRs
 
 on:
-  pull_request:
+  pull_request_target:  # Changed from pull_request to pull_request_target
+    types: [opened, synchronize, reopened]
     branches: [ '**' ]
   push:
     branches: [ 'main' ]
@@ -27,22 +28,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8
+      # CRITICAL: DO NOT CHECKOUT THE PR CODE
+      # This is what makes it safe with pull_request_target
 
-      # TODO: Remove this checkout step once upload-sarif-github-action repo is made public
-      # Currently required because GitHub Actions can't directly reference private repos
-      - name: Checkout Upload action repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8
-        with:
-          repository: midnightntwrk/upload-sarif-github-action
-          ref: 8202d2182e4c0ebec293f9d9140c3378a2afe16e
-          path: upload-sarif-github-action
-          token: ${{ secrets.MIDNIGHTCI_REPO }}
-
-      # Once public, can simplify to: uses: midnightntwrk/upload-sarif-github-action/checkmarx-scan@8202d2182e4c0ebec293f9d9140c3378a2afe16e
       - name: Checkmarx Full Scan
-        uses: ./upload-sarif-github-action/checkmarx-scan
+        uses: midnightntwrk/upload-sarif-github-action/checkmarx-scan-public@53cdf3148dbbd85518ecc5e8f1ec485852c99c36
         with:
           cx-client-id: ${{ secrets.CX_CLIENT_ID }}
           cx-client-secret: ${{ secrets.CX_CLIENT_SECRET_EU }}
