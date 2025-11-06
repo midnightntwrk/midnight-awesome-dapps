@@ -24,15 +24,15 @@
   - [Contributing](#contributing)
   - [License](#license)
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Community-contributed projects are shared for inspiration and exploration. These repositories are not maintained by the Midnight team, and their functionality may vary.
 
-> [!NOTE]  
+> [!NOTE]
 > 🔹 = Official Midnight Ecosystem Partner
 
 ## 🔦 Featured Project
 
-A part of the Midnight LATAM Hackathon, [KYC Midnight](https://github.com/joacolinares/kyc-midnight) is a privacy-preserving KYC attestation dApp on the Midnight network. It verifies user eligibility—such as age and country—using zero-knowledge proofs without revealing personal data on-chain. The project ships with both a web UI and a CLI, includes admin-managed policy controls, and is testnet-ready—making it a practical template for compliant, privacy-first onboarding flows.  
+A part of the Midnight LATAM Hackathon, [KYC Midnight](https://github.com/joacolinares/kyc-midnight) is a privacy-preserving KYC attestation dApp on the Midnight network. It verifies user eligibility—such as age and country—using zero-knowledge proofs without revealing personal data on-chain. The project ships with both a web UI and a CLI, includes admin-managed policy controls, and is testnet-ready—making it a practical template for compliant, privacy-first onboarding flows.
 The open-source code is available on GitHub, encouraging collaboration and further development.
 
 ## Getting Started
@@ -142,6 +142,7 @@ _Interactive, zero-knowledge-powered games_
 Projects marked with 🏆 are hackathon winners
 
 - 🏆 [KYC Midnight](https://github.com/joacolinares/kyc-midnight) - LATAM Hackathon winner
+- [El Sr. Medianoche](https://github.com/FranZavalla/midnight-ui) — A transparent, secure and privacy-preserving protocol for medical data validation and government grants management.
 
 ---
 
