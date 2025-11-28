@@ -83,6 +83,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [SilentLedger](https://github.com/bytewizard42i/SilentLedger) - A privacy-preserving verified orderbook DApp
 - [Statera Protocol](https://github.com/statera-protocol/statera-protocol-midnight) - Over-collateralized stablecoin protocol with modular dApp framework
 - [Tokenless](https://github.com/luislucena16/tokenless) - Natively Midnight-based asset tokenization system
+- [🔹 Real World Assets](https://github.com/bricktowers/midnight-rwa) - Brick Towers is a privacy-first RWA trading system on Midnight, using shielded tokens and privacy-preserving user accreditation to enable fully regulated trading.
 
 ## Identity & Privacy
 
