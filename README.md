@@ -144,6 +144,7 @@ _Interactive, zero-knowledge-powered games_
 Projects marked with 🏆 are hackathon winners
 
 - 🏆 [KYC Midnight](https://github.com/joacolinares/kyc-midnight) - LATAM Hackathon winner
+- [El Sr. Medianoche](https://github.com/FranZavalla/midnight-ui) — A transparent, secure and privacy-preserving protocol for medical data validation and government grants management.
 
 ---
 
