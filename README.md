@@ -32,7 +32,7 @@
 
 ## 🔦 Featured Project
 
-🏥 As part of the Midnight Summit Hackathon, [NextMed](https://github.com/NextMed-main/Main) NextMed is a privacy-preserving healthcare platform built on the Midnight blockchain, enabling zero-knowledge medical data analysis.  
+🏥 As part of the Midnight Summit Hackathon, [NextMed](https://github.com/NextMed-main/Main) is a privacy-preserving healthcare platform built on the Midnight blockchain, enabling zero-knowledge medical data analysis.  
 It allows patients to control their data while researchers access aggregated insights without exposing sensitive information. The platform uses ZK proofs to ensure compliance with HIPAA/GDPR and features a modern web3 interface with role-based dashboards.  
 Built with TypeScript, Next.js, and Compact smart contracts, it includes a CLI tool, comprehensive testing, and a monorepo structure for scalable development.
 
