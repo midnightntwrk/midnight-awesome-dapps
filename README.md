@@ -150,6 +150,7 @@ Projects marked with 🏆 are hackathon winners
 - **[KYC Midnight](https://github.com/joacolinares/kyc-midnight)** – Know Your Customer (KYC) attestation system
 - **[Midnauction](https://github.com/eryxcoop/midnauction)** – Sealed-bid round-based auction platform
 - **[Gracias Esteban](https://github.com/nicolasLuduena/2025-hackathon-midnight)** – Decentralized asset tokenization platform, representing real-world assets as privacy-preserving digital shares.
+- [Hydra Stake](https://github.com/TechMartins72/hydra-stake-protocol) — Hydra Stake Protocol is a privacy-preserving liquid staking solution built on Midnight blockchain. It allows users to stake their assets while maintaining liquidity through liquid staking tokens (LST), enabling participation in DeFi while earning staking rewards.
 ---
 
 ## Contributing
