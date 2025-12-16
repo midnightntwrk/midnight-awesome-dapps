@@ -32,8 +32,9 @@
 
 ## 🔦 Featured Project
 
-A part of the Midnight LATAM Hackathon, [KYC Midnight](https://github.com/joacolinares/kyc-midnight) is a privacy-preserving KYC attestation dApp on the Midnight network. It verifies user eligibility—such as age and country—using zero-knowledge proofs without revealing personal data on-chain. The project ships with both a web UI and a CLI, includes admin-managed policy controls, and is testnet-ready—making it a practical template for compliant, privacy-first onboarding flows.  
-The open-source code is available on GitHub, encouraging collaboration and further development.
+🏥 As part of the Midnight Summit Hackathon, [NextMed](https://github.com/NextMed-main/Main) is a privacy-preserving healthcare platform built on the Midnight blockchain, enabling zero-knowledge medical data analysis.  
+It allows patients to control their data while researchers access aggregated insights without exposing sensitive information. The platform uses ZK proofs to ensure compliance with HIPAA/GDPR and features a modern web3 interface with role-based dashboards.  
+Built with TypeScript, Next.js, and Compact smart contracts, it includes a CLI tool, comprehensive testing, and a monorepo structure for scalable development.
 
 ## Getting Started
 
@@ -97,6 +98,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
 - [ZkBadge](https://github.com/Imdavyking/zkbadge) - Private achievement verifier that allows users to prove they hold valid certifications without revealing sensitive information
 - [ZkID](https://github.com/quantus0/zkID) - A zk-SNARK-based identity layer
+- [Blockenfy](https://github.com/kevan1/kyc-midnight-hackathon) — Decentralized identity platform built on the Midnight network. It enables user data registration and validation through zkProof, integrating the Lace wallet and ensuring privacy in KYC processes.
 
 ## Gaming
 
@@ -144,6 +146,7 @@ _Interactive, zero-knowledge-powered games_
 Projects marked with 🏆 are hackathon winners
 
 - 🏆 [KYC Midnight](https://github.com/joacolinares/kyc-midnight) - LATAM Hackathon winner
+- [El Sr. Medianoche](https://github.com/FranZavalla/midnight-ui) — A transparent, secure and privacy-preserving protocol for medical data validation and government grants management.
 
 - **[FundAGoal](https://github.com/codeBigInt/fundagoal)** — Crowdfunding smart contracts for verified projects
 - **[Midnight Vote](https://github.com/armsves/midnightVotingW3PN)** — An anonymous governance and polling app
