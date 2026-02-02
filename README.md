@@ -75,6 +75,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [Web3Fast Midnight](https://midnight.web3fast.dev/) - Fast development tools and services for Midnight blockchain
 - [MidnightForge](https://github.com/bytewizard42i/MidnightForge) - Infrastructure scripts and DevOps for Midnight dApp deployment
 - [Midnightscan](https://github.com/mediocrehacker/Midnightscan) - Blockchain scanner for tracking Midnight contract deployments
+- [Midnight Local Playground](https://github.com/0xshae/midnight-playground) - Local dev environment: run full node, indexer, and proof server via Docker; fund and deploy Compact contracts with Lace on "Undeployed" — no testnet or faucet. Includes Hello World contract and CLI.
 
 ## Finance & DeFi
 
