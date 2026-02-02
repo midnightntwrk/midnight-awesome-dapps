@@ -1,4 +1,4 @@
-* @midnightntwrk/mn-codeowners-awsome-dapps
+* @midnightntwrk/mn-codeowners-awesome-dapps
 /.github/ISSUE_TEMPLATE/ @midnightntwrk/mn-security @midnightntwrk/mn-sre
 /.github/PULL_REQUEST_TEMPLATE/ @midnightntwrk/mn-security @midnightntwrk/mn-sre
 /.github/workflows/scan.yaml @midnightntwrk/mn-security @midnightntwrk/mn-sre
