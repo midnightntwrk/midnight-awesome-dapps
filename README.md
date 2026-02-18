@@ -96,8 +96,6 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [🔹 Midnames](https://github.com/midnames/core) - ZK-powered DID and credential registry with selective disclosure
 - [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
-- [ZkBadge](https://github.com/Imdavyking/zkbadge) - Private achievement verifier that allows users to prove they hold valid certifications without revealing sensitive information
-- [ZkID](https://github.com/quantus0/zkID) - A zk-SNARK-based identity layer
 - [Blockenfy](https://github.com/kevan1/kyc-midnight-hackathon) — Decentralized identity platform built on the Midnight network. It enables user data registration and validation through zkProof, integrating the Lace wallet and ensuring privacy in KYC processes.
 
 ## Gaming
@@ -154,6 +152,7 @@ Projects marked with 🏆 are hackathon winners
 - **[Midnauction](https://github.com/eryxcoop/midnauction)** – Sealed-bid round-based auction platform
 - **[Hydra Stake](https://github.com/statera-protocol/hydra-stake-protocol)** - Hydra Stake Protocol is a privacy-preserving liquid staking solution built on Midnight blockchain. It allows users to stake their assets while maintaining liquidity through liquid staking tokens (LST), enabling participation in DeFi while earning staking rewards.
 - **[Gracias Esteban](https://github.com/nicolasLuduena/2025-hackathon-midnight)** – Decentralized asset tokenization platform, representing real-world assets as privacy-preserving digital shares.
+
 ---
 
 ## Contributing
