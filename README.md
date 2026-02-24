@@ -116,7 +116,7 @@ _Interactive, zero-knowledge-powered games_
 ### Documentation
 
 - [Midnight Docs](https://docs.midnight.network/) - Official documentation
-- [Developer Academy](https://docs.midnight.network/academy/) - Structured learning modules (Modules 1-7 now live!)
+- [Developer Academy](https://academy.midnight.network/) - Build data protection apps with midnight
 - [Dev Diaries](https://docs.midnight.network/blog) - Technical blog posts and development insights
 - [Kachina Paper](https://docs.midnight.network/learn/understanding-midnights-technology/kachina) - Privacy model paper
 - [Tokenomics Paper](https://45047878.fs1.hubspotusercontent-na1.net/hubfs/45047878/Midnight-Tokenomics-And-Incentives-Whitepaper.pdf) - NIGHT/DUST economics
