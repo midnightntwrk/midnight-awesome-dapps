@@ -58,7 +58,7 @@ _Official dApps maintained by the Midnight's DevRel team (for education + onboar
 _Community-created boilerplates or dev scaffolds_
 
 - [Create Midnight App](https://www.npmjs.com/package/create-midnight-app) - Build Midnight smart contracts with automated CLI generation. Includes enhanced data types, pre-generated wallet, and full contract-deploy pipeline
-- [🔹 MeshJS Midnight Starter](https://github.com/MeshJS/midnight-starter-template) - Complete template with smart contracts, tests, UI, and all batteries included to kickstart your project
+- [🔹 Edda Labs Midnight Starter](https://github.com/eddalabs/midnight-starter-template) - Complete template with smart contracts, tests, UI, and all batteries included to kickstart your project
 - [Midnightpy](https://github.com/Techgethr/midnightpy) - Midnight smart contract bindings for Python
 - [Scaffold Midnight](https://github.com/kaleababayneh/scaffold-midnight) - Full-stack dev scaffold with Midnight integration
 - [Wybe](https://github.com/lamg/wybe) - A minimal and expressive contract language for Midnight
