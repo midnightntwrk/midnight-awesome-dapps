@@ -103,7 +103,7 @@ _Tools that help other devs build, test, deploy, or index_
 
 _Privacy-preserving identity, credentials, and proof of personhood_
 
-[AirLog](https://github.com/hbrazier01/airlog) - Privacy preserving aviation maintenance record verification system built with Midnight Compact smart contracts.
+- [AirLog](https://github.com/hbrazier01/airlog) - Privacy preserving aviation maintenance record verification system built with Midnight Compact smart contracts.
 - [Blockenfy](https://github.com/kevan1/kyc-midnight-hackathon) - Decentralized identity platform built on the Midnight network. It enables user data registration and validation through zkProof, integrating the Lace wallet and ensuring privacy in KYC processes.
 - [Ethiopian Identity Wallet](https://github.com/HeikkiRuhanen/ethiopian-identity-wallet) - Self-Sovereign Identity (SSI) for verifying crypto wallet eligibility for National Stablecoin holding
 - [Face Recognition Midnight](https://github.com/laughtt/face-recognition-midnight) - Facial recognition used to gate ZK-verified identity contracts
