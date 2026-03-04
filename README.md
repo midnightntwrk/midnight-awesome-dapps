@@ -30,11 +30,11 @@
 > [!NOTE]  
 > 🔹 = Official Midnight Ecosystem Partner
 
-## 🔦 Featured Project
+<!-- ## 🔦 Featured Project
 
 🏥 As part of the Midnight Summit Hackathon, [NextMed](https://github.com/NextMed-main/Main) is a privacy-preserving healthcare platform built on the Midnight blockchain, enabling zero-knowledge medical data analysis.  
 It allows patients to control their data while researchers access aggregated insights without exposing sensitive information. The platform uses ZK proofs to ensure compliance with HIPAA/GDPR and features a modern web3 interface with role-based dashboards.  
-Built with TypeScript, Next.js, and Compact smart contracts, it includes a CLI tool, comprehensive testing, and a monorepo structure for scalable development.
+Built with TypeScript, Next.js, and Compact smart contracts, it includes a CLI tool, comprehensive testing, and a monorepo structure for scalable development. -->
 
 ## Getting Started
 
@@ -42,7 +42,6 @@ _Official dApps maintained by the Midnight's DevRel team (for education + onboar
 
 - [Example Counter](https://github.com/midnightntwrk/example-counter) - Simple increment/decrement app demonstrating state management
 - [Example Bboard](https://github.com/midnightntwrk/example-bboard) - Bulletin board with multi-user interactions and privacy patterns
-- [Example Dex](https://github.com/midnightntwrk/example-dex) - Decentralized exchange using OpenZeppelin FungibleToken (WIP)
 - [NFT Smart Contract Library](https://github.com/riusricardo/midnight-contracts) - A comprehensive smart contract library for NFTs on the Midnight network.
 - [Midnight Kitties](https://github.com/riusricardo/midnight-kitties) - A full stack Dapp using the NFT smart contract library to deploy Crypto Kitties on Midnight network.
 
@@ -102,7 +101,6 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 
 _Interactive, zero-knowledge-powered games_
 
-- [Midnight Battleship](https://github.com/mediocrehacker/midnight-battleship) - A ZK-powered battleship game
 - [🔹 Midnight Seabattle](https://github.com/bricktowers/midnight-seabattle) - SeaBattle implementation by Brick Towers
 - [Midnight Sea Battle Hackathon](https://github.com/eddex/midnight-sea-battle-hackathon) - Jan & Eddex's SeaBattle submission
 
@@ -123,8 +121,8 @@ _Interactive, zero-knowledge-powered games_
 
 ### Getting Started
 
-- [Proof Server Setup](https://docs.midnight.network/develop/tutorial/using/proof-server)
-- [Testnet Faucet](https://docs.midnight.network/develop/tutorial/using/faucet)
+- [Proof Server Setup](https://docs.midnight.network/guides/run-proof-server)
+- [Testnet Faucet](https://docs.midnight.network/guides/acquire-tokens)
 - [Compact Compiler](https://docs.midnight.network/relnotes/compact-tools)
 
 ### Tutorials
@@ -145,8 +143,6 @@ Projects marked with 🏆 are hackathon winners
 
 - 🏆 [KYC Midnight](https://github.com/joacolinares/kyc-midnight) - LATAM Hackathon winner
 - [El Sr. Medianoche](https://github.com/FranZavalla/midnight-ui) — A transparent, secure and privacy-preserving protocol for medical data validation and government grants management.
-
-- **[FundAGoal](https://github.com/codeBigInt/fundagoal)** — Crowdfunding smart contracts for verified projects
 - **[Midnight Vote](https://github.com/armsves/midnightVotingW3PN)** — An anonymous governance and polling app
 - **[KYC Midnight](https://github.com/joacolinares/kyc-midnight)** – Know Your Customer (KYC) attestation system
 - **[Midnauction](https://github.com/eryxcoop/midnauction)** – Sealed-bid round-based auction platform
