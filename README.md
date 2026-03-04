@@ -104,6 +104,9 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - 🏆 [KYC Midnight](https://github.com/joacolinares/kyc-midnight) - Know Your Customer (KYC) attestation system - LATAM Hack winner
 - [🔹 Midnames](https://github.com/midnames/core) - ZK-powered DID and credential registry with selective disclosure
 - [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
+- [Private Data Management](https://github.com/Edgxtech/pdm-demo-app) - 
+Private data management demonstration using decentralised ledgers 
+([article](https://medium.com/itnext/private-data-management-using-decentralised-ledgers-b972c6855e48))
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
 
 ## Gaming
@@ -124,7 +127,7 @@ _Interactive, zero-knowledge-powered games_
 
 ## Dormant Projects
 
-Projects that are no longer actively maintained live in [Dormant](./dormant_projects/README.md). The code is preserved and available for reference, adoption, or revival by anyone in the community.
+Projects that are no longer actively maintained live in the [Dormant Projects](./dormant_projects/README.md) folder. These projects and their code are preserved and available for reference, adoption, or revival by anyone in the community.
 
 # Learning Resources
 
