@@ -87,13 +87,13 @@ _Tools that help other devs build, test, deploy, or index_
 
 ## Finance & DeFi
 
+- 🔹 [LunarSwap](https://github.com/OpenZeppelin/midnight-apps) - A UTXO-based DEX built on Midnight built with ❤️ by [OpenZeppelin](https://docs.openzeppelin.com/)
+- [🔹 Real World Assets](https://github.com/bricktowers/midnight-rwa) - Brick Towers is a privacy-first RWA trading system on Midnight, using shielded tokens and privacy-preserving user accreditation to enable fully regulated trading.
 - [Asset Tokenization Platform](https://github.com/nicolasLuduena/2025-hackathon-midnight) - Decentralized asset tokenization platform
-- [dMarket](https://github.com/bochaco/dmarket) - A decentralized e-commerce marketplace that utilizes a three-party escrow system on the Midnight Network, incorporating asymmetric encryption and zero-knowledge proofs (zk-proofs) to ensure robust user privacy and security.
-- [Hydra Stake](https://github.com/statera-protocol/hydra-stake-protocol) - Hydra Stake Protocol is a privacy-preserving liquid staking solution. It allows users to stake their assets while maintaining liquidity through liquid staking tokens (LST), enabling participation in DeFi while earning staking rewards.
-- [LunarSwap](https://github.com/OpenZeppelin/midnight-apps) - A UTXO-based DEX built on Midnight built with ❤️ by [OpenZeppelin](https://docs.openzeppelin.com/)
+- [dMarket](https://github.com/bochaco/dmarket) - A decentralized e-commerce marketplace that utilizes a three-party escrow system on the Midnight Network, incorporating asymmetric encryption and zero-knowledge proofs (zk-proofs) to ensure robust user privacy and security
+- [Hydra Stake](https://github.com/statera-protocol/hydra-stake-protocol) - Hydra Stake Protocol is a privacy-preserving liquid staking solution. It allows users to stake their assets while maintaining liquidity through liquid staking tokens (LST), enabling participation in DeFi while earning staking rewards
 - [Midnauction](https://github.com/eryxcoop/midnauction) - Sealed-bid round-based auction platform
 - [Midnight Bank](https://github.com/nel349/midnight-bank) - Privacy-first banking dApp
-- [🔹 Real World Assets](https://github.com/bricktowers/midnight-rwa) - Brick Towers is a privacy-first RWA trading system on Midnight, using shielded tokens and privacy-preserving user accreditation to enable fully regulated trading.
 - [SilentLedger](https://github.com/bytewizard42i/SilentLedger) - A privacy-preserving verified orderbook dApp
 - [Statera Protocol](https://github.com/statera-protocol/statera-protocol-midnight) - Over-collateralized stablecoin protocol with modular dApp framework
 - [Tokenless](https://github.com/luislucena16/tokenless) - Natively Midnight-based asset tokenization system
@@ -102,12 +102,12 @@ _Tools that help other devs build, test, deploy, or index_
 
 _Privacy-preserving identity, credentials, and proof of personhood_
 
+- [🔹 Midnames](https://github.com/midnames/core) - ZK-powered DID and credential registry with selective disclosure
+- [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
 - [Blockenfy](https://github.com/kevan1/kyc-midnight-hackathon) - Decentralized identity platform built on the Midnight network. It enables user data registration and validation through zkProof, integrating the Lace wallet and ensuring privacy in KYC processes.
 - [Ethiopian Identity Wallet](https://github.com/HeikkiRuhanen/ethiopian-identity-wallet) - Self-Sovereign Identity (SSI) for verifying crypto wallet eligibility for National Stablecoin holding
 - [Face Recognition Midnight](https://github.com/laughtt/face-recognition-midnight) - Facial recognition used to gate ZK-verified identity contracts
 - 🏆 [KYC Midnight](https://github.com/joacolinares/kyc-midnight) - Know Your Customer (KYC) attestation system - LATAM Hack winner
-- [🔹 Midnames](https://github.com/midnames/core) - ZK-powered DID and credential registry with selective disclosure
-- [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
 - [Private Data Management](https://github.com/Edgxtech/pdm-demo-app) - 
 Private data management demonstration using decentralised ledgers 
 ([article](https://medium.com/itnext/private-data-management-using-decentralised-ledgers-b972c6855e48))
@@ -159,9 +159,10 @@ Projects that are no longer actively maintained live in the [Dormant Projects](.
 
 ### Join Our Community
 
-- [Discord](https://discord.com/invite/midnightnetwork)
-- [Forum](https://forum.midnight.network)
-- [YouTube](https://www.youtube.com/@midnight.network)
+- [Midnight Network Discord](https://discord.com/invite/midnightnetwork)
+- [Follow Midnightntwrk on X](https://x.com/MidnightNtwrk)
+- [Midnight Forum - Best for technical Q&A](https://forum.midnight.network)
+- [Midnight Network YouTube](https://www.youtube.com/@midnight.network)
 - [Nightforce - Ambassadors](https://midnight.network/nightforce-ambassador-program)
 - [Aliit - Technical Fellowship](https://midnight.network/aliit)
 
