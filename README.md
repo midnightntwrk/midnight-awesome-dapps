@@ -85,6 +85,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [MidnightForge](https://github.com/bytewizard42i/MidnightForge) - Infrastructure scripts and DevOps for Midnight dApp deployment
 - [Midnightscan](https://github.com/mediocrehacker/Midnightscan) - Blockchain scanner for tracking Midnight contract deployments
 - [Midnight Explorer](https://github.com/Tech-Expansion/midnight-explorer-web) - The leading block explorer on the Midnight Network, proudly built by TexLabs - [Website](https://www.midnightexplorer.com/)
+- [🔹 OpenZeppelin Compact Tools](https://github.com/OpenZeppelin/compact-tools) - Tools for compiling, building, and testing Compact smart contracts.
 - [Pelagos SDK](https://github.com/0xAtelerix/sdk) - Go SDK for building appchains with native Midnight, EVM, and non-EVM integration
 
 ## Finance & DeFi
