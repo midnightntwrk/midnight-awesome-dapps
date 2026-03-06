@@ -44,13 +44,13 @@ _Official dApps and tools maintained by the Midnight team (for education + onboa
 - [Example ZK Loan](https://github.com/midnightntwrk/example-zkloan) - ZK-powered loan contract demonstrating private state management
 - [Midnight Kitties](https://github.com/midnightntwrk/example-kitties) - A full stack dApp using the NFT smart contract library to deploy Crypto Kitties on Midnight network
 - [NFT Smart Contract Library](https://github.com/riusricardo/midnight-contracts) - A comprehensive smart contract library for NFTs on the Midnight network
-- [Midnight Local Dev](https://github.com/midnightntwrk/midnight-local-dev) - 
-Local development environment for building and testing Midnight 
+- [Midnight Local Dev](https://github.com/midnightntwrk/midnight-local-dev) -  
+Local development environment for building and testing Midnight  
 smart contracts without connecting to Preprod
-- [Create Midnight App](https://github.com/midnightntwrk/create-mn-app) - 
-CLI tool for scaffolding Midnight smart contracts with automated 
-generation. Includes enhanced data types, pre-generated wallet, and 
-full contract-deploy pipeline. Available on 
+- [Create Midnight App](https://github.com/midnightntwrk/create-mn-app) -  
+CLI tool for scaffolding Midnight smart contracts with automated  
+generation. Includes enhanced data types, pre-generated wallet, and  
+full contract-deploy pipeline. Available on  
 [npm](https://www.npmjs.com/package/create-midnight-app) 
 
 ## Smart Contract Primitives
@@ -111,6 +111,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [🔹 Midnames](https://github.com/midnames/core) - ZK-powered DID and credential registry with selective disclosure
 - [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
 - [AirLog](https://github.com/hbrazier01/airlog) - Privacy preserving aviation maintenance record verification system built with Midnight Compact smart contracts.
+- [AutoDiscovery](https://github.com/SpyCrypto/AutoDiscovery) - Privacy-preserving legal discovery automation with jurisdiction-aware compliance, ZK proofs, and dual-ledger architecture
 - [Blockenfy](https://github.com/kevan1/kyc-midnight-hackathon) - Decentralized identity platform built on the Midnight network. It enables user data registration and validation through zkProof, integrating the Lace wallet and ensuring privacy in KYC processes.
 - [DPO2U Midnight](https://github.com/fredericosanntana/dpo2u-midnight) - Autonomous LGPD/GDPR compliance protocol with ZK-attested privacy scores. AI agents audit data protection practices off-chain and record immutable attestations on Midnight via four Compact smart contracts (ComplianceRegistry, AgentRegistry, FeeDistributor, Treasury).
 - [Ethiopian Identity Wallet](https://github.com/HeikkiRuhanen/ethiopian-identity-wallet) - Self-Sovereign Identity (SSI) for verifying crypto wallet eligibility for National Stablecoin holding
