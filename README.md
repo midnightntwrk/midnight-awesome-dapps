@@ -47,11 +47,7 @@ _Official dApps and tools maintained by the Midnight team (for education + onboa
 - [Midnight Local Dev](https://github.com/midnightntwrk/midnight-local-dev) -  
 Local development environment for building and testing Midnight  
 smart contracts without connecting to Preprod
-- [Create Midnight App](https://github.com/midnightntwrk/create-mn-app) -  
-CLI tool for scaffolding Midnight smart contracts with automated  
-generation. Includes enhanced data types, pre-generated wallet, and  
-full contract-deploy pipeline. Available on  
-[npm](https://www.npmjs.com/package/create-midnight-app) 
+- [Create Midnight App](https://github.com/midnightntwrk/create-mn-app) - CLI tool for scaffolding Midnight smart contracts with automated generation, enhanced data types, a pre-generated wallet, and a full contract-deploy pipeline, available on [npm](https://www.npmjs.com/package/create-midnight-app)
 
 ## Smart Contract Primitives
 
