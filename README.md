@@ -56,7 +56,7 @@ full contract-deploy pipeline. Available on
 
 - [🔹 OpenZeppelin Compact Contracts](https://github.com/OpenZeppelin/compact-contracts) - Standard contract implementations
   - [🔹 FungibleToken](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/FungibleToken.compact) - ERC-20 equivalent for tokens like stablecoins or rewards
-    - [🔹 MultiToken](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/MultiToken.compact) - ERC-1155 equivalent supporting both fungible and non-fungible tokens
+  - [🔹 MultiToken](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/MultiToken.compact) - ERC-1155 equivalent supporting both fungible and non-fungible tokens
   - [🔹 NonFungibleToken](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/NonFungibleToken.compact) - NFT implementation for Midnight
 
 
@@ -74,6 +74,7 @@ _Community-created boilerplates or dev scaffolds_
 _Tools that help other devs build, test, deploy, or index_
 
 - [Compact Playground](https://github.com/Olanetsoft/compact-playground) - Browser-based Compact smart contract compiler, built as a companion to Learn Compact
+- [🔹 OpenZeppelin Compact Tools](https://github.com/OpenZeppelin/compact-tools) - Tools for compiling, building, and testing Compact smart contracts
 - [Explorer](https://github.com/AIQUANT-Tech/explorer) - Simple block explorer for Midnight networks
 - [Midnight Indexer](https://github.com/semsorock/midnight-indexer) - An indexing tool for querying Midnight blockchain data
 - [Midnight MCP](https://github.com/Olanetsoft/midnight-mcp) - MCP server giving AI assistants access to the Midnight blockchain — search contracts, analyze code, explore docs
@@ -84,17 +85,16 @@ _Tools that help other devs build, test, deploy, or index_
 - [MidnightForge](https://github.com/bytewizard42i/MidnightForge) - Infrastructure scripts and DevOps for Midnight dApp deployment
 - [Midnightscan](https://github.com/mediocrehacker/Midnightscan) - Blockchain scanner for tracking Midnight contract deployments
 - [Midnight Explorer](https://github.com/Tech-Expansion/midnight-explorer-web) - The leading block explorer on the Midnight Network, proudly built by TexLabs - [Website](https://www.midnightexplorer.com/)
-- [🔹 OpenZeppelin Compact Tools](https://github.com/OpenZeppelin/compact-tools) - Tools for compiling, building, and testing Compact smart contracts.
 - [Pelagos SDK](https://github.com/0xAtelerix/sdk) - Go SDK for building appchains with native Midnight, EVM, and non-EVM integration
 
 ## Finance & DeFi
 
 - 🔹 [LunarSwap](https://github.com/OpenZeppelin/midnight-apps) - A UTXO-based DEX built on Midnight built with ❤️ by [OpenZeppelin](https://docs.openzeppelin.com/)
-- [🔹 Real World Assets](https://github.com/bricktowers/midnight-rwa) - Brick Towers is a privacy-first RWA trading system on Midnight, using shielded tokens and privacy-preserving user accreditation to enable fully regulated trading.
+- [🔹 Real World Assets](https://github.com/bricktowers/midnight-rwa) - Brick Towers is a privacy-first RWA trading system on Midnight, using shielded tokens and privacy-preserving user accreditation to enable fully regulated trading
 - [Asset Tokenization Platform](https://github.com/nicolasLuduena/2025-hackathon-midnight) - Decentralized asset tokenization platform
-- [dMarket](https://github.com/bochaco/dmarket) - A decentralized e-commerce marketplace that utilizes a three-party escrow system on the Midnight Network, incorporating asymmetric encryption and zero-knowledge proofs (zk-proofs) to ensure robust user privacy and security.
+- [dMarket](https://github.com/bochaco/dmarket) - A decentralized e-commerce marketplace that utilizes a three-party escrow system on the Midnight Network, incorporating asymmetric encryption and zero-knowledge proofs (zk-proofs) to ensure robust user privacy and security
 - [Hydra Stake](https://github.com/statera-protocol/hydra-stake-protocol) - Hydra Stake Protocol is a privacy-preserving liquid staking solution. It allows users to stake their assets while maintaining liquidity through liquid staking tokens (LST), enabling participation in DeFi while earning staking rewards.
-- [Midnight Escrow](https://github.com/tusharpamnani/midnight-escrow) - Privacy-preserving escrow contract demonstrating confidential conditional payments using zk proofs on Midnight.
+- [Midnight Escrow](https://github.com/tusharpamnani/midnight-escrow) - Privacy-preserving escrow contract demonstrating confidential conditional payments using zk proofs on Midnight
 - [Midnauction](https://github.com/eryxcoop/midnauction) - Sealed-bid round-based auction platform
 - [Midnight Bank](https://github.com/nel349/midnight-bank) - Privacy-first banking dApp
 - [Pintent](https://github.com/0xAtelerix/pintent) - Cross-chain bridge from Midnight to EVM and non-EVM chains using an intent-based solver model
@@ -116,7 +116,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - 🏆 [KYC Midnight](https://github.com/joacolinares/kyc-midnight) - Know Your Customer (KYC) attestation system - LATAM Hack winner
 - [Private Data Management](https://github.com/Edgxtech/pdm-demo-app) - Private data management demonstration using decentralised ledgers ([article](https://medium.com/itnext/private-data-management-using-decentralised-ledgers-b972c6855e48))
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
-- - [zkTanitID](https://github.com/carthagexlabs/zk-tanit-id) - Privacy-Preserving Identity Attestations, inspired by Tunisia’s digital sovereignty challenges.
+- [zkTanitID](https://github.com/carthagexlabs/zk-tanit-id) - Privacy-Preserving Identity Attestations, inspired by Tunisia’s digital sovereignty challenges.
 
 Topics
 
