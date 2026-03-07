@@ -6,7 +6,6 @@
 
 - [Awesome Midnight dApps ](#awesome-midnight-dapps-)
   - [Contents](#contents)
-  - [🔦 Featured Project](#-featured-project)
   - [Getting Started](#getting-started)
   - [Smart Contract Primitives](#smart-contract-primitives)
   - [Starter Templates](#starter-templates)
@@ -96,7 +95,6 @@ _Tools that help other devs build, test, deploy, or index_
 - [dMarket](https://github.com/bochaco/dmarket) - A decentralized e-commerce marketplace that utilizes a three-party escrow system on the Midnight Network, incorporating asymmetric encryption and zero-knowledge proofs (zk-proofs) to ensure robust user privacy and security.
 - [Hydra Stake](https://github.com/statera-protocol/hydra-stake-protocol) - Hydra Stake Protocol is a privacy-preserving liquid staking solution. It allows users to stake their assets while maintaining liquidity through liquid staking tokens (LST), enabling participation in DeFi while earning staking rewards.
 - [Midnight Escrow](https://github.com/tusharpamnani/midnight-escrow) - Privacy-preserving escrow contract demonstrating confidential conditional payments using zk proofs on Midnight.
-- [LunarSwap](https://github.com/OpenZeppelin/midnight-apps) - A UTXO-based DEX built on Midnight built with ❤️ by [OpenZeppelin](https://docs.openzeppelin.com/)
 - [Midnauction](https://github.com/eryxcoop/midnauction) - Sealed-bid round-based auction platform
 - [Midnight Bank](https://github.com/nel349/midnight-bank) - Privacy-first banking dApp
 - [Pintent](https://github.com/0xAtelerix/pintent) - Cross-chain bridge from Midnight to EVM and non-EVM chains using an intent-based solver model
@@ -161,11 +159,13 @@ Projects that are no longer actively maintained live in the [Dormant Projects](.
 
 ### Community Created Tutorials
 
+- [Learn Compact](https://github.com/Olanetsoft/learn-compact) - Interactive book and exercise collection for learning Compact, Midnight's ZK smart contract language
 - [Compact By Example](https://github.com/Olanetsoft/compact-by-example) - Learn Midnight's Compact language through practical, real-world examples
 - [🔹 Edda Labs YouTube Series](https://www.youtube.com/@eddalabs) - In-depth Midnight examples and "Understand the Code" in Spanish, English, and Portuguese
-- [Korean Tutorial](https://github.com/jungmyeong96/midnight_tutorial) - Step-by-step development guide for Korean-speaking developers
-- [Learn Compact](https://github.com/Olanetsoft/learn-compact) - Interactive book and exercise collection for learning Compact, Midnight's ZK smart contract language
 - [🔹 Mesh Midnight](https://midnight.meshjs.dev/) - A unified repository that brings together packages, examples, and documentation to streamline development
+- [Korean Tutorial](https://github.com/jungmyeong96/midnight_tutorial) - Step-by-step development guide for Korean-speaking developers
+
+
 
 ### Join Our Community
 
