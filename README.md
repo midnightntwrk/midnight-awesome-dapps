@@ -68,6 +68,7 @@ _Community-created boilerplates or dev scaffolds_
 - [🔹 Edda Labs Midnight Starter](https://github.com/eddalabs/midnight-starter-template) - Complete template with smart contracts, tests, UI, and all batteries included to kickstart your project
 - [Midnightpy](https://github.com/Techgethr/midnightpy) - Midnight smart contract bindings for Python
 - [Scaffold Midnight](https://github.com/kaleababayneh/scaffold-midnight) - Full-stack dev scaffold with Midnight integration
+- * [test-repo1](https://github.com/redyacore91/test-repo1) - A test project built on Midnight.
 - [Wybe](https://github.com/lamg/wybe) - A minimal and expressive contract language for Midnight
 
 ## Developer Tools
