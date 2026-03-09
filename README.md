@@ -22,6 +22,7 @@
     - [Community](#community)
   - [Community Projects](#community-projects)
   - [Contributing](#contributing)
+  - [Submission Criteria](#submission-criteria)
   - [License](#license)
 
 > [!IMPORTANT]  
@@ -43,14 +44,10 @@ _Official dApps and tools maintained by the Midnight team (for education + onboa
 - [Example ZK Loan](https://github.com/midnightntwrk/example-zkloan) - ZK-powered loan contract demonstrating private state management
 - [Midnight Kitties](https://github.com/midnightntwrk/example-kitties) - A full stack dApp using the NFT smart contract library to deploy Crypto Kitties on Midnight network
 - [NFT Smart Contract Library](https://github.com/riusricardo/midnight-contracts) - A comprehensive smart contract library for NFTs on the Midnight network
-- [Midnight Local Dev](https://github.com/midnightntwrk/midnight-local-dev) - 
-Local development environment for building and testing Midnight 
+- [Midnight Local Dev](https://github.com/midnightntwrk/midnight-local-dev) -  
+Local development environment for building and testing Midnight  
 smart contracts without connecting to Preprod
-- [Create Midnight App](https://github.com/midnightntwrk/create-mn-app) - 
-CLI tool for scaffolding Midnight smart contracts with automated 
-generation. Includes enhanced data types, pre-generated wallet, and 
-full contract-deploy pipeline. Available on 
-[npm](https://www.npmjs.com/package/create-midnight-app) 
+- [Create Midnight App](https://github.com/midnightntwrk/create-mn-app) - CLI tool for scaffolding Midnight smart contracts with automated generation, enhanced data types, a pre-generated wallet, and a full contract-deploy pipeline, available on [npm](https://www.npmjs.com/package/create-midnight-app)
 
 ## Smart Contract Primitives
 
@@ -84,6 +81,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [Midnight Playground](https://midnight-playground-one.vercel.app/) - Online Compact IDE for writing, compiling, and building smart contracts with syntax error detection
 - [MidnightForge](https://github.com/bytewizard42i/MidnightForge) - Infrastructure scripts and DevOps for Midnight dApp deployment
 - [Midnightscan](https://github.com/mediocrehacker/Midnightscan) - Blockchain scanner for tracking Midnight contract deployments
+- [Midnight Local Playground](https://github.com/0xshae/midnight-playground) - Local dev environment: run full node, indexer, and proof server via Docker; fund and deploy Compact contracts with Lace on "Undeployed" — no testnet or faucet. Includes Hello World contract and CLI.
 - [Midnight Explorer](https://github.com/Tech-Expansion/midnight-explorer-web) - The leading block explorer on the Midnight Network, proudly built by TexLabs - [Website](https://www.midnightexplorer.com/)
 - [Pelagos SDK](https://github.com/0xAtelerix/sdk) - Go SDK for building appchains with native Midnight, EVM, and non-EVM integration
 
@@ -108,12 +106,15 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 
 - [🔹 Midnames](https://github.com/midnames/core) - ZK-powered DID and credential registry with selective disclosure
 - [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
+- [Blockenfy](https://github.com/kevan1/kyc-midnight-hackathon) - Decentralized identity platform built on the Midnight network. It enables user data registration and validation through zkProof, integrating the Lace wallet and ensuring privacy in KYC processes
 - [AirLog](https://github.com/hbrazier01/airlog) - Privacy preserving aviation maintenance record verification system built with Midnight Compact smart contracts.
+- [AutoDiscovery](https://github.com/SpyCrypto/AutoDiscovery) - Privacy-preserving legal discovery automation with jurisdiction-aware compliance, ZK proofs, and dual-ledger architecture
 - [Blockenfy](https://github.com/kevan1/kyc-midnight-hackathon) - Decentralized identity platform built on the Midnight network. It enables user data registration and validation through zkProof, integrating the Lace wallet and ensuring privacy in KYC processes.
 - [DPO2U Midnight](https://github.com/fredericosanntana/dpo2u-midnight) - Autonomous LGPD/GDPR compliance protocol with ZK-attested privacy scores. AI agents audit data protection practices off-chain and record immutable attestations on Midnight via four Compact smart contracts (ComplianceRegistry, AgentRegistry, FeeDistributor, Treasury).
 - [Ethiopian Identity Wallet](https://github.com/HeikkiRuhanen/ethiopian-identity-wallet) - Self-Sovereign Identity (SSI) for verifying crypto wallet eligibility for National Stablecoin holding
 - [Face Recognition Midnight](https://github.com/laughtt/face-recognition-midnight) - Facial recognition used to gate ZK-verified identity contracts
 - 🏆 [KYC Midnight](https://github.com/joacolinares/kyc-midnight) - Know Your Customer (KYC) attestation system - LATAM Hack winner
+- [Midnight Cloak](https://github.com/subc0der/midnight-cloak) - Zero-knowledge identity verification SDK enabling dApps to verify user attributes (age, credentials) without exposing personal data
 - [Private Data Management](https://github.com/Edgxtech/pdm-demo-app) - Private data management demonstration using decentralised ledgers ([article](https://medium.com/itnext/private-data-management-using-decentralised-ledgers-b972c6855e48))
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
 - [zkTanitID](https://github.com/carthagexlabs/zk-tanit-id) - Privacy-Preserving Identity Attestations, inspired by Tunisia’s digital sovereignty challenges.
@@ -134,8 +135,8 @@ _Interactive, zero-knowledge-powered games_
 
 ## Healthcare
 
-- [Medical Verification System](https://github.com/FranZavalla/midnight-ui) - A transparent, secure and privacy-preserving protocol for medical data validation and government grants management.
-- [NextMed](https://github.com/NextMed-main/Main) - healthcare platform enabling zk medical data analysis.
+- [Medical Verification System](https://github.com/FranZavalla/midnight-ui) - A transparent, secure and privacy-preserving protocol for medical data validation and government grants management
+- [NextMed](https://github.com/NextMed-main/Main) - healthcare platform enabling zk medical data analysis
 
 ## Dormant Projects
 
@@ -186,6 +187,12 @@ Projects that are no longer actively maintained live in the [Dormant Projects](.
 1. Add projects in alphabetical order within sections
 2. Use format: `[name](link) - Brief description`
 3. Ensure projects are open source and functional
+
+## Submission Criteria
+
+Projects must include working Compact code, proper attribution, and represent 
+a real use case built on Midnight Network. See [CONTRIBUTING.md](CONTRIBUTING.md) 
+for full review guidelines before opening a PR.
 
 ## License
 
