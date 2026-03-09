@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  scan:
     runs-on: ubuntu-latest
     permissions:
       actions: read
