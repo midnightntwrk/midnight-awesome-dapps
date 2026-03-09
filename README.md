@@ -22,6 +22,7 @@
     - [Community](#community)
   - [Community Projects](#community-projects)
   - [Contributing](#contributing)
+  - [Submission Criteria](#submission-criteria)
   - [License](#license)
 
 > [!IMPORTANT]  
@@ -179,6 +180,12 @@ Projects that are no longer actively maintained live in the [Dormant Projects](.
 1. Add projects in alphabetical order within sections
 2. Use format: `[name](link) - Brief description`
 3. Ensure projects are open source and functional
+
+## Submission Criteria
+
+Projects must include working Compact code, proper attribution, and represent 
+a real use case built on Midnight Network. See [CONTRIBUTING.md](CONTRIBUTING.md) 
+for full review guidelines before opening a PR.
 
 ## License
 
