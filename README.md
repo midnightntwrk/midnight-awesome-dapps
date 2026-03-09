@@ -6,7 +6,6 @@
 
 - [Awesome Midnight dApps ](#awesome-midnight-dapps-)
   - [Contents](#contents)
-  - [🔦 Featured Project](#-featured-project)
   - [Getting Started](#getting-started)
   - [Smart Contract Primitives](#smart-contract-primitives)
   - [Starter Templates](#starter-templates)
@@ -23,6 +22,7 @@
     - [Community](#community)
   - [Community Projects](#community-projects)
   - [Contributing](#contributing)
+  - [Submission Criteria](#submission-criteria)
   - [License](#license)
 
 > [!IMPORTANT]  
@@ -53,7 +53,7 @@ smart contracts without connecting to Preprod
 
 - [🔹 OpenZeppelin Compact Contracts](https://github.com/OpenZeppelin/compact-contracts) - Standard contract implementations
   - [🔹 FungibleToken](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/FungibleToken.compact) - ERC-20 equivalent for tokens like stablecoins or rewards
-    - [🔹 MultiToken](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/MultiToken.compact) - ERC-1155 equivalent supporting both fungible and non-fungible tokens
+  - [🔹 MultiToken](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/MultiToken.compact) - ERC-1155 equivalent supporting both fungible and non-fungible tokens
   - [🔹 NonFungibleToken](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/NonFungibleToken.compact) - NFT implementation for Midnight
 
 
@@ -88,12 +88,11 @@ _Tools that help other devs build, test, deploy, or index_
 ## Finance & DeFi
 
 - 🔹 [LunarSwap](https://github.com/OpenZeppelin/midnight-apps) - A UTXO-based DEX built on Midnight built with ❤️ by [OpenZeppelin](https://docs.openzeppelin.com/)
-- [🔹 Real World Assets](https://github.com/bricktowers/midnight-rwa) - Brick Towers is a privacy-first RWA trading system on Midnight, using shielded tokens and privacy-preserving user accreditation to enable fully regulated trading.
+- [🔹 Real World Assets](https://github.com/bricktowers/midnight-rwa) - Brick Towers is a privacy-first RWA trading system on Midnight, using shielded tokens and privacy-preserving user accreditation to enable fully regulated trading
 - [Asset Tokenization Platform](https://github.com/nicolasLuduena/2025-hackathon-midnight) - Decentralized asset tokenization platform
-- [dMarket](https://github.com/bochaco/dmarket) - A decentralized e-commerce marketplace that utilizes a three-party escrow system on the Midnight Network, incorporating asymmetric encryption and zero-knowledge proofs (zk-proofs) to ensure robust user privacy and security.
+- [dMarket](https://github.com/bochaco/dmarket) - A decentralized e-commerce marketplace that utilizes a three-party escrow system on the Midnight Network, incorporating asymmetric encryption and zero-knowledge proofs (zk-proofs) to ensure robust user privacy and security
 - [Hydra Stake](https://github.com/statera-protocol/hydra-stake-protocol) - Hydra Stake Protocol is a privacy-preserving liquid staking solution. It allows users to stake their assets while maintaining liquidity through liquid staking tokens (LST), enabling participation in DeFi while earning staking rewards.
-- [Midnight Escrow](https://github.com/tusharpamnani/midnight-escrow) - Privacy-preserving escrow contract demonstrating confidential conditional payments using zk proofs on Midnight.
-- [LunarSwap](https://github.com/OpenZeppelin/midnight-apps) - A UTXO-based DEX built on Midnight built with ❤️ by [OpenZeppelin](https://docs.openzeppelin.com/)
+- [Midnight Escrow](https://github.com/tusharpamnani/midnight-escrow) - Privacy-preserving escrow contract demonstrating confidential conditional payments using zk proofs on Midnight
 - [Midnauction](https://github.com/eryxcoop/midnauction) - Sealed-bid round-based auction platform
 - [Midnight Bank](https://github.com/nel349/midnight-bank) - Privacy-first banking dApp
 - [Pintent](https://github.com/0xAtelerix/pintent) - Cross-chain bridge from Midnight to EVM and non-EVM chains using an intent-based solver model
@@ -107,6 +106,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 
 - [🔹 Midnames](https://github.com/midnames/core) - ZK-powered DID and credential registry with selective disclosure
 - [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
+- [Blockenfy](https://github.com/kevan1/kyc-midnight-hackathon) - Decentralized identity platform built on the Midnight network. It enables user data registration and validation through zkProof, integrating the Lace wallet and ensuring privacy in KYC processes
 - [AirLog](https://github.com/hbrazier01/airlog) - Privacy preserving aviation maintenance record verification system built with Midnight Compact smart contracts.
 - [AutoDiscovery](https://github.com/SpyCrypto/AutoDiscovery) - Privacy-preserving legal discovery automation with jurisdiction-aware compliance, ZK proofs, and dual-ledger architecture
 - [Blockenfy](https://github.com/kevan1/kyc-midnight-hackathon) - Decentralized identity platform built on the Midnight network. It enables user data registration and validation through zkProof, integrating the Lace wallet and ensuring privacy in KYC processes.
@@ -135,8 +135,8 @@ _Interactive, zero-knowledge-powered games_
 
 ## Healthcare
 
-- [Medical Verification System](https://github.com/FranZavalla/midnight-ui) - A transparent, secure and privacy-preserving protocol for medical data validation and government grants management.
-- [NextMed](https://github.com/NextMed-main/Main) - healthcare platform enabling zk medical data analysis.
+- [Medical Verification System](https://github.com/FranZavalla/midnight-ui) - A transparent, secure and privacy-preserving protocol for medical data validation and government grants management
+- [NextMed](https://github.com/NextMed-main/Main) - healthcare platform enabling zk medical data analysis
 
 ## Dormant Projects
 
@@ -160,11 +160,13 @@ Projects that are no longer actively maintained live in the [Dormant Projects](.
 
 ### Community Created Tutorials
 
+- [Learn Compact](https://github.com/Olanetsoft/learn-compact) - Interactive book and exercise collection for learning Compact, Midnight's ZK smart contract language
 - [Compact By Example](https://github.com/Olanetsoft/compact-by-example) - Learn Midnight's Compact language through practical, real-world examples
 - [🔹 Edda Labs YouTube Series](https://www.youtube.com/@eddalabs) - In-depth Midnight examples and "Understand the Code" in Spanish, English, and Portuguese
-- [Korean Tutorial](https://github.com/jungmyeong96/midnight_tutorial) - Step-by-step development guide for Korean-speaking developers
-- [Learn Compact](https://github.com/Olanetsoft/learn-compact) - Interactive book and exercise collection for learning Compact, Midnight's ZK smart contract language
 - [🔹 Mesh Midnight](https://midnight.meshjs.dev/) - A unified repository that brings together packages, examples, and documentation to streamline development
+- [Korean Tutorial](https://github.com/jungmyeong96/midnight_tutorial) - Step-by-step development guide for Korean-speaking developers
+
+
 
 ### Join Our Community
 
@@ -185,6 +187,12 @@ Projects that are no longer actively maintained live in the [Dormant Projects](.
 1. Add projects in alphabetical order within sections
 2. Use format: `[name](link) - Brief description`
 3. Ensure projects are open source and functional
+
+## Submission Criteria
+
+Projects must include working Compact code, proper attribution, and represent 
+a real use case built on Midnight Network. See [CONTRIBUTING.md](CONTRIBUTING.md) 
+for full review guidelines before opening a PR.
 
 ## License
 

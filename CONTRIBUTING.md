@@ -1,61 +1,46 @@
-# Contributing
+# Contributing to Awesome Midnight dApps
 
-We welcome your contributions to the Midnight network! By contributing, you'll play a vital role in shaping the future of a blockchain focused on data privacy.
+We welcome submissions from anyone building on Midnight Network. This list exists to showcase real projects and help developers discover what's being built in the ecosystem.
 
-## Getting Started
+## Before You Submit
 
-* **Review Existing Contributions and Issues:** Before submitting, please check if a similar issue or feature request already exists by searching our issue tracker.
-* **Understand the Project:** Familiarize yourself with Midnight's architecture, technology, and coding standards. You can find relevant information in our litepaper. 
-* **Set up Your Development Environment:** Ensure you have the necessary tools and dependencies installed. See our developer [documentation](https://docs.midnight.network/) for detailed instructions. 
+Check the existing list to make sure your project isn't already included. If it is, open an issue to request an update rather than a new entry.
 
-## Submitting Issues
+## Submission Criteria
 
-Use one of the [templates] to submit an issue to the Project Board. The Midnight team or a community member will address it if it's relevant.
-Ensure the title is a clear summary of the requirement and provides enough context.
+All pull requests are reviewed before merging. Your submission must meet the following criteria:
 
-**Issue Types:**
+**1. Working Compact code**
+The repository must contain functional Compact code. Scaffolding, stub files, or AI-generated placeholder code that does not run will not be accepted. Reviewers may inspect or test the code as part of the review process.
 
-* **Bug Report:** Provide detailed information about the issue, including steps to reproduce it, expected behavior, and actual behavior, screenshots, or any other relevant information.
-* **Documentation Improvement:** Clearly describe the improvement requested for existing content and/or raise missing areas of documentation and provide details for what should be included.  
-* **Feature Request:** Clearly describe your feature, its benefits, and most importantly, the expected outcome. This helps us analyze the proposed solution and develop alternatives.
-* **Enhancement:** (WIP)
+**2. Proper attribution**
+Your repository must credit any projects, libraries, or templates it builds on. Pull requests where attribution has been removed or is unclear will be returned for revision before merging.
 
-## Code Contribution Process
+**3. Real use case**
+The project should represent a genuine application or experiment built on Midnight Network. Test repositories, forks without meaningful changes, and near-duplicate submissions will not be accepted.
 
-* **Pull Requests:** Code contributions are submitted via Pull Requests.
-* **Fork the Repository:** Create your own fork of the Midnight repository.
-* **Create a Branch:** Make your changes in a separate branch.
-* **Follow Coding Standards:** Adhere to the coding style guides specified in our documentation.
-* **Write Tests:** Include unit tests and integration tests to cover your changes.
-* **Commit Messages:** Write clear and concise commit messages.
-* **Submit Pull Request:** Submit your pull request to the appropriate branch in the main repository.
-* **Code Review:** All pull requests undergo code review by project maintainers. Be prepared to address feedback from reviewers.
+**4. Open source**
+All submissions must be publicly accessible repositories.
 
-## Requirements for Acceptable Contributions:
+## Formatting
 
-* **Coding Standards:** Code must adhere to the coding style guides defined in our documentation
-* **Testing:** New functionality must include corresponding unit tests and integration tests.
-* **Documentation:** Code changes should be accompanied by proposed relevant documentation updates.
-* **License:** All contributions must be compatible with the project's license. Where possible all files should have this license header:
+- Add your project in alphabetical order within the appropriate section
+- Use this format: `[Project Name](link) - Brief description of what it does`
+- Keep descriptions factual and concise (one sentence)
 
-```
- <I>// This file is part of <B>REPLACE WITH REPO-NAME</B>.<BR>
- // Copyright (C) Midnight Foundation<BR>
- // SPDX-License-Identifier: Apache-2.0<BR>
- // Licensed under the Apache License, Version 2.0 (the "License");<BR>
- // You may not use this file except in compliance with the License.<BR>
- // You may obtain a copy of the License at<BR>
- //<BR>
- //	http://www.apache.org/licenses/LICENSE-2.0<BR>
- //<BR>
- // Unless required by applicable law or agreed to in writing, software<BR>
- // distributed under the License is distributed on an "AS IS" BASIS,<BR>
- // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<BR>
- // See the License for the specific language governing permissions and<BR>
- // limitations under the License.</I>
-```
+## Review Process
 
-Where this is not possible, a LICENSE.md file in the same dir is required.
+Once you open a pull request, a reviewer will evaluate it against the criteria above. If changes are requested, please address them before the PR is merged. Pull requests will not be merged over unresolved review comments.
+
+## Add the GitHub Topic
+
+To help us find your project for future ecosystem submissions, add `midnightntwrk` as a GitHub topic to your repository. You can do this under your repo's Settings > Topics.
+
+## License
+
+This repository is maintained by Midnight Foundation and licensed under the 
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). By submitting 
+a pull request, you agree that your contribution may be included under the same license.
 
 ## Support and Communication:
 
