@@ -1,5 +1,8 @@
 # Awesome Midnight dApps [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+> This project is built on the Midnight Network.
+
+
 > A curated list of awesome Midnight dApps, tools, and resources
 
 ## Contents
