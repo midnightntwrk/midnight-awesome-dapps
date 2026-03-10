@@ -78,6 +78,7 @@ _Community-created boilerplates or dev scaffolds_
 _Tools that help other devs build, test, deploy, or index_
 
 - [Compact Playground](https://github.com/Olanetsoft/compact-playground) - Browser-based Compact smart contract compiler, built as a companion to Learn Compact
+- [DPO2U Midnight Relayer](https://github.com/fredericosanntana/dpo2u-midnight-relayer) - Cross-chain compliance relay for Midnight Network with ZK proofs
 - [Explorer](https://github.com/AIQUANT-Tech/explorer) - Simple block explorer for Midnight networks
 - [Midnight Indexer](https://github.com/semsorock/midnight-indexer) - An indexing tool for querying Midnight blockchain data
 - [Midnight MCP](https://github.com/Olanetsoft/midnight-mcp) - MCP server giving AI assistants access to the Midnight blockchain — search contracts, analyze code, explore docs
