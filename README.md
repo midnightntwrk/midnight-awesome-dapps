@@ -74,6 +74,7 @@ _Community-created boilerplates or dev scaffolds_
 _Tools that help other devs build, test, deploy, or index_
 
 - [Compact Playground](https://github.com/Olanetsoft/compact-playground) - Browser-based Compact smart contract compiler, built as a companion to Learn Compact
+- [Compact Syntax Highlighting for VS Code](https://github.com/foxytanuki/compact-vscode) - VS Code extension providing syntax highlighting for Compact smart contracts
 - [🔹 OpenZeppelin Compact Tools](https://github.com/OpenZeppelin/compact-tools) - Tools for compiling, building, and testing Compact smart contracts
 - [🔹 Web3Fast Midnight](https://midnight.web3fast.dev/) - Fast development tools and services for Midnight blockchain
 - [DPO2U Midnight Relayer](https://github.com/fredericosanntana/dpo2u-midnight-relayer) - Cross-chain compliance relay for Midnight Network with ZK proofs
