@@ -85,6 +85,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [Midnight Local Playground](https://github.com/0xshae/midnight-playground) - Local dev environment: run full node, indexer, and proof server via Docker; fund and deploy Compact contracts with Lace on "Undeployed" — no testnet or faucet. Includes Hello World contract and CLI
 - [Midnight MCP](https://github.com/Olanetsoft/midnight-mcp) - MCP server giving AI assistants access to the Midnight blockchain — search contracts, analyze code, explore docs
 - [Midday SDK](https://github.com/no-witness-labs/midday-sdk) - Developer-friendly TypeScript SDK for building dApps on Midnight Network, with wallet management, contract deployment, and state management in one package
+- [Midnight Compact Smart Contract Skill](https://github.com/adavault/midnight-skill) - Agent skill for AI coding assistants to write, test, and deploy Compact smart contracts. 151 compiler-validated circuits, 30 deployed contracts, 59 developer gotchas
 - [Midnight MNN Helm](https://github.com/0xstrong/midnight-mnn-helm) - Helm charts for running Midnight full nodes or services
 - [Midnight Playground](https://midnight-playground-one.vercel.app/) - Online Compact IDE for writing, compiling, and building smart contracts with syntax error detection
 - [MidnightForge](https://github.com/bytewizard42i/MidnightForge) - Infrastructure scripts and DevOps for Midnight dApp deployment
