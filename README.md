@@ -73,6 +73,7 @@ _Community-created boilerplates or dev scaffolds_
 
 _Tools that help other devs build, test, deploy, or index_
 
+- 🧰 [midnight-wallet-cli](https://github.com/nel349/midnight-wallet-cli-hub) - Standalone terminal wallet for Midnight with multi-wallet management, DApp connector server (`mn serve`), local network management, and MCP server for AI agents - [npm](https://www.npmjs.com/package/midnight-wallet-cli) - [Connector](https://www.npmjs.com/package/midnight-wallet-connector)
 - [Compact Playground](https://github.com/Olanetsoft/compact-playground) - Browser-based Compact smart contract compiler, built as a companion to Learn Compact
 - [Compact Syntax Highlighting for VS Code](https://github.com/foxytanuki/compact-vscode) - VS Code extension providing syntax highlighting for Compact smart contracts
 - [🔹 OpenZeppelin Compact Tools](https://github.com/OpenZeppelin/compact-tools) - Tools for compiling, building, and testing Compact smart contracts
@@ -136,6 +137,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 
 _Interactive, zero-knowledge-powered games_
 
+- 🕹️ [Midnight Starship](https://github.com/nel349/midnight-starship) - Galaga-style space shooter with privacy-first on-chain leaderboard using ZK selective disclosure, built with midnight-wallet-connector
 - [🔹 Midnight Seabattle](https://github.com/bricktowers/midnight-seabattle) - SeaBattle implementation by Brick Towers
 
 ## Governance
