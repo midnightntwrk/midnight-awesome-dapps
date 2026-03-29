@@ -5,10 +5,14 @@ on:
   pull_request:
     types: [opened, reopened]
 
+permissions: {}
+
 jobs:
   add-to-project:
     runs-on: ubuntu-latest
-    steps:
+    permissions:
+      issues: read
+      pull-requests: read    steps:
       - uses: actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e # v1.0.2
         with:
           project-url: https://github.com/orgs/midnightntwrk/projects/75
