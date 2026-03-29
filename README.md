@@ -27,7 +27,7 @@
   - [Contributing](#contributing)
   - [Submission Criteria](#submission-criteria)
   - [License](#license)
-
+- [Midnight Network Research](https://github.com/greenplanetsolarsystems-hue/Midnight-Network-Research) - A research project exploring Midnight's data protection capabilities.
 > [!IMPORTANT]  
 > Community-contributed projects are shared for inspiration and exploration. These repositories are not maintained by the Midnight team, and their functionality may vary.
 
