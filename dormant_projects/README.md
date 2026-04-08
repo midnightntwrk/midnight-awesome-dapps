@@ -8,6 +8,9 @@
 
 > Found something useful? Star the repo and open an issue to let the original builder know. They might surprise you.
 
+## Identity & Privacy
+- [Face Recognition Midnight](https://github.com/laughtt/face-recognition-midnight) - Facial recognition used to gate ZK-verified identity contracts
+
 ## Gaming
 - [Midnight Battleship](https://github.com/mediocrehacker/midnight-battleship) - A ZK-powered battleship game
 - [Midnight Sea Battle Hackathon](https://github.com/eddex/midnight-sea-battle-hackathon) - Jan & Eddex's SeaBattle submission
