@@ -8,6 +8,9 @@
 
 > Found something useful? Star the repo and open an issue to let the original builder know. They might surprise you.
 
+## Governance
+- [Midnight Vote](https://github.com/armsves/midnightVotingW3PN) - An anonymous governance and polling app
+
 ## Gaming
 - [Midnight Battleship](https://github.com/mediocrehacker/midnight-battleship) - A ZK-powered battleship game
 - [Midnight Sea Battle Hackathon](https://github.com/eddex/midnight-sea-battle-hackathon) - Jan & Eddex's SeaBattle submission
