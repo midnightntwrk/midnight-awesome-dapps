@@ -11,4 +11,4 @@
 ## Gaming
 - [Midnight Battleship](https://github.com/mediocrehacker/midnight-battleship) - A ZK-powered battleship game
 - [Midnight Sea Battle Hackathon](https://github.com/eddex/midnight-sea-battle-hackathon) - Jan & Eddex's SeaBattle submission
-
+- [Face Recognition Midnight](https://github.com/laughtt/face-recognition-midnight) - Facial recognition used to gate ZK-verified identity contracts
