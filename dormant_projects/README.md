@@ -13,5 +13,6 @@
 - [Midnight Sea Battle Hackathon](https://github.com/eddex/midnight-sea-battle-hackathon) - Jan & Eddex's SeaBattle submission
 
 ## Starter Templates
+-  [Scaffold Midnight](https://github.com/kaleababayneh/scaffold-midnight) - Full-stack dev scaffold with Midnight integration
 -  [Wybe](https://github.com/lamg/wybe) - A minimal and expressive contract language for Midnight
 
