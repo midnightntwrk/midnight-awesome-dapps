@@ -145,7 +145,6 @@ _Interactive, zero-knowledge-powered games_
 
 ## Healthcare
 
-- [Medical Verification System](https://github.com/FranZavalla/midnight-ui) - A transparent, secure and privacy-preserving protocol for medical data validation and government grants management
 - [NextMed](https://github.com/NextMed-main/Main) - healthcare platform enabling zk medical data analysis
 
 ## Dormant Projects
