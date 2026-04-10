@@ -81,7 +81,6 @@ _Tools that help other devs build, test, deploy, or index_
 - [DPO2U Midnight Relayer](https://github.com/fredericosanntana/dpo2u-midnight-relayer) - Cross-chain compliance relay for Midnight Network with ZK proofs
 - [Midnight Explorer](https://github.com/Tech-Expansion/midnight-explorer-web) - The leading block explorer on the Midnight Network, proudly built by TexLabs - [Website](https://www.midnightexplorer.com/)
 - [Explorer](https://github.com/AIQUANT-Tech/explorer) - Simple block explorer for Midnight networks
-- [Midnight Indexer](https://github.com/semsorock/midnight-indexer) - An indexing tool for querying Midnight blockchain data
 - [Midnight Live View](https://github.com/Midnight-Scripts/Midnight-Live-View) - A simple script that allows users to monitor key information about their Midnight node
 - [Midnight Local Playground](https://github.com/0xshae/midnight-playground) - Local dev environment: run full node, indexer, and proof server via Docker; fund and deploy Compact contracts with Lace on "Undeployed" — no testnet or faucet. Includes Hello World contract and CLI
 - [Midnight MCP](https://github.com/Olanetsoft/midnight-mcp) - MCP server giving AI assistants access to the Midnight blockchain — search contracts, analyze code, explore docs
@@ -120,10 +119,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
 - [AirLog](https://github.com/hbrazier01/airlog) - Privacy preserving aviation maintenance record verification system built with Midnight Compact smart contracts
 - [AutoDiscovery](https://github.com/SpyCrypto/AutoDiscovery) - Privacy-preserving legal discovery automation with jurisdiction-aware compliance, ZK proofs, and dual-ledger architecture
-- [Blockenfy](https://github.com/kevan1/kyc-midnight-hackathon) - Decentralized identity platform built on the Midnight network. It enables user data registration and validation through zkProof, integrating the Lace wallet and ensuring privacy in KYC processes
 - [DPO2U Midnight](https://github.com/fredericosanntana/dpo2u-midnight) - Autonomous LGPD/GDPR compliance protocol with ZK-attested privacy scores. AI agents audit data protection practices off-chain and record immutable attestations on Midnight via four Compact smart contracts (ComplianceRegistry, AgentRegistry, FeeDistributor, Treasury)
-- [Ethiopian Identity Wallet](https://github.com/HeikkiRuhanen/ethiopian-identity-wallet) - Self-Sovereign Identity (SSI) for verifying crypto wallet eligibility for National Stablecoin holding
-- [Face Recognition Midnight](https://github.com/laughtt/face-recognition-midnight) - Facial recognition used to gate ZK-verified identity contracts
 - 🏆 [KYC Midnight](https://github.com/joacolinares/kyc-midnight) - Know Your Customer (KYC) attestation system - LATAM Hack winner
 - [Midnight Authenticator](https://github.com/subc0der/midnight-authenticator) - Zero-knowledge TOTP authenticator that proves code validity without revealing secrets
 - [Midnight Cloak](https://github.com/subc0der/midnight-cloak) - Zero-knowledge identity verification SDK enabling dApps to verify user attributes (age, credentials) without exposing personal data
@@ -147,7 +143,6 @@ _Interactive, zero-knowledge-powered games_
 
 ## Healthcare
 
-- [Medical Verification System](https://github.com/FranZavalla/midnight-ui) - A transparent, secure and privacy-preserving protocol for medical data validation and government grants management
 - [NextMed](https://github.com/NextMed-main/Main) - healthcare platform enabling zk medical data analysis
 
 ## Dormant Projects
