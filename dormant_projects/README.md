@@ -8,6 +8,9 @@
 
 > Found something useful? Star the repo and open an issue to let the original builder know. They might surprise you.
 
+## Developer Tools
+- [Midnight Indexer](https://github.com/semsorock/midnight-indexer) - An indexing tool for querying Midnight blockchain data
+
 ## Healthcare
 - [Medical Verification System](https://github.com/FranZavalla/midnight-ui) - A transparent, secure and privacy-preserving protocol for medical data validation and government grants management
 
