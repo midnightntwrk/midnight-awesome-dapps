@@ -115,7 +115,6 @@ _Tools that help other devs build, test, deploy, or index_
 
 _Privacy-preserving identity, credentials, and proof of personhood_
 
-- [🔹 Midnames](https://github.com/midnames/core) - ZK-powered DID and credential registry with selective disclosure
 - [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
 - [AirLog](https://github.com/hbrazier01/airlog) - Privacy preserving aviation maintenance record verification system built with Midnight Compact smart contracts
 - [AutoDiscovery](https://github.com/SpyCrypto/AutoDiscovery) - Privacy-preserving legal discovery automation with jurisdiction-aware compliance, ZK proofs, and dual-ledger architecture
