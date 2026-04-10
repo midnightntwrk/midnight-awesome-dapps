@@ -8,9 +8,6 @@
 
 > Found something useful? Star the repo and open an issue to let the original builder know. They might surprise you.
 
-## Governance
-- [Midnight Vote](https://github.com/armsves/midnightVotingW3PN) - An anonymous governance and polling app
-
 ## Developer Tools
 - [Midnight Indexer](https://github.com/semsorock/midnight-indexer) - An indexing tool for querying Midnight blockchain data
 

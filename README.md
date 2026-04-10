@@ -140,6 +140,7 @@ _Interactive, zero-knowledge-powered games_
 ## Governance
 
 - [FundAGoal](https://github.com/codeBigInt/fundagoal) - Crowdfunding smart contracts for verified projects
+- [Midnight Vote](https://github.com/armsves/midnightVotingW3PN) - An anonymous governance and polling app
 
 ## Healthcare
 
