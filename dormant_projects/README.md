@@ -25,3 +25,5 @@
 - [Midnight Battleship](https://github.com/mediocrehacker/midnight-battleship) - A ZK-powered battleship game
 - [Midnight Sea Battle Hackathon](https://github.com/eddex/midnight-sea-battle-hackathon) - Jan & Eddex's SeaBattle submission
 
+## Finance
+- [Midnauction](https://github.com/eryxcoop/midnauction) - Sealed-bid round-based auction platform
