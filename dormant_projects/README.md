@@ -26,3 +26,6 @@
 - [Midnight Sea Battle Hackathon](https://github.com/eddex/midnight-sea-battle-hackathon) - Jan & Eddex's SeaBattle submission
 - [Midnauction](https://github.com/eryxcoop/midnauction) - Sealed-bid round-based auction platform
 
+## Finance & DeFi
+- [Midnight Bank](https://github.com/nel349/midnight-bank) - Privacy-first banking dApp
+
