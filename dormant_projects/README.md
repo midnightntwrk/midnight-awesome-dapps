@@ -29,3 +29,7 @@
 ## Finance & DeFi
 - [Midnight Bank](https://github.com/nel349/midnight-bank) - Privacy-first banking dApp
 
+## Starter Templates
+-  [Scaffold Midnight](https://github.com/kaleababayneh/scaffold-midnight) - Full-stack dev scaffold with Midnight integration
+-  [Wybe](https://github.com/lamg/wybe) - A minimal and expressive contract language for Midnight
+
