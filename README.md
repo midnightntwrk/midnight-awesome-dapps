@@ -115,7 +115,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [🔹 Midnames](https://github.com/midnames/core) - ZK-powered DID and credential registry with selective disclosure
 - [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
 - [AirLog](https://github.com/hbrazier01/airlog) - Privacy preserving aviation maintenance record verification system built with Midnight Compact smart contracts
-- [Credence](https://github.com/0xfdbu/midnight-apps/tree/main/fullstack-dapp) - Fullstack credential attestation DApp with a React frontend for privacy-preserving ZK proofs on Midnight
+- [Credence](https://github.com/0xfdbu/midnight-apps/tree/main/fullstack-dapp) - Fullstack ZK identity platform for privacy-preserving credential attestations — authorities attest users via Merkle-tree commitments; users prove eligibility without revealing identity using nullifier-protected ZK proofs, with deterministic key derivation
 - [AutoDiscovery](https://github.com/SpyCrypto/AutoDiscovery) - Privacy-preserving legal discovery automation with jurisdiction-aware compliance, ZK proofs, and dual-ledger architecture
 - [DPO2U Midnight](https://github.com/fredericosanntana/dpo2u-midnight) - Autonomous LGPD/GDPR compliance protocol with ZK-attested privacy scores. AI agents audit data protection practices off-chain and record immutable attestations on Midnight via four Compact smart contracts (ComplianceRegistry, AgentRegistry, FeeDistributor, Treasury)
 - 🏆 [KYC Midnight](https://github.com/joacolinares/kyc-midnight) - Know Your Customer (KYC) attestation system - LATAM Hack winner
