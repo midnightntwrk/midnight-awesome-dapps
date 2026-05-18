@@ -122,6 +122,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [Private Data Management](https://github.com/Edgxtech/pdm-demo-app) - Private data management demonstration using decentralised ledgers ([article](https://medium.com/itnext/private-data-management-using-decentralised-ledgers-b972c6855e48))
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
 - [zkTanitID](https://github.com/carthagexlabs/zk-tanit-id) - Privacy-Preserving Identity Attestations, inspired by Tunisia’s digital sovereignty challenges
+- [Humanproof ](https://github.com/projectilx42-tech/midnight-hackathon-recaptcha) - HumanProof - verifying anti-bot protection concept with potencial to replace ReCaptcha and Cloudflare.
 
 # Topics
 
