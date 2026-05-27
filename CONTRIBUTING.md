@@ -33,7 +33,7 @@ Before you open a pull request:
 - [ ] Your description is factual, concise, and non-promotional.
 - [ ] Your pull request text and any markdown you change follow the [Midnight documentation style guide](Midnight-documentation-style-guide.md).
 - [ ] Your project meets the [submission criteria](#what-to-submit) for its type (DApp, tool, library, template, or learning resource).
-- [ ] You have added the `midnightntwrk` [GitHub topic](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to your repository.
+- [ ] Your project repository has the required `midnightntwrk` GitHub topic (see [Get your project on the map](https://docs.midnight.network/blog/get-your-project-on-the-map)). Pull requests are not accepted without it.
 - [ ] You have filled out the [pull request template](.github/PULL_REQUEST_TEMPLATE/pull_request_template.md).
 
 ## Documentation style guide
@@ -171,7 +171,15 @@ The project should represent a genuine application, tool, or experiment built fo
 
 All submissions must be publicly accessible repositories with a clear open source license.
 
-### 5. Documentation style guide compliance
+### 5. Required GitHub topic
+
+Your project repository must include the `midnightntwrk` GitHub topic before you open a pull request. **Pull requests are not accepted if the topic is missing.**
+
+This is required for ecosystem attribution and tracking. See [Get your project on the map](https://docs.midnight.network/blog/get-your-project-on-the-map) for setup steps and related README attribution guidance.
+
+Do not use `midnight`, `midnight-network`, `midnight-compact`, or `midnight-ecosystem`. Those variants are not tracked. Add `compact` only if your project uses the Compact language.
+
+### 6. Documentation style guide compliance
 
 Your submission must follow the [Midnight documentation style guide](Midnight-documentation-style-guide.md). This applies to README entry descriptions, pull request text, and any other markdown you change.
 
@@ -181,7 +189,7 @@ Common issues reviewers flag:
 - Incorrect terminology (`dapp` instead of **DApp**, `zk proof` instead of **ZK** or **zero-knowledge proof**)
 - Passive voice or third-person phrasing where second person ("you") is clearer
 
-### 6. One project per pull request (recommended)
+### 7. One project per pull request (recommended)
 
 Submit **one new entry per pull request** when possible. This makes review faster and easier to track. If you are adding several related projects from the same maintainer, mention that in the PR description.
 
@@ -254,10 +262,21 @@ Optional: add secondary links on the same line after the description, for exampl
 | Link goes to a fork or mirror | Use the canonical repository URL |
 | Duplicate entry | Search README first; update the existing line instead |
 | Wrong section | See [Where to add your project](#where-to-add-your-project) |
+| Missing `midnightntwrk` topic | Add the topic on your repo, then open or update your PR |
 
-### Add the GitHub topic
+### Add the GitHub topic (required)
 
-Add `midnightntwrk` as a topic on your repository: **Settings > General > Topics**. This helps the ecosystem discover your project for future listings and events.
+Every listed project must have the `midnightntwrk` topic on its repository. Reviewers will not merge pull requests for projects that have not added it.
+
+1. Open your repository on GitHub.
+2. In the right-hand sidebar, find the **About** section.
+3. Click the gear icon next to **About**.
+4. In **Topics**, add `midnightntwrk` (and `compact` if your project uses Compact).
+5. Save changes.
+
+Full context and attribution steps: [Get your project on the map](https://docs.midnight.network/blog/get-your-project-on-the-map).
+
+**Do not use:** `midnight`, `midnight-network`, `midnight-compact`, or `midnight-ecosystem`. Those topics are not tracked for the Midnight ecosystem.
 
 ## Review process
 
@@ -265,7 +284,7 @@ When you open a pull request, a reviewer from the developer relations team evalu
 
 Review comments fall into two categories. The reviewer labels which category applies:
 
-- **Required changes.** Items that must be addressed before merging, usually because they affect correctness, safety, style guide compliance, or whether the submission meets the criteria above.
+- **Required changes.** Items that must be addressed before merging, usually because they affect correctness, safety, style guide compliance, missing `midnightntwrk` topic, or whether the submission meets the criteria above.
 - **Suggestions.** Observations the reviewer thinks are useful for your project, offered as input rather than as merge conditions. You can take them or leave them.
 
 Pull requests will not be merged with unresolved required changes. Suggestions will not block merging.
@@ -273,6 +292,7 @@ Pull requests will not be merged with unresolved required changes. Suggestions w
 ### What reviewers check
 
 - Submission meets the [criteria](#what-to-submit) for its type
+- Project repository has the `midnightntwrk` GitHub topic
 - Entry follows the [Midnight documentation style guide](Midnight-documentation-style-guide.md)
 - Correct section and alphabetical order
 - Canonical link and accurate one-line description
