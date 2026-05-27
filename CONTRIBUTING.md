@@ -6,8 +6,23 @@ Before you open a pull request, read this guide and follow the [Midnight documen
 
 > The repository name still uses "dApps" for historical reasons. This list covers more than DApps alone.
 
+## Ecosystem attribution (complete before you open a PR)
+
+Midnight is building a public record of ecosystem activity for industry reports and tools such as [Electric Capital](https://www.developerreport.com/). Repositories without the right metadata may not be counted, even when the work is active and high quality.
+
+Complete these three steps on your **project repository** before you open a pull request to this list. Details are in [Get your project on the map](https://docs.midnight.network/blog/get-your-project-on-the-map).
+
+1. **Add GitHub topics** — Required: `midnightntwrk`. Optional: `compact` if your project uses Compact.
+2. **Add a README attribution sentence** — One exact sentence near the top of your project README (wording depends on project type).
+3. **Open a pull request here** — Add your project to this awesome list (Step 3 in the blog; you are reading the guide for it now).
+
+Pull requests are **not accepted** if Step 1 or Step 2 is missing on the submitted project repository.
+
+The blog post also links to optional Zealy quests for each step. Completing Zealy quests is not required to merge a pull request here.
+
 ## Table of contents
 
+- [Ecosystem attribution (complete before you open a PR)](#ecosystem-attribution-complete-before-you-open-a-pr)
 - [Quick checklist](#quick-checklist)
 - [Documentation style guide](#documentation-style-guide)
 - [How to submit a pull request](#how-to-submit-a-pull-request)
@@ -33,7 +48,9 @@ Before you open a pull request:
 - [ ] Your description is factual, concise, and non-promotional.
 - [ ] Your pull request text and any markdown you change follow the [Midnight documentation style guide](Midnight-documentation-style-guide.md).
 - [ ] Your project meets the [submission criteria](#what-to-submit) for its type (DApp, tool, library, template, or learning resource).
-- [ ] Your project repository has the required `midnightntwrk` GitHub topic (see [Get your project on the map](https://docs.midnight.network/blog/get-your-project-on-the-map)). Pull requests are not accepted without it.
+- [ ] **Step 1:** Your project repository has the required `midnightntwrk` GitHub topic ([instructions](#add-the-github-topic-required)).
+- [ ] **Step 2:** Your project README includes the correct attribution sentence near the top, using [exact wording](#readme-attribution-sentence-required).
+- [ ] **Step 3:** You are ready to open a pull request to this list (after Steps 1 and 2 are complete).
 - [ ] You have filled out the [pull request template](.github/PULL_REQUEST_TEMPLATE/pull_request_template.md).
 
 ## Documentation style guide
@@ -159,9 +176,11 @@ Whatever you submit (DApp, library, developer tool, template, or learning resour
 
 Reviewers may run or inspect the code as part of review.
 
-### 2. Proper attribution
+### 2. Credit upstream work
 
-Your repository must credit any projects, libraries, or templates it builds on. Pull requests where attribution has been removed or is unclear will be returned for revision before merging.
+Your repository must credit any projects, libraries, or templates it builds on. Pull requests where that credit has been removed or is unclear will be returned for revision before merging.
+
+This is separate from the [README attribution sentence](#6-required-readme-attribution-sentence) required for ecosystem tracking.
 
 ### 3. Real use case
 
@@ -179,7 +198,27 @@ This is required for ecosystem attribution and tracking. See [Get your project o
 
 Do not use `midnight`, `midnight-network`, `midnight-compact`, or `midnight-ecosystem`. Those variants are not tracked. Add `compact` only if your project uses the Compact language.
 
-### 6. Documentation style guide compliance
+### 6. Required README attribution sentence
+
+Your project repository README must include **one attribution sentence near the top**, using **exact wording** from the table below. **Pull requests are not accepted if the sentence is missing or paraphrased.**
+
+Ecosystem tracking tools scan README files for these phrases. Custom wording may prevent your repository from being associated with Midnight Network.
+
+| Your project type | Attribution sentence (use exactly) |
+|-------------------|-------------------------------------|
+| DApps, contracts, or tooling that run directly on Midnight | This project is built on the Midnight Network. |
+| SDKs, infrastructure, wallets, or services | This project integrates with the Midnight Network. |
+| Developer tooling, frameworks, or libraries | This project extends the Midnight Network with additional developer tooling. |
+
+**How to choose a row:**
+
+- Most DApp sections (Finance and DeFi, Gaming, Identity and Privacy, Governance, Healthcare, Smart Contract Primitives): use the **built on** sentence.
+- SDKs, wallets, indexers, explorers, infrastructure: use the **integrates with** sentence.
+- CLIs, scaffolds, libraries, and developer tools in **Developer Tools** or **Starter Templates**: use the **extends** sentence when that best describes the project. If the project is primarily a DApp or contract repo, use **built on** instead.
+
+See [Get your project on the map](https://docs.midnight.network/blog/get-your-project-on-the-map) for context.
+
+### 7. Documentation style guide compliance
 
 Your submission must follow the [Midnight documentation style guide](Midnight-documentation-style-guide.md). This applies to README entry descriptions, pull request text, and any other markdown you change.
 
@@ -189,7 +228,7 @@ Common issues reviewers flag:
 - Incorrect terminology (`dapp` instead of **DApp**, `zk proof` instead of **ZK** or **zero-knowledge proof**)
 - Passive voice or third-person phrasing where second person ("you") is clearer
 
-### 7. One project per pull request (recommended)
+### 8. One project per pull request (recommended)
 
 Submit **one new entry per pull request** when possible. This makes review faster and easier to track. If you are adding several related projects from the same maintainer, mention that in the PR description.
 
@@ -263,6 +302,7 @@ Optional: add secondary links on the same line after the description, for exampl
 | Duplicate entry | Search README first; update the existing line instead |
 | Wrong section | See [Where to add your project](#where-to-add-your-project) |
 | Missing `midnightntwrk` topic | Add the topic on your repo, then open or update your PR |
+| Missing or paraphrased README attribution | Add the exact sentence from the [attribution table](#readme-attribution-sentence-required) near the top of your project README |
 
 ### Add the GitHub topic (required)
 
@@ -278,13 +318,25 @@ Full context and attribution steps: [Get your project on the map](https://docs.m
 
 **Do not use:** `midnight`, `midnight-network`, `midnight-compact`, or `midnight-ecosystem`. Those topics are not tracked for the Midnight ecosystem.
 
+### README attribution sentence (required)
+
+Add **one** of the sentences below near the top of your **project** README (not this awesome list README). Copy the sentence **exactly**. Do not rephrase it.
+
+| Your project type | Attribution sentence (use exactly) |
+|-------------------|-------------------------------------|
+| DApps, contracts, or tooling that run directly on Midnight | This project is built on the Midnight Network. |
+| SDKs, infrastructure, wallets, or services | This project integrates with the Midnight Network. |
+| Developer tooling, frameworks, or libraries | This project extends the Midnight Network with additional developer tooling. |
+
+Reviewers will not merge pull requests if the submitted repository README lacks the correct sentence for its project type.
+
 ## Review process
 
 When you open a pull request, a reviewer from the developer relations team evaluates it against the criteria above. If a submission needs more time or broader team input, the reviewer tells you in the PR thread so you are not left wondering.
 
 Review comments fall into two categories. The reviewer labels which category applies:
 
-- **Required changes.** Items that must be addressed before merging, usually because they affect correctness, safety, style guide compliance, missing `midnightntwrk` topic, or whether the submission meets the criteria above.
+- **Required changes.** Items that must be addressed before merging, usually because they affect correctness, safety, style guide compliance, missing `midnightntwrk` topic, missing or incorrect README attribution sentence, or whether the submission meets the criteria above.
 - **Suggestions.** Observations the reviewer thinks are useful for your project, offered as input rather than as merge conditions. You can take them or leave them.
 
 Pull requests will not be merged with unresolved required changes. Suggestions will not block merging.
@@ -293,6 +345,7 @@ Pull requests will not be merged with unresolved required changes. Suggestions w
 
 - Submission meets the [criteria](#what-to-submit) for its type
 - Project repository has the `midnightntwrk` GitHub topic
+- Project repository README includes the correct attribution sentence (verified via the link in the PR)
 - Entry follows the [Midnight documentation style guide](Midnight-documentation-style-guide.md)
 - Correct section and alphabetical order
 - Canonical link and accurate one-line description
