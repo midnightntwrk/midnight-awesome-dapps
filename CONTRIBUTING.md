@@ -12,9 +12,9 @@ Midnight is building a public record of ecosystem activity for industry reports 
 
 Complete these three steps on your **project repository** before you open a pull request to this list. Details are in [Get your project on the map](https://docs.midnight.network/blog/get-your-project-on-the-map).
 
-1. **Add GitHub topics** — Required: `midnightntwrk`. Optional: `compact` if your project uses Compact.
-2. **Add a README attribution sentence** — One exact sentence near the top of your project README (wording depends on project type).
-3. **Open a pull request here** — Add your project to this awesome list (Step 3 in the blog; you are reading the guide for it now).
+1. **Add GitHub topics:** Required: `midnightntwrk`. Optional: `compact` if your project uses Compact.
+2. **Add a README attribution sentence:** One exact sentence near the top of your project README (wording depends on project type).
+3. **Open a pull request here:** Add your project to this awesome list (Step 3 in the blog; you are reading the guide for it now).
 
 Pull requests are **not accepted** if Step 1 or Step 2 is missing on the submitted project repository.
 

@@ -290,7 +290,7 @@ Users can still access the versioned docs by adding the version number to the UR
 Some aspects of the doc site require external access for retrieving access tokens or credentials. Here are some of the components and the point person for each:
 
 * **Algolia search key**: MNF via Lauren  
-* **Vercel hosting**: Shielded — Reach out to Lauren or Chris Ferry  
+* **Vercel hosting**: Shielded. Reach out to Lauren or Chris Ferry  
 * **Kapa AI logs**: Request access through Lauren. 
 
 ## Documentation quickstart guide
