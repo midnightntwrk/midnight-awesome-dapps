@@ -1,18 +1,10 @@
 # Contributing to Awesome Midnight
 
-Use this list to discover what is being built on Midnight Network and to give builders visibility for their work. Submissions are welcome from anyone building for the ecosystem.
+Thank you for helping grow the Midnight ecosystem list. You can submit DApps, libraries, developer tools, templates, and educational projects.
 
-In scope:
+Before you open a pull request, read this guide and follow the [Midnight documentation style guide](Midnight-documentation-style-guide.md) for your README entry, pull request text, and any other markdown you change in this repository.
 
-- DApps
-- Libraries
-- Developer tools
-- Templates
-- Educational projects
-
-> The repository name still uses "dApps" for historical reasons. This list includes a broader range of Midnight ecosystem projects than DApps alone.
-
-All submissions must follow the [Midnight documentation style guide](Midnight-documentation-style-guide.md). That includes README list entries, pull request descriptions, and any other markdown you add or change in this repository.
+> The repository name still uses "dApps" for historical reasons. This list covers more than DApps alone.
 
 ## Table of contents
 
