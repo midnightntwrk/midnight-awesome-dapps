@@ -1,12 +1,23 @@
 # Contributing to Awesome Midnight
 
-This list helps developers find what is being built on Midnight Network and gives builders visibility for their work. We welcome submissions from anyone building for the ecosystem: DApps, libraries, developer tools, templates, and educational projects are all in scope.
+Use this list to discover what is being built on Midnight Network and to give builders visibility for their work. Submissions are welcome from anyone building for the ecosystem.
 
-> **Note:** The repository name still uses "dApps" for historical reasons. In practice, we list a broader range of Midnight ecosystem projects than DApps alone.
+In scope:
+
+- DApps
+- Libraries
+- Developer tools
+- Templates
+- Educational projects
+
+> The repository name still uses "dApps" for historical reasons. This list includes a broader range of Midnight ecosystem projects than DApps alone.
+
+All submissions must follow the [Midnight documentation style guide](Midnight-documentation-style-guide.md). That includes README list entries, pull request descriptions, and any other markdown you add or change in this repository.
 
 ## Table of contents
 
 - [Quick checklist](#quick-checklist)
+- [Documentation style guide](#documentation-style-guide)
 - [How to submit a pull request](#how-to-submit-a-pull-request)
 - [Continuous integration (CI)](#continuous-integration-ci)
 - [What to submit](#what-to-submit)
@@ -21,16 +32,36 @@ This list helps developers find what is being built on Midnight Network and give
 
 ## Quick checklist
 
-Before you open a pull request, confirm the following:
+Before you open a pull request:
 
 - [ ] Your project is not already listed in [README.md](README.md). If it is, open an issue to request an update instead of a duplicate entry.
 - [ ] Your repository is public and open source.
 - [ ] Your entry is in the correct section and in **alphabetical order** within that section.
 - [ ] Your entry follows the format: `[Project Name](link) - One sentence description.`
 - [ ] Your description is factual, concise, and non-promotional.
+- [ ] Your pull request text and any markdown you change follow the [Midnight documentation style guide](Midnight-documentation-style-guide.md).
 - [ ] Your project meets the [submission criteria](#what-to-submit) for its type (DApp, tool, library, template, or learning resource).
 - [ ] You have added the `midnightntwrk` [GitHub topic](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to your repository.
 - [ ] You have filled out the [pull request template](.github/PULL_REQUEST_TEMPLATE/pull_request_template.md).
+
+## Documentation style guide
+
+Every submission must comply with the [Midnight documentation style guide](Midnight-documentation-style-guide.md) in this repository.
+
+That guide covers:
+
+- Tone and voice (direct, technical, non-promotional)
+- Brand and terminology (for example, **DApp**, **Midnight Network**, **zero-knowledge proof** or **ZK**)
+- Formatting and structure
+- Inclusive language
+
+Apply it to:
+
+- Your one-line README entry description
+- Your pull request title and description
+- Any other markdown files you change in this repository
+
+Reviewers treat style guide issues as **required changes** when they affect clarity, accuracy, or brand consistency.
 
 ## How to submit a pull request
 
@@ -38,7 +69,7 @@ You need a [GitHub account](https://github.com/join). If you are new to GitHub, 
 
 ### Option A: You have write access to this repository
 
-If you are a collaborator or org member with push access to `midnightntwrk/midnight-awesome-dapps`:
+If you are a collaborator or a member of the GitHub organization with push access to `midnightntwrk/midnight-awesome-dapps`:
 
 1. Clone the repository and create a branch from `main`:
    ```bash
@@ -55,11 +86,7 @@ If you are a collaborator or org member with push access to `midnightntwrk/midni
    ```
 4. Open a pull request on GitHub targeting `main`, or use the GitHub CLI:
    ```bash
-   gh pr create --repo midnightntwrk/midnight-awesome-dapps \
-     --head add-your-project-name \
-     --base main \
-     --title "Add [Project Name] to [section name]" \
-     --body "Adds [Project Name] to the [section name] section."
+   gh pr create --repo midnightntwrk/midnight-awesome-dapps --head add-your-project-name --base main --title "Add [Project Name] to [section name]" --body "Adds [Project Name] to the [section name] section."
    ```
 
 ### Option B: You are contributing from a fork (most external contributors)
@@ -104,23 +131,27 @@ This works well for simple additions. For larger changes, use a local clone (Opt
 
 When you open a pull request, automated checks run on GitHub Actions.
 
-| Check | What it does | Blocks merge? |
-|-------|----------------|---------------|
+Whether a check blocks merging depends on branch protection settings for this repository.
+
+| Check | What it does | Typically blocks merge? |
+|-------|----------------|-------------------------|
 | **scan** | Security scan of the repository | Yes, if it fails |
 | **license/cla** | Contributor License Agreement | Yes, if not signed |
 | **add-to-project** | Adds the PR to the DevRel tracking board | No (see below) |
 
+Reviewers also check that your submission follows the [Midnight documentation style guide](Midnight-documentation-style-guide.md). Style guide issues are handled in review even when no automated Vale check runs on this repository.
+
 ### About the `add-to-project` check
 
-The `add-to-project` workflow uses an organization secret (`DEVREL_TRACKER_TOKEN`) that **GitHub does not expose to pull requests from forks**. If you open a PR from a fork, this check may fail with an error like:
+The `add-to-project` workflow uses an organization secret (`DEVREL_TRACKER_TOKEN`) that **GitHub does not expose to pull requests from forks**. On fork-based pull requests, this check fails with an error like:
 
 ```
 Input required and not supplied: github-token
 ```
 
-**This is expected for fork-based PRs and does not mean your submission is rejected.** Reviewers can still review and merge your PR. The failure is a workflow limitation, not a problem with your change.
+**This failure is expected for fork-based PRs and does not mean your submission is rejected.** Reviewers can still review and merge your PR. The failure is a workflow limitation, not a problem with your change.
 
-If you have write access to the upstream repository (Option A above), pushing your branch directly to `midnightntwrk/midnight-awesome-dapps` avoids this failure.
+If you have write access to the upstream repository (Option A above), push your branch directly to `midnightntwrk/midnight-awesome-dapps` to avoid this failure.
 
 ## What to submit
 
@@ -131,7 +162,7 @@ All pull requests are reviewed before merging. Your submission must meet the cri
 Whatever you submit (DApp, library, developer tool, template, or learning resource) should do what your README says it does.
 
 - **DApps and Compact-based projects:** The repository must contain **functional Compact code**. Scaffolding, stub files, or AI-generated placeholder code that does not run will not be accepted.
-- **Tools, libraries, SDKs, and templates:** We look for a **working implementation**, not a plan or a README-only repository.
+- **Tools, libraries, SDKs, and templates:** The repository must include a **working implementation**, not a plan or a README-only repository.
 - **Learning resources:** Tutorials and educational content should be complete and usable, not placeholders.
 
 Reviewers may run or inspect the code as part of review.
@@ -148,7 +179,17 @@ The project should represent a genuine application, tool, or experiment built fo
 
 All submissions must be publicly accessible repositories with a clear open source license.
 
-### 5. One project per pull request (recommended)
+### 5. Documentation style guide compliance
+
+Your submission must follow the [Midnight documentation style guide](Midnight-documentation-style-guide.md). This applies to README entry descriptions, pull request text, and any other markdown you change.
+
+Common issues reviewers flag:
+
+- Promotional language ("best", "revolutionary", "seamless")
+- Incorrect terminology (`dapp` instead of **DApp**, `zk proof` instead of **ZK** or **zero-knowledge proof**)
+- Passive voice or third-person phrasing where second person ("you") is clearer
+
+### 6. One project per pull request (recommended)
 
 Submit **one new entry per pull request** when possible. This makes review faster and easier to track. If you are adding several related projects from the same maintainer, mention that in the PR description.
 
@@ -174,18 +215,36 @@ Official ecosystem partners may use the ðŸ”¹ marker. Hackathon winners may use ð
 
 ## Formatting your entry
 
+Follow the [Midnight documentation style guide](Midnight-documentation-style-guide.md) for wording, terminology, and tone.
+
 - Add your project in **alphabetical order** within the appropriate section (by project name, not URL).
 - Use this format:
   ```markdown
   - [Project Name](https://github.com/org/repo) - Brief description of what it does.
   ```
-- Keep descriptions **factual, concise, and one sentence**. End with a period.
+- Keep descriptions factual, one sentence, and non-promotional. End with a period.
 - Link to the **primary repository** or canonical project URL.
 - Avoid marketing language ("best", "revolutionary", "seamless", and similar superlatives).
-- Optional: add secondary links on the same line after the description, for example npm or a live demo:
-  ```markdown
-  - [Project Name](https://github.com/org/repo) - Short description. - [npm](https://www.npmjs.com/package/example)
-  ```
+
+### Description examples
+
+**Avoid (promotional):**
+
+```markdown
+- [MyProject](https://github.com/org/repo) - The ultimate, revolutionary privacy solution for Midnight.
+```
+
+**Prefer (factual):**
+
+```markdown
+- [MyProject](https://github.com/org/repo) - CLI for deploying Compact smart contracts to Midnight Testnet.
+```
+
+Optional: add secondary links on the same line after the description, for example npm or a live demo:
+
+```markdown
+- [Project Name](https://github.com/org/repo) - Short description. - [npm](https://www.npmjs.com/package/example)
+```
 
 ### Good example
 
@@ -199,6 +258,7 @@ Official ecosystem partners may use the ðŸ”¹ marker. Hackathon winners may use ð
 |---------|-----|
 | Entry not in alphabetical order | Sort by project name within the section |
 | Promotional description | State what the project does in plain language |
+| Style guide violations | See [Midnight documentation style guide](Midnight-documentation-style-guide.md) |
 | Link goes to a fork or mirror | Use the canonical repository URL |
 | Duplicate entry | Search README first; update the existing line instead |
 | Wrong section | See [Where to add your project](#where-to-add-your-project) |
@@ -209,14 +269,22 @@ Add `midnightntwrk` as a topic on your repository: **Settings > General > Topics
 
 ## Review process
 
-When you open a pull request, a reviewer from the developer relations team evaluates it against the criteria above. If we need more time, or if a submission surfaces a question that needs broader team input, we will tell you in the PR thread so you are not left wondering.
+When you open a pull request, a reviewer from the developer relations team evaluates it against the criteria above. If a submission needs more time or broader team input, the reviewer tells you in the PR thread so you are not left wondering.
 
-Review comments fall into two categories. We will be clear about which is which:
+Review comments fall into two categories. The reviewer labels which category applies:
 
-- **Required changes.** Items that must be addressed before merging, usually because they affect correctness, safety, or whether the submission meets the criteria above.
-- **Suggestions.** Observations we think are useful for your project, offered as input rather than as merge conditions. You can take them or leave them.
+- **Required changes.** Items that must be addressed before merging, usually because they affect correctness, safety, style guide compliance, or whether the submission meets the criteria above.
+- **Suggestions.** Observations the reviewer thinks are useful for your project, offered as input rather than as merge conditions. You can take them or leave them.
 
 Pull requests will not be merged with unresolved required changes. Suggestions will not block merging.
+
+### What reviewers check
+
+- Submission meets the [criteria](#what-to-submit) for its type
+- Entry follows the [Midnight documentation style guide](Midnight-documentation-style-guide.md)
+- Correct section and alphabetical order
+- Canonical link and accurate one-line description
+- CLA signed and required CI checks passing (where branch protection applies)
 
 ### Updating your pull request
 
@@ -230,7 +298,7 @@ You do not need to open a new pull request for updates to the same submission.
 
 ## If your submission is not ready yet
 
-If your project is early, still being built, or not yet in a state we can list, we will tell you specifically what we would want to see before it is ready. We encourage you to come back when those criteria are met.
+If your project is early, still being built, or not yet in a state the list can include, the reviewer tells you specifically what to address before it is ready. You are welcome to return when those criteria are met.
 
 A "not yet" is not a "no."
 
@@ -257,7 +325,7 @@ This repository is maintained by Midnight Foundation and licensed under the [Apa
 
 ## Support and communication
 
-Ask anything about Midnight. Connect with the community on:
+If you need help with Midnight, connect with the community on:
 
 - [Discord](https://discord.com/invite/midnightnetwork)
 - [Telegram](https://t.me/Midnight_Network_Official)
@@ -265,4 +333,4 @@ Ask anything about Midnight. Connect with the community on:
 - [Midnight Forum](https://forum.midnight.network) (technical Q&A)
 - [Midnight Docs](https://docs.midnight.network/)
 
-We appreciate your contributions.
+Thank you for contributing.
