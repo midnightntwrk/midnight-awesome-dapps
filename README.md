@@ -117,6 +117,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [AutoDiscovery](https://github.com/SpyCrypto/AutoDiscovery) - Privacy-preserving legal discovery automation with jurisdiction-aware compliance, ZK proofs, and dual-ledger architecture
 - [DPO2U Midnight](https://github.com/fredericosanntana/dpo2u-midnight) - Autonomous LGPD/GDPR compliance protocol with ZK-attested privacy scores. AI agents audit data protection practices off-chain and record immutable attestations on Midnight via four Compact smart contracts (ComplianceRegistry, AgentRegistry, FeeDistributor, Treasury)
 - 🏆 [KYC Midnight](https://github.com/joacolinares/kyc-midnight) - Know Your Customer (KYC) attestation system - LATAM Hack winner
+- [Kredz](https://github.com/kredz-labs/kredz/tree/main/kredz-midnight) - Privacy-preserving credit identity protocol using ZK witnesses, score commitment hashing, and selective disclosure on Midnight
 - [Midnight Authenticator](https://github.com/subc0der/midnight-authenticator) - Zero-knowledge TOTP authenticator that proves code validity without revealing secrets
 - [Midnight Cloak](https://github.com/subc0der/midnight-cloak) - Zero-knowledge identity verification SDK enabling dApps to verify user attributes (age, credentials) without exposing personal data
 - [Private Data Management](https://github.com/Edgxtech/pdm-demo-app) - Private data management demonstration using decentralised ledgers ([article](https://medium.com/itnext/private-data-management-using-decentralised-ledgers-b972c6855e48))
