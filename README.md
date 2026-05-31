@@ -65,7 +65,8 @@ smart contracts without connecting to Preprod
 _Community-created boilerplates or dev scaffolds_
 
 - [🔹 Edda Labs Midnight Starter](https://github.com/eddalabs/midnight-starter-template) - Complete template with smart contracts, tests, UI, and all batteries included to kickstart your project
-- [Midnightpy](https://github.com/Techgethr/midnightpy) - Midnight smart contract bindings for Python
+- [Midnightpy](https://github.com/Techgethr/midnightpy) - Midnight smart contract bindings for Python-
+- [Midnight Counter](https://github.com/RamaVenom/midnight-counter) - On-chain counter DApp built on Midnight Network using Compact smart contracts. Includes live demo on GitHub Pages.
 
 ## Developer Tools
 
