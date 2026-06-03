@@ -86,6 +86,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [Midday SDK](https://github.com/no-witness-labs/midday-sdk) - Developer-friendly TypeScript SDK for building dApps on Midnight Network, with wallet management, contract deployment, and state management in one package
 - [Midnight Compact Smart Contract Skill](https://github.com/adavault/midnight-skill) - Agent skill for AI coding assistants to write, test, and deploy Compact smart contracts. 151 compiler-validated circuits, 30 deployed contracts, 59 developer gotchas
 - [Midnight MNN Helm](https://github.com/0xstrong/midnight-mnn-helm) - Helm charts for running Midnight full nodes or services
+- [Midnight Network Agent Skills](https://github.com/mzf11125/midnight_agent_skills) - 4 modular agent skills covering Midnight concepts, Compact language, API integration, and network deployment for AI-assisted development
 - [Nocturne Wallet](https://github.com/htlabs-xyz/nocturne) - Self-custodial Chrome extension wallet for Midnight with shielded/unshielded balances, DUST registration, multi-network support, and dApp connector - [Chrome Web Store](https://chromewebstore.google.com/detail/nocturne/ijfdfgajlffijenjneoppbfnhjkdibna)
 - [Midnight Playground](https://midnight-playground-one.vercel.app/) - Online Compact IDE for writing, compiling, and building smart contracts with syntax error detection
 - [MidnightForge](https://github.com/bytewizard42i/MidnightForge) - Infrastructure scripts and DevOps for Midnight dApp deployment
