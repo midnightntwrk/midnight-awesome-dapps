@@ -105,6 +105,12 @@ _Tools that help other devs build, test, deploy, or index_
 - [dMarket](https://github.com/bochaco/dmarket) - A decentralized e-commerce marketplace that utilizes a three-party escrow system on the Midnight Network, incorporating asymmetric encryption and zero-knowledge proofs (zk-proofs) to ensure robust user privacy and security
 - [Hydra Stake](https://github.com/statera-protocol/hydra-stake-protocol) - Hydra Stake Protocol is a privacy-preserving liquid staking solution. It allows users to stake their assets while maintaining liquidity through liquid staking tokens (LST), enabling participation in DeFi while earning staking rewards
 - [Midnight Escrow](https://github.com/tusharpamnani/midnight-escrow) - Privacy-preserving escrow contract demonstrating confidential conditional payments using zk proofs on Midnight
+- [Night Biz](https://github.com/kingmunz1994-lgtm/night-biz) - ZK business loyalty token platform — issue private loyalty tokens, verify customer tier (Bronze/Silver/Gold/Platinum) with ZK proof without revealing balance, automatic NIGHT revenue sharing each epoch
+- [Night Fun](https://github.com/kingmunz1994-lgtm/night-fun) - ZK token launchpad (privacy-first pump.fun) — launch tokens with bonding curves, private transfers, and automatic epoch-based revenue sharing via `NightFunToken.compact`
+- [Night Lend](https://github.com/kingmunz1994-lgtm/night-lend) - ZK lending protocol — deposit private collateral, borrow at 75% LTV, liquidation enforced on-chain without revealing collateral amounts
+- [Night Markets](https://github.com/kingmunz1994-lgtm/night-markets) - ZK global escrow marketplace — private listings, ZK-authenticated escrow lifecycle (createListing → fundEscrow → releaseEscrow), governance voting, and live on Midnight Preprod
+- [Night Save](https://github.com/kingmunz1994-lgtm/night-save) - ZK vault and stablecoin — deposit NIGHT privately, mint sUSD stablecoin, BNPL payments enforced by `NightSave.compact`
+- [Night Work](https://github.com/kingmunz1994-lgtm/night-work) - ZK task marketplace — post bounties, complete tasks, claim payments privately; AI agents and humans earn NIGHT without revealing their identity
 - [Pintent](https://github.com/0xAtelerix/pintent) - Cross-chain bridge from Midnight to EVM and non-EVM chains using an intent-based solver model
 - [SilentLedger](https://github.com/bytewizard42i/SilentLedger) - A privacy-preserving verified orderbook dApp
 - [Statera Protocol](https://github.com/statera-protocol/statera-protocol-midnight) - Over-collateralized stablecoin protocol with modular dApp framework
@@ -124,6 +130,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [Kredz](https://github.com/kredz-labs/kredz/tree/main/kredz-midnight) - Privacy-preserving credit identity protocol using ZK witnesses, score commitment hashing, and selective disclosure on the Midnight Network.
 - [Midnight Authenticator](https://github.com/subc0der/midnight-authenticator) - Zero-knowledge TOTP authenticator that proves code validity without revealing secrets
 - [Midnight Cloak](https://github.com/subc0der/midnight-cloak) - Zero-knowledge identity verification SDK enabling dApps to verify user attributes (age, credentials) without exposing personal data
+- [Night ID](https://github.com/kingmunz1994-lgtm/night-id) - Multi-chain ZK identity passport — score on-chain history across Ethereum, Solana, Cardano, and Midnight; issue W3C Verifiable Credentials and `.night` names anchored by `NightID.compact`
 - [Private Data Management](https://github.com/Edgxtech/pdm-demo-app) - Private data management demonstration using decentralised ledgers ([article](https://medium.com/itnext/private-data-management-using-decentralised-ledgers-b972c6855e48))
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
 - [ZIP](https://github.com/oluwatobiss/zip-midnight-mlh-202605-hack) - A privacy-first Proof-of-Humanity application
@@ -138,8 +145,8 @@ _Interactive, zero-knowledge-powered games_
 
 - 🕹️ [Midnight Starship](https://github.com/nel349/midnight-starship) - Galaga-style space shooter with privacy-first on-chain leaderboard using ZK selective disclosure, built with midnight-wallet-connector
 - [🔹 Midnight Seabattle](https://github.com/bricktowers/midnight-seabattle) - SeaBattle implementation by Brick Towers
-
 - [Midnight DiceRoll Game](https://github.com/Kali-Decoder/Midnight-Dice-Roll) - Midnight Dice Roll is a reference implementation of a verifiable dice game built using Midnight’s Compact smart contracts.
+- [Night Poker](https://github.com/kingmunz1994-lgtm/night-poker) - Provably fair ZK Texas Hold’em — private hole cards, commit-reveal showdown via `NightPoker.compact`, WebSocket room management, live lobby UI
 
 
 
