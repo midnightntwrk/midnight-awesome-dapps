@@ -1,45 +1,40 @@
-# Awesome Midnight dApps [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-> This project is built on the Midnight Network.
+# Awesome Midnight dApps
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome Midnight dApps, tools, and resources
+A curated list of dApps, tools, and resources built on the [Midnight Network](https://midnight.network).
+
+</div>
+
+---
 
 ## Contents
 
-- [Awesome Midnight dApps ](#awesome-midnight-dapps-)
-  - [Contents](#contents)
-  - [Getting Started](#getting-started)
-  - [Smart Contract Primitives](#smart-contract-primitives)
-  - [Starter Templates](#starter-templates)
-  - [Developer Tools](#developer-tools)
-  - [Finance \& DeFi](#finance--defi)
-  - [Identity \& Privacy](#identity--privacy)
-  - [Gaming](#gaming)
-  - [Governance](#governance)
-  - [Dormant Projects](#dormant-projects)
-  - [Learning Resources](#learning-resources)
-    - [Documentation](#documentation)
-    - [Getting Started](#getting-started-1)
-    - [Tutorials](#tutorials)
-    - [Community](#community)
-  - [Community Projects](#community-projects)
-  - [Contributing](#contributing)
-  - [Submission Criteria](#submission-criteria)
-  - [License](#license)
+- [Example dApps (Start Here)](#example-dapps-start-here)
+- [Smart Contract Primitives](#smart-contract-primitives)
+- [Starter Templates](#starter-templates)
+- [Developer Tools](#developer-tools)
+- [Finance & DeFi](#finance--defi)
+- [Identity & Privacy](#identity--privacy)
+- [Gaming](#gaming)
+- [Governance](#governance)
+- [Healthcare](#healthcare)
+- [Dormant Projects](#dormant-projects)
+- [Learning Resources](#learning-resources)
+- [Community](#community)
+- [Contributing](#contributing)
 
-> [!IMPORTANT]  
+> [!NOTE]
+> 🔹 = Official Midnight Ecosystem Partner &nbsp;·&nbsp; 🏆 = Hackathon winner
+
+> [!IMPORTANT]
 > Community-contributed projects are shared for inspiration and exploration. These repositories are not maintained by the Midnight team, and their functionality may vary.
 
-> [!NOTE]  
-> 🔹 = Official Midnight Ecosystem Partner  
-> 🏆 = Hackathon winners
+## Example dApps (Start Here)
 
-<!-- ## 🔦 Featured Project -->
-
-## Getting Started
-
-_Official dApps and tools maintained by the Midnight team (for education + onboarding)_
+_Official dApps and tools maintained by the Midnight team for education and onboarding._
 
 - [Example Counter](https://github.com/midnightntwrk/example-counter) - Simple increment/decrement app demonstrating state management
 - [Hello World Compact](https://github.com/Olanetsoft/hello-world-compact) - Minimal Hello World smart contract for Midnight. Deploy to Preprod and store/read messages on-chain
@@ -47,9 +42,7 @@ _Official dApps and tools maintained by the Midnight team (for education + onboa
 - [Example ZK Loan](https://github.com/midnightntwrk/example-zkloan) - ZK-powered loan contract demonstrating private state management
 - [Midnight Kitties](https://github.com/midnightntwrk/example-kitties) - A full stack dApp using the NFT smart contract library to deploy Crypto Kitties on Midnight network
 - [NFT Smart Contract Library](https://github.com/riusricardo/midnight-contracts) - A comprehensive smart contract library for NFTs on the Midnight network
-- [Midnight Local Dev](https://github.com/midnightntwrk/midnight-local-dev) -  
-Local development environment for building and testing Midnight  
-smart contracts without connecting to Preprod
+- [Midnight Local Dev](https://github.com/midnightntwrk/midnight-local-dev) - Local development environment for building and testing Midnight smart contracts without connecting to Preprod
 - [Create Midnight App](https://github.com/midnightntwrk/create-mn-app) - CLI tool for scaffolding Midnight smart contracts with automated generation, enhanced data types, a pre-generated wallet, and a full contract-deploy pipeline, available on [npm](https://www.npmjs.com/package/create-midnight-app)
 
 ## Smart Contract Primitives
@@ -59,17 +52,16 @@ smart contracts without connecting to Preprod
   - [🔹 MultiToken](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/MultiToken.compact) - ERC-1155 equivalent supporting both fungible and non-fungible tokens
   - [🔹 NonFungibleToken](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/NonFungibleToken.compact) - NFT implementation for Midnight
 
-
 ## Starter Templates
 
-_Community-created boilerplates or dev scaffolds_
+_Community-created boilerplates and dev scaffolds._
 
 - [🔹 Edda Labs Midnight Starter](https://github.com/eddalabs/midnight-starter-template) - Complete template with smart contracts, tests, UI, and all batteries included to kickstart your project
 - [Midnightpy](https://github.com/Techgethr/midnightpy) - Midnight smart contract bindings for Python
 
 ## Developer Tools
 
-_Tools that help other devs build, test, deploy, or index_
+_Tools that help builders compile, test, deploy, index, or explore Midnight._
 
 - 🧰 [midnight-wallet-cli](https://github.com/nel349/midnight-wallet-cli-hub) - Standalone terminal wallet for Midnight with multi-wallet management, DApp connector server (`mn serve`), local network management, and MCP server for AI agents - [npm](https://www.npmjs.com/package/midnight-wallet-cli) - [Connector](https://www.npmjs.com/package/midnight-wallet-connector)
 - [midnight-wallet-kit](https://www.npmjs.com/package/midnight-wallet-kit) - Lightweight toolkit for seamless wallet integration in Midnight dApps
@@ -92,7 +84,6 @@ _Tools that help other devs build, test, deploy, or index_
 - [Midnight Playground](https://midnight-playground-one.vercel.app/) - Online Compact IDE for writing, compiling, and building smart contracts with syntax error detection
 - [MidnightForge](https://github.com/bytewizard42i/MidnightForge) - Infrastructure scripts and DevOps for Midnight dApp deployment
 - [Midnightscan](https://github.com/mediocrehacker/Midnightscan) - Blockchain scanner for tracking Midnight contract deployments
-
 - [Nightforge](https://github.com/cadalt0/NIGHTFORGE) - CLI development toolkit for building, deploying, and managing Midnight smart contracts with project scaffolding, compilation, and proof server orchestration
 - [NightGate](https://github.com/ODATANO/NIGHTGATE) - Self contained Midnight Indexer packaged as an SAP CAP plugin normalizes chain data into CAP entities, and exposes it through OData V4 Services.
 - [Pelagos SDK](https://github.com/0xAtelerix/sdk) - Go SDK for building appchains with native Midnight, EVM, and non-EVM integration
@@ -112,7 +103,7 @@ _Tools that help other devs build, test, deploy, or index_
 
 ## Identity & Privacy
 
-_Privacy-preserving identity, credentials, and proof of personhood_
+_Privacy-preserving identity, credentials, and proof of personhood._
 
 - [🔹 Midnames](https://github.com/midnames/core) - ZK-powered DID and credential registry with selective disclosure
 - [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
@@ -127,21 +118,15 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [Private Data Management](https://github.com/Edgxtech/pdm-demo-app) - Private data management demonstration using decentralised ledgers ([article](https://medium.com/itnext/private-data-management-using-decentralised-ledgers-b972c6855e48))
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
 - [ZIP](https://github.com/oluwatobiss/zip-midnight-mlh-202605-hack) - A privacy-first Proof-of-Humanity application
-- [zkTanitID](https://github.com/carthagexlabs/zk-tanit-id) - Privacy-Preserving Identity Attestations, inspired by Tunisia’s digital sovereignty challenges
-
-# Topics
-
+- [zkTanitID](https://github.com/carthagexlabs/zk-tanit-id) - Privacy-Preserving Identity Attestations, inspired by Tunisia's digital sovereignty challenges
 
 ## Gaming
 
-_Interactive, zero-knowledge-powered games_
+_Interactive, zero-knowledge-powered games._
 
 - 🕹️ [Midnight Starship](https://github.com/nel349/midnight-starship) - Galaga-style space shooter with privacy-first on-chain leaderboard using ZK selective disclosure, built with midnight-wallet-connector
 - [🔹 Midnight Seabattle](https://github.com/bricktowers/midnight-seabattle) - SeaBattle implementation by Brick Towers
-
-- [Midnight DiceRoll Game](https://github.com/Kali-Decoder/Midnight-Dice-Roll) - Midnight Dice Roll is a reference implementation of a verifiable dice game built using Midnight’s Compact smart contracts.
-
-
+- [Midnight DiceRoll Game](https://github.com/Kali-Decoder/Midnight-Dice-Roll) - Midnight Dice Roll is a reference implementation of a verifiable dice game built using Midnight's Compact smart contracts.
 
 ## Governance
 
@@ -149,29 +134,29 @@ _Interactive, zero-knowledge-powered games_
 
 ## Healthcare
 
-- [NextMed](https://github.com/NextMed-main/Main) - healthcare platform enabling zk medical data analysis
+- [NextMed](https://github.com/NextMed-main/Main) - Healthcare platform enabling ZK medical data analysis
 
 ## Dormant Projects
 
-Projects that are no longer actively maintained live in the [Dormant Projects](./dormant_projects/README.md) folder. These projects and their code are preserved and available for reference, adoption, or revival by anyone in the community.
+Projects no longer actively maintained live in the [Dormant Projects](./dormant_projects/README.md) folder, kept around so anyone can reference, fork, or pick them back up.
 
-# Learning Resources
+## Learning Resources
 
 ### Documentation
 
 - [Midnight Docs](https://docs.midnight.network/) - Official documentation
-- [Developer Academy](https://academy.midnight.network/) - Build data protection apps with midnight
+- [Developer Academy](https://academy.midnight.network/) - Build data protection apps with Midnight
 - [Dev Diaries](https://docs.midnight.network/blog) - Technical blog posts and development insights
 - [Kachina Paper](https://docs.midnight.network/learn/understanding-midnights-technology/kachina) - Privacy model paper
 - [Tokenomics Paper](https://45047878.fs1.hubspotusercontent-na1.net/hubfs/45047878/Midnight-Tokenomics-And-Incentives-Whitepaper.pdf) - NIGHT/DUST economics
 
-### Getting Started
+### Setup Guides
 
 - [Proof Server Setup](https://docs.midnight.network/guides/run-proof-server)
 - [Testnet Faucet](https://docs.midnight.network/guides/acquire-tokens)
 - [Compact Compiler](https://docs.midnight.network/relnotes/compact-tools)
 
-### Community Created Tutorials
+### Community Tutorials
 
 - [Learn Compact](https://github.com/Olanetsoft/learn-compact) - Interactive book and exercise collection for learning Compact, Midnight's ZK smart contract language
 - [Compact By Example](https://github.com/Olanetsoft/compact-by-example) - Learn Midnight's Compact language through practical, real-world examples
@@ -179,9 +164,7 @@ Projects that are no longer actively maintained live in the [Dormant Projects](.
 - [🔹 Mesh Midnight](https://midnight.meshjs.dev/) - A unified repository that brings together packages, examples, and documentation to streamline development
 - [Korean Tutorial](https://github.com/jungmyeong96/midnight_tutorial) - Step-by-step development guide for Korean-speaking developers
 
-
-
-### Join Our Community
+## Community
 
 - [Midnight Network Discord](https://discord.com/invite/midnightnetwork)
 - [Follow Midnightntwrk on X](https://x.com/MidnightNtwrk)
@@ -190,23 +173,18 @@ Projects that are no longer actively maintained live in the [Dormant Projects](.
 - [Nightforce - Ambassadors](https://midnight.network/nightforce-ambassador-program)
 - [Aliit - Technical Fellowship](https://midnight.network/aliit)
 
+## Contributing
 
----
+Pull requests are welcome. The short version:
 
-# Contributing
+1. Add your project in alphabetical order within the appropriate section
+2. Use the format: `[Project Name](link) - Brief description`
+3. Project must include working Compact code, proper attribution, and represent a real use case on Midnight
 
-**Contributions to this repo are welcome! Please:**
-
-1. Add projects in alphabetical order within sections
-2. Use format: `[name](link) - Brief description`
-3. Ensure projects are open source and functional
-
-## Submission Criteria
-
-Projects must include working Compact code, proper attribution, and represent 
-a real use case built on Midnight Network. See [CONTRIBUTING.md](CONTRIBUTING.md) 
-for full review guidelines before opening a PR.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for full review guidelines. First-time contributors are especially welcome - feel free to ask in Discord if anything is unclear.
 
 ## License
 
 [![Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
+Released under the [Apache License 2.0](LICENSE).
