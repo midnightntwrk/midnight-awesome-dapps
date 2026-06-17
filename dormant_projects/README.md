@@ -24,6 +24,14 @@
 ## Gaming
 - [Midnight Battleship](https://github.com/mediocrehacker/midnight-battleship) - A ZK-powered battleship game
 - [Midnight Sea Battle Hackathon](https://github.com/eddex/midnight-sea-battle-hackathon) - Jan & Eddex's SeaBattle submission
+- [Midnauction](https://github.com/eryxcoop/midnauction) - Sealed-bid round-based auction platform
+
+## Finance & DeFi
+- [Midnight Bank](https://github.com/nel349/midnight-bank) - Privacy-first banking dApp
+
+## Starter Templates
+-  [Scaffold Midnight](https://github.com/kaleababayneh/scaffold-midnight) - Full-stack dev scaffold with Midnight integration
+-  [Wybe](https://github.com/lamg/wybe) - A minimal and expressive contract language for Midnight
 
 ## Finance
 - [Midnauction](https://github.com/eryxcoop/midnauction) - Sealed-bid round-based auction platform
