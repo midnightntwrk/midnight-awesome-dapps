@@ -54,6 +54,7 @@ smart contracts without connecting to Preprod
 
 ## Smart Contract Primitives
 
+- [Midnight Token Standard (MTS)](https://github.com/nftmakerio/midnight-nft-standard) - Token standard for fungible and non-fungible tokens on Midnight with fully on-chain metadata, supporting both non-programmable (native) and programmable (contract-managed) token types, by NMKR
 - [🔹 OpenZeppelin Compact Contracts](https://github.com/OpenZeppelin/compact-contracts) - Standard contract implementations
   - [🔹 FungibleToken](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/FungibleToken.compact) - ERC-20 equivalent for tokens like stablecoins or rewards
   - [🔹 MultiToken](https://github.com/OpenZeppelin/compact-contracts/blob/main/contracts/src/token/MultiToken.compact) - ERC-1155 equivalent supporting both fungible and non-fungible tokens
