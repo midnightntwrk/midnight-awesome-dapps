@@ -212,7 +212,7 @@ Ecosystem tracking tools scan README files for these phrases. Custom wording may
 
 **How to choose a row:**
 
-- Most DApp sections (Finance and DeFi, Gaming, Identity and Privacy, Governance, Healthcare, Smart Contract Primitives): use the **built on** sentence.
+- Most DApp sections (Finance & DeFi, Gaming, Identity & Privacy, Governance, Healthcare, Smart Contract Primitives): use the **built on** sentence.
 - SDKs, wallets, indexers, explorers, infrastructure: use the **integrates with** sentence.
 - CLIs, scaffolds, libraries, and developer tools in **Developer Tools** or **Starter Templates**: use the **extends** sentence when that best describes the project. If the project is primarily a DApp or contract repo, use **built on** instead.
 
@@ -238,7 +238,7 @@ Add your entry under the section that best matches your project. If you are unsu
 
 | Section | What belongs here |
 |---------|-------------------|
-| **Getting Started** | Official Midnight team projects for education and onboarding only. Community submissions do not go here. |
+| **Example DApps (Start Here)** | Official Midnight team projects for education and onboarding only. Community submissions do not go here. |
 | **Smart Contract Primitives** | Reusable contract building blocks (tokens, standards, shared libraries). |
 | **Starter Templates** | Boilerplates, scaffolds, and project templates for new Midnight builds. |
 | **Developer Tools** | CLIs, SDKs, compilers, indexers, explorers, wallets, MCP servers, and other tools that help developers build, test, deploy, or index. |
@@ -247,8 +247,9 @@ Add your entry under the section that best matches your project. If you are unsu
 | **Gaming** | Games and interactive experiences on Midnight. |
 | **Governance** | Voting, crowdfunding, and community governance. |
 | **Healthcare** | Health-related applications using Midnight. |
-| **Learning Resources** | Tutorials, courses, documentation, and community-created educational content. |
 | **Dormant Projects** | Do not add new projects here. See [Updating or removing an entry](#updating-or-removing-an-entry). |
+| **Learning Resources** | Tutorials, courses, documentation, and community-created educational content. |
+| **Community** | Official community channels, forums, ambassador programs, and fellowship links. Ask maintainers before adding or changing official links. |
 
 Official ecosystem partners may use the 🔹 marker. Hackathon winners may use 🏆 where applicable. Do not add these markers unless your project qualifies.
 
