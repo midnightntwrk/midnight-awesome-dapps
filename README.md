@@ -12,7 +12,7 @@ A curated list of dApps, tools, and resources built on the [Midnight Network](ht
 
 ## Contents
 
-- [Example dApps (Start Here)](#example-dapps-start-here)
+- [Example DApps (Start Here)](#example-dapps-start-here)
 - [Smart Contract Primitives](#smart-contract-primitives)
 - [Starter Templates](#starter-templates)
 - [Developer Tools](#developer-tools)
@@ -32,9 +32,9 @@ A curated list of dApps, tools, and resources built on the [Midnight Network](ht
 > [!IMPORTANT]
 > Community-contributed projects are shared for inspiration and exploration. These repositories are not maintained by the Midnight team, and their functionality may vary.
 
-## Example dApps (Start Here)
+## Example DApps (Start Here)
 
-_Official dApps and tools maintained by the Midnight team for education and onboarding._
+_Official DApps and tools maintained by the Midnight team for education and onboarding._
 
 - [Example Counter](https://github.com/midnightntwrk/example-counter) - Simple increment/decrement app demonstrating state management
 - [Hello World Compact](https://github.com/Olanetsoft/hello-world-compact) - Minimal Hello World smart contract for Midnight. Deploy to Preprod and store/read messages on-chain
