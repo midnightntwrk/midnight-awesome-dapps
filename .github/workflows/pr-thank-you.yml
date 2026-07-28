@@ -1,0 +1,137 @@
+name: PR Thank You & Aliit Fellowship
+
+on:
+  pull_request_review:
+    types: [submitted]
+  pull_request:
+    types: [closed]
+
+permissions: {}
+
+# Serialize thank-you jobs per PR so concurrent approvals cannot race past dedupe.
+concurrency:
+  group: pr-thank-you-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
+jobs:
+  thank-on-approval:
+    if: >-
+      github.event_name == 'pull_request_review'
+      && github.event.review.state == 'approved'
+      && github.event.pull_request.user.type != 'Bot'
+      && github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Post approval comment
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+        with:
+          script: |
+            const MARKER = '<!-- pr-thank-you-approval -->';
+            const pr = context.payload.pull_request;
+            const author = pr.user.login;
+            const { owner, repo } = context.repo;
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
+              issue_number: pr.number,
+              per_page: 100,
+            });
+
+            const alreadyPosted = comments.some(
+              (c) => c.user?.type === 'Bot' && c.body?.includes(MARKER)
+            );
+            if (alreadyPosted) {
+              core.info(`Approval thank-you already posted on PR #${pr.number}; skipping.`);
+              return;
+            }
+
+            const body = [
+              MARKER,
+              `Hey @${author}, your PR has been approved! 🎉`,
+              '',
+              'Thank you for contributing to the Midnight ecosystem. This is exactly the kind of hands-on work that strengthens the network.',
+              '',
+              'Have you heard about the **Aliit Fellowship**? Aliit means "family" in Mandalorian, and it\'s Midnight\'s selective technical fellowship for builders who bring depth, rigor, and generosity in sharing knowledge about privacy-first technology.',
+              '',
+              'Fellows contribute through code, tooling, documentation, and developer support, much like what you\'re doing right now.',
+              '',
+              'As a Fellow, you get access to exclusive Discord channels, welcome swag, developer tool credits, community spotlight features, fireside speaking slots, public speaking coaching, and conference credits. The further you progress through the tiers, the more support you receive. Applications are reviewed on a rolling basis, so you can apply anytime.',
+              '',
+              '👉 [Learn more and apply at midnight.network/aliit](https://midnight.network/aliit)',
+              '',
+              'Thanks again for your contribution!',
+            ].join('\n');
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: pr.number,
+              body,
+            });
+
+            core.info(`Posted approval thank-you on PR #${pr.number}.`);
+
+  thank-on-merge:
+    if: >-
+      github.event_name == 'pull_request'
+      && github.event.action == 'closed'
+      && github.event.pull_request.merged == true
+      && github.event.pull_request.user.type != 'Bot'
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Post merge comment
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+        with:
+          script: |
+            const MARKER = '<!-- pr-thank-you-merge -->';
+            const pr = context.payload.pull_request;
+            const author = pr.user.login;
+            const { owner, repo } = context.repo;
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
+              issue_number: pr.number,
+              per_page: 100,
+            });
+
+            const alreadyPosted = comments.some(
+              (c) => c.user?.type === 'Bot' && c.body?.includes(MARKER)
+            );
+            if (alreadyPosted) {
+              core.info(`Merge thank-you already posted on PR #${pr.number}; skipping.`);
+              return;
+            }
+
+            const body = [
+              MARKER,
+              `Congrats @${author}, your contribution has been merged! 🚀`,
+              '',
+              'Your work is now part of the Midnight Awesome DApps list. Thank you for helping grow the ecosystem.',
+              '',
+              'Contributing like this is exactly what the **Aliit Fellowship** was built for. Aliit means "family" in Mandalorian, and it\'s Midnight\'s selective technical fellowship. It\'s a global network of developers who experiment, teach, build tooling, and onboard new builders into the privacy-first ecosystem.',
+              '',
+              'Every Fellow is a **Builder** by default (code, tooling, protocol work), and can also contribute as an **Educator**, **Advocate**, or **Community Leader**. Past Fellows have built projects like the Midnight-starter-template, Midday-sdk, and Urble (the first mobile wallet), and have produced architecture deep-dives, multi-language dev sessions, and DApp building walkthroughs.',
+              '',
+              'Benefits grow as you progress through the tiers. Fellows receive exclusive Discord access, welcome swag, developer tool credits, NFTs, community spotlight features, fireside speaking slots, public speaking coaching, and conference credits. Tier 3 Fellows also receive **NIGHT rewards**.',
+              '',
+              'The journey: **Start as a Candidate. Grow into a Fellow. Shape the ecosystem.** Applications are reviewed on a rolling basis, so you can apply anytime.',
+              '',
+              '📋 [Learn more and apply at midnight.network/aliit](https://midnight.network/aliit)',
+              '',
+              'We look forward to seeing more from you!',
+            ].join('\n');
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: pr.number,
+              body,
+            });
+
+            core.info(`Posted merge thank-you on PR #${pr.number}.`);

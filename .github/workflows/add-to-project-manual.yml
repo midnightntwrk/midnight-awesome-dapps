@@ -1,0 +1,23 @@
+name: Add PR to DevRel Tracker (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'Pull request number'
+        required: true
+        type: number
+
+jobs:
+  add-to-project:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: read
+      pull-requests: read
+    steps:
+      - name: Add to project
+        uses: actions/add-to-project@5afcf98fcd03f1c2f92c3c83f58ae24323cc57fd
+        with:
+          project-url: https://github.com/orgs/midnightntwrk/projects/75
+          github-token: ${{ secrets.DEVREL_TRACKER_TOKEN }}
+          pr-number: ${{ github.event.inputs.pr_number }}
