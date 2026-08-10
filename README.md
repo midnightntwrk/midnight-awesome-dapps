@@ -144,6 +144,9 @@ _Interactive, zero-knowledge-powered games_
 
 - [Midnight RPC Game](https://github.com/mashharuki/midnight-rps-sample-app) - Sample Rock-Paper-Scissors DApp on Midnight using a Compact commit/reveal flow.
 
+- [MatkaNight](https://github.com/hsay123/MatkaNight_) - A privacy-first card prediction game built on the Midnight Network, using zero-knowledge proofs to let players bet, shuffle, and win without revealing their gameplay history on-chain.
+
+
 ## Governance
 
 - [FundAGoal](https://github.com/codeBigInt/fundagoal) - Crowdfunding smart contracts for verified projects
