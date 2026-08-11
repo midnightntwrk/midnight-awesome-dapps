@@ -108,6 +108,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [SilentBid](https://github.com/efekrbas/midnight-sealed-bid-marketplace) - A zero-knowledge sealed-bid marketplace where bids stay private until settlement.
 - [SilentLedger](https://github.com/bytewizard42i/SilentLedger) - A privacy-preserving verified orderbook dApp
 - [Statera Protocol](https://github.com/statera-protocol/statera-protocol-midnight) - Over-collateralized stablecoin protocol with modular dApp framework
+- - [DarkPool DEX](https://github.com/Yash11778/Midnight-) - A privacy-preserving decentralized exchange on Midnight, enabling MEV-resistant trading through shielded swap amounts and zero-knowledge proofs (ZKPs).
 
 ## Identity & Privacy
 
