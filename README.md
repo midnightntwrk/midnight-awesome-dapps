@@ -108,6 +108,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [SilentBid](https://github.com/efekrbas/midnight-sealed-bid-marketplace) - A zero-knowledge sealed-bid marketplace where bids stay private until settlement.
 - [SilentLedger](https://github.com/bytewizard42i/SilentLedger) - A privacy-preserving verified orderbook dApp
 - [Statera Protocol](https://github.com/statera-protocol/statera-protocol-midnight) - Over-collateralized stablecoin protocol with modular dApp framework
+- [StreetRail](https://github.com/arunnadarasa/zealymidnight) - Privacy-preserving streetwear commerce and choreography rights on Midnight Local Undeployed, using Compact witnesses, author commitments, AP2/UCP anchors, and experimental mUSDC settlement
 
 ## Identity & Privacy
 
