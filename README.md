@@ -135,6 +135,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 
 _Interactive, zero-knowledge-powered games_
 
+- [MatkaNight](https://github.com/hsay123/MatkaNight) - Privacy-first card prediction game on Midnight
 - 🕹️ [Midnight Starship](https://github.com/nel349/midnight-starship) - Galaga-style space shooter with privacy-first on-chain leaderboard using ZK selective disclosure, built with midnight-wallet-connector
 - [🔹 Midnight Seabattle](https://github.com/bricktowers/midnight-seabattle) - SeaBattle implementation by Brick Towers
 
@@ -143,9 +144,6 @@ _Interactive, zero-knowledge-powered games_
 - [Midnight Prediction Market App](https://github.com/mashharuki/midnight-prediction-market-sample-app) - Privacy-preserving four-outcome football prediction market using Compact, Midnight.js, and Lace Wallet.
 
 - [Midnight RPC Game](https://github.com/mashharuki/midnight-rps-sample-app) - Sample Rock-Paper-Scissors DApp on Midnight using a Compact commit/reveal flow.
-
-- [MatkaNight](https://github.com/hsay123/MatkaNight_) - A privacy-first card prediction game built on the Midnight Network, using zero-knowledge proofs to let players bet, shuffle, and win without revealing their gameplay history on-chain.
-
 
 ## Governance
 
