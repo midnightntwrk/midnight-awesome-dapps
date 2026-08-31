@@ -94,6 +94,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [Night Check](https://github.com/CjDabrow/night-check) - Reviews Compact contracts and SDK code for Midnight-specific privacy and security issues, and certifies a review on-chain with a privacy-preserving Compact contract. - [Website](https://midnight.gridservices.xyz)
 - [Nightforge](https://github.com/cadalt0/NIGHTFORGE) - CLI development toolkit for building, deploying, and managing Midnight smart contracts with project scaffolding, compilation, and proof server orchestration
 - [NightGate](https://github.com/ODATANO/NIGHTGATE) - Self contained Midnight Indexer packaged as an SAP CAP plugin normalizes chain data into CAP entities, and exposes it through OData V4 Services.
+- [Nite ZK Profiler](https://github.com/nite-framework/nite-zk-profiler) - CLI that reports Compact circuit proving cost (rows and k) without generating proving keys, and can fail CI when a circuit exceeds a maxK budget. - [npm](https://www.npmjs.com/package/@nite-framework/nite-zk-profiler)
 - [Pelagos SDK](https://github.com/0xAtelerix/sdk) - Go SDK for building appchains with native Midnight, EVM, and non-EVM integration
 
 ## Finance & DeFi
