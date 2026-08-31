@@ -123,7 +123,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [Midnight-ZK-Judge](https://github.com/efekrbas/Midnight-ZK-Judge) - Privacy-preserving decision circuit that evaluates private inputs against a public threshold on Midnight. - [Demo](https://midnight-zk-judge.vercel.app)
 - [Nightroom](https://github.com/Gutopro/nightroom) - Privacy-preserving room rental protocol using zero-knowledge proofs to verify owner and guest identity without exposing sensitive data on-chain.
 - [Proof-of-Age Gate](https://github.com/tomiin/midnight-proof-of-age) - Prove you meet a minimum age without revealing your birth year; ZK selective disclosure in Compact, with a React frontend wired to the 1AM wallet
-- [scopeproof](https://github.com/CoderRahul01/scopeproof) - Nullifier-gated spend-scope attestor for AI agents; proves an action's cost was within budget using selective disclosure, without revealing the cost or budget on-chain
+- [scopeproof](https://github.com/CoderRahul01/scopeproof) - Nullifier-gated spend-scope attestor that proves a private cost is within a private budget, without revealing either figure on-chain.
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
 - [ZIP](https://github.com/oluwatobiss/zip-midnight-mlh-202605-hack) - A privacy-first Proof-of-Humanity application
 - [zkTanitID](https://github.com/carthagexlabs/zk-tanit-id) - Privacy-Preserving Identity Attestations, inspired by Tunisia’s digital sovereignty challenges
