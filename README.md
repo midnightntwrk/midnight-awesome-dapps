@@ -78,37 +78,41 @@ _Tools that help other devs build, test, deploy, or index_
 - [🔹 OpenZeppelin Compact Tools](https://github.com/OpenZeppelin/compact-tools) - Tools for compiling, building, and testing Compact smart contracts
 - [🔹 Web3Fast Midnight](https://midnight.web3fast.dev/) - Fast development tools and services for Midnight blockchain
 - [DPO2U Midnight Relayer](https://github.com/fredericosanntana/dpo2u-midnight-relayer) - Cross-chain compliance relay for Midnight Network with ZK proofs
+- [EchoMKB](https://github.com/EchoForge-Dev/EchoMKB) - Agent skill that searches the Midnight documentation live on every use, returns cited excerpts carrying each page's Compact language and compiler version, and reports version drift between the compatibility matrix and the latest releases - [Website](https://m.echoforgeef.com/echomkb)
 - [Midnight Doctor](https://github.com/fredericosanntana/midnight-doctor) - CLI pre-flight check that cross-references SDK + Docker + config against a verified compatibility matrix to catch version mismatches and known bugs before silent failures - [npm](https://www.npmjs.com/package/midnight-doctor)
 - [Midnight Explorer](https://github.com/Tech-Expansion/midnight-explorer-web) - The leading block explorer on the Midnight Network, proudly built by TexLabs - [Website](https://www.midnightexplorer.com/)
-- [Midnight Live View](https://github.com/Midnight-Scripts/Midnight-Live-View) - A simple script that allows users to monitor key information about their Midnight node
 - [Midnight Local Playground](https://github.com/0xshae/midnight-playground) - Local dev environment: run full node, indexer, and proof server via Docker; fund and deploy Compact contracts with Lace on "Undeployed" — no testnet or faucet. Includes Hello World contract and CLI
 - [Midnight MCP](https://github.com/Olanetsoft/midnight-mcp) - MCP server giving AI assistants access to the Midnight blockchain — search contracts, analyze code, explore docs
 - [Midnight Mobile SDK](https://github.com/mzf11125/midnight-mobile-sdk) - React Native SDK for mobile wallet, zero-knowledge contracts, and DApp connectivity with biometric auth, secure storage (iOS Keychain/Android Keystore), deep links, QR code scanner, and offline transaction queue - [npm](https://www.npmjs.com/package/@dedanzi/midnight-mobile-sdk)
 - [Midday SDK](https://github.com/no-witness-labs/midday-sdk) - Developer-friendly TypeScript SDK for building dApps on Midnight Network, with wallet management, contract deployment, and state management in one package
 - [Midnight Compact Smart Contract Skill](https://github.com/adavault/midnight-skill) - Agent skill for AI coding assistants to write, test, and deploy Compact smart contracts. 151 compiler-validated circuits, 30 deployed contracts, 59 developer gotchas
 - [Midnight Network Agent Skills](https://github.com/mzf11125/midnight_agent_skills) - 4 modular agent skills covering Midnight concepts, Compact language, API integration, and network deployment for AI-assisted development
+- [Midnight Wallet Extension](https://github.com/Ansh-Sonkusare/midnight-extension) - Self-contained Midnight wallet browser extension (Manifest V3) with seed import, NIGHT send/receive, transaction history, multisig vaults, and a ConnectedAPI v4 DApp connector.
 - [Nocturne Wallet](https://github.com/htlabs-xyz/nocturne) - Self-custodial Chrome extension wallet for Midnight with shielded/unshielded balances, DUST registration, multi-network support, and dApp connector - [Chrome Web Store](https://chromewebstore.google.com/detail/nocturne/ijfdfgajlffijenjneoppbfnhjkdibna)
 - [Midnight Playground](https://midnight-playground-one.vercel.app/) - Online Compact IDE for writing, compiling, and building smart contracts with syntax error detection
-- [MidnightForge](https://github.com/bytewizard42i/MidnightForge) - Infrastructure scripts and DevOps for Midnight dApp deployment
 - [MIDSKILLS](https://github.com/Kali-Decoder/Midnight-skills) - Modular agent skills for AI coding assistants covering Compact contracts, wallet integration, indexer queries, and full DApp scaffolds. - [Website](https://midskills.sevryn.xyz/)
 - [Night Check](https://github.com/CjDabrow/night-check) - Reviews Compact contracts and SDK code for Midnight-specific privacy and security issues, and certifies a review on-chain with a privacy-preserving Compact contract. - [Website](https://midnight.gridservices.xyz)
 - [Nightforge](https://github.com/cadalt0/NIGHTFORGE) - CLI development toolkit for building, deploying, and managing Midnight smart contracts with project scaffolding, compilation, and proof server orchestration
 - [NightGate](https://github.com/ODATANO/NIGHTGATE) - Self contained Midnight Indexer packaged as an SAP CAP plugin normalizes chain data into CAP entities, and exposes it through OData V4 Services.
+- [Nite ZK Profiler](https://github.com/nite-framework/nite-zk-profiler) - CLI that reports Compact circuit proving cost (rows and k) without generating proving keys, and can fail CI when a circuit exceeds a maxK budget. - [npm](https://www.npmjs.com/package/@nite-framework/nite-zk-profiler)
 - [Pelagos SDK](https://github.com/0xAtelerix/sdk) - Go SDK for building appchains with native Midnight, EVM, and non-EVM integration
 
 ## Finance & DeFi
 
 - 🔹 [LunarSwap](https://github.com/OpenZeppelin/midnight-apps) - A UTXO-based DEX built on Midnight built with ❤️ by [OpenZeppelin](https://docs.openzeppelin.com/)
 - [🔹 Real World Assets](https://github.com/bricktowers/midnight-rwa) - Brick Towers is a privacy-first RWA trading system on Midnight, using shielded tokens and privacy-preserving user accreditation to enable fully regulated trading
+- [DarkPool DEX](https://github.com/Yash11778/Midnight-) - Compact constant-product AMM demo on Midnight that proves swap math with zero-knowledge circuits. - [Demo](https://midnight-inky.vercel.app)
 - [dMarket](https://github.com/bochaco/dmarket) - A decentralized e-commerce marketplace that utilizes a three-party escrow system on the Midnight Network, incorporating asymmetric encryption and zero-knowledge proofs (zk-proofs) to ensure robust user privacy and security
 - [Hydra Stake](https://github.com/statera-protocol/hydra-stake-protocol) - Hydra Stake Protocol is a privacy-preserving liquid staking solution. It allows users to stake their assets while maintaining liquidity through liquid staking tokens (LST), enabling participation in DeFi while earning staking rewards
 - [Midnight Escrow](https://github.com/tusharpamnani/midnight-escrow) - Privacy-preserving escrow contract demonstrating confidential conditional payments using zk proofs on Midnight
 - [Midnight Private Auction](https://github.com/pplmaverick/midnight-private-auction) - Sealed-bid auction on Midnight using Compact private state so bid amounts stay private until reveal. - [Demo](https://midnight-private-auction.vercel.app)
+- [MidPilot](https://github.com/ANPAN27/MidPilot) - AI spending assistant for Midnight that plans transfers with local policy checks and MCP wallet integration. - [Demo](https://midpilot.vercel.app)
+- [Noctis](https://github.com/NoctisZone/Noctis) - Token launchpad with a private Midnight buying phase: amounts stay hidden until reveal, when the contract checks the per-wallet cap. - [Site](https://noctis.zone)
 - [Pintent](https://github.com/0xAtelerix/pintent) - Cross-chain bridge from Midnight to EVM and non-EVM chains using an intent-based solver model
+- [Selkie](https://github.com/DpacJones/selkie-usdm-escrow) - Escrow that holds USDM in contract state and releases it to whoever proves knowledge of a secret, with no identity check in the claim path.
 - [SilentBid](https://github.com/efekrbas/midnight-sealed-bid-marketplace) - A zero-knowledge sealed-bid marketplace where bids stay private until settlement.
 - [SilentLedger](https://github.com/bytewizard42i/SilentLedger) - A privacy-preserving verified orderbook dApp
 - [Statera Protocol](https://github.com/statera-protocol/statera-protocol-midnight) - Over-collateralized stablecoin protocol with modular dApp framework
-- - [DarkPool DEX](https://github.com/Yash11778/Midnight-) - A privacy-preserving decentralized exchange on Midnight, enabling MEV-resistant trading through shielded swap amounts and zero-knowledge proofs (ZKPs).
 
 ## Identity & Privacy
 
@@ -116,16 +120,19 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 
 - [🔹 Midnight Identity](https://github.com/bricktowers/midnight-identity) - Brick Towers' ZK identity system for self-issued credentials
 - [AirLog](https://github.com/hbrazier01/airlog) - Privacy preserving aviation maintenance record verification system built with Midnight Compact smart contracts
+- [Anonboard](https://github.com/nel349/solana-anonboard) - Anonymous bulletin board that proves membership with a zero-knowledge circuit on Midnight, while posts are stored publicly and gaslessly on Solana, linked by an EffectStream sync node.
+- [Anonymous Whispers](https://github.com/Emmanuellsensai/anonymous-whispers) - Whistleblower DApp on Midnight that stores client-encrypted reports on-chain with an in-circuit hash commitment of the plaintext. - [Demo](https://anonymous-whispers.vercel.app)
 - [Credence](https://github.com/0xfdbu/midnight-apps/tree/main/fullstack-dapp) - Fullstack ZK identity platform for privacy-preserving credential attestations — authorities attest users via Merkle-tree commitments; users prove eligibility without revealing identity using nullifier-protected ZK proofs, with deterministic key derivation
 - [AutoDiscovery](https://github.com/SpyCrypto/AutoDiscovery) - Privacy-preserving legal discovery automation with jurisdiction-aware compliance, ZK proofs, and dual-ledger architecture
 - [DPO2U Midnight](https://github.com/fredericosanntana/dpo2u-midnight) - Autonomous LGPD/GDPR compliance protocol with ZK-attested privacy scores. AI agents audit data protection practices off-chain and record immutable attestations on Midnight via four Compact smart contracts (ComplianceRegistry, AgentRegistry, FeeDistributor, Treasury)
 - [Kredz](https://github.com/kredz-labs/kredz/tree/main/kredz-midnight) - Privacy-preserving credit identity protocol using ZK witnesses, score commitment hashing, and selective disclosure on the Midnight Network.
 - [Midnight Authenticator](https://github.com/subc0der/midnight-authenticator) - Zero-knowledge TOTP authenticator that proves code validity without revealing secrets
 - [Midnight Cloak](https://github.com/subc0der/midnight-cloak) - Zero-knowledge identity verification SDK enabling dApps to verify user attributes (age, credentials) without exposing personal data
+- [Midnight-ZK-Judge](https://github.com/efekrbas/Midnight-ZK-Judge) - Privacy-preserving decision circuit that evaluates private inputs against a public threshold on Midnight. - [Demo](https://midnight-zk-judge.vercel.app)
 - [Nightroom](https://github.com/Gutopro/nightroom) - Privacy-preserving room rental protocol using zero-knowledge proofs to verify owner and guest identity without exposing sensitive data on-chain.
-- [Private Data Management](https://github.com/Edgxtech/pdm-demo-app) - Private data management demonstration using decentralised ledgers ([article](https://medium.com/itnext/private-data-management-using-decentralised-ledgers-b972c6855e48))
 - [Proof-of-Age Gate](https://github.com/tomiin/midnight-proof-of-age) - Prove you meet a minimum age without revealing your birth year; ZK selective disclosure in Compact, with a React frontend wired to the 1AM wallet
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
+- [ShadowVoice](https://github.com/priyalraut703/shadowvoice) - Anonymous student feedback DApp on Midnight where enrollment is proven with zero-knowledge proofs and complaint identity stays private.
 - [ZIP](https://github.com/oluwatobiss/zip-midnight-mlh-202605-hack) - A privacy-first Proof-of-Humanity application
 - [zkTanitID](https://github.com/carthagexlabs/zk-tanit-id) - Privacy-Preserving Identity Attestations, inspired by Tunisia’s digital sovereignty challenges
 
@@ -136,6 +143,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 
 _Interactive, zero-knowledge-powered games_
 
+- [MatkaNight](https://github.com/hsay123/MatkaNight_) - Card prediction game on Midnight with Compact circuits for bet commit-and-settle and a React frontend. - [Demo](https://matkanight.vercel.app/)
 - 🕹️ [Midnight Starship](https://github.com/nel349/midnight-starship) - Galaga-style space shooter with privacy-first on-chain leaderboard using ZK selective disclosure, built with midnight-wallet-connector
 - [🔹 Midnight Seabattle](https://github.com/bricktowers/midnight-seabattle) - SeaBattle implementation by Brick Towers
 
