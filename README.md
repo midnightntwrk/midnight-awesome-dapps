@@ -198,7 +198,7 @@ Projects that are no longer actively maintained live in the [Dormant Projects](.
 - [Midnight Network YouTube](https://www.youtube.com/@midnight.network)
 - [Nightforce - Ambassadors](https://midnight.network/nightforce-ambassador-program)
 - [Aliit - Technical Fellowship](https://midnight.network/aliit)
-
+- [USDM Payments DApp](https://github.com/redyacore91/usdm-payments-dapp) - A privacy-preserving USDM payment DApp built on Midnight Network using Compact smart contracts and VIA Labs cross-chain bridge.
 
 ---
 
