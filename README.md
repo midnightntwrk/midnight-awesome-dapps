@@ -112,7 +112,6 @@ _Tools that help other devs build, test, deploy, or index_
 - [Selkie](https://github.com/DpacJones/selkie-usdm-escrow) - Escrow that holds USDM in contract state and releases it to whoever proves knowledge of a secret, with no identity check in the claim path.
 - [SilentBid](https://github.com/efekrbas/midnight-sealed-bid-marketplace) - A zero-knowledge sealed-bid marketplace where bids stay private until settlement.
 - [SilentLedger](https://github.com/bytewizard42i/SilentLedger) - A privacy-preserving verified orderbook dApp
-- [Statera Protocol](https://github.com/statera-protocol/statera-protocol-midnight) - Over-collateralized stablecoin protocol with modular dApp framework
 
 ## Identity & Privacy
 
