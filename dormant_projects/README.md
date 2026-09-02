@@ -13,7 +13,6 @@
 
 ## Developer Tools
 - [Explorer](https://github.com/AIQUANT-Tech/explorer) - Simple block explorer for Midnight networks
-- [Midnight Explorer](https://github.com/Tech-Expansion/midnight-explorer-web) - Block explorer for browsing Midnight transactions, blocks, and smart contracts - [Website](https://www.midnightexplorer.com/)
 - [Midnight Indexer](https://github.com/semsorock/midnight-indexer) - An indexing tool for querying Midnight blockchain data
 - [MidnightForge](https://github.com/bytewizard42i/MidnightForge) - Infrastructure scripts and DevOps for Midnight dApp deployment
 - [Midnight Live View](https://github.com/Midnight-Scripts/Midnight-Live-View) - A simple script that allows users to monitor key information about their Midnight node
