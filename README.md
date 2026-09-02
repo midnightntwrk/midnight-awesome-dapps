@@ -155,6 +155,7 @@ _Interactive, zero-knowledge-powered games_
 ## Governance
 
 - [FundAGoal](https://github.com/codeBigInt/fundagoal) - Crowdfunding smart contracts for verified projects
+- [Midnight Private Voting](https://github.com/Ansh-Sonkusare/zk-ballot) - Privacy-preserving ratings poll where voters commit hidden hashes of their vote, with tally reveal via ZK proofs using witnesses, commitments, and dapp-scoped keys
 
 ## Healthcare
 
