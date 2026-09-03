@@ -109,6 +109,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [MidPilot](https://github.com/ANPAN27/MidPilot) - AI spending assistant for Midnight that plans transfers with local policy checks and MCP wallet integration. - [Demo](https://midpilot.vercel.app)
 - [Noctis](https://github.com/NoctisZone/Noctis) - Token launchpad with a private Midnight buying phase: amounts stay hidden until reveal, when the contract checks the per-wallet cap. - [Site](https://noctis.zone)
 - [Pintent](https://github.com/0xAtelerix/pintent) - Cross-chain bridge from Midnight to EVM and non-EVM chains using an intent-based solver model
+- [Privoice](https://github.com/tomiin/privoice) - Private invoices settled in USDM, where the amount and counterparty stay off chain as a commitment hash while issuance, acknowledgement, and settlement remain publicly verifiable; USDM moves natively between Cardano and Midnight through VIA.
 - [Selective-Disclosure USDM Invoice Relay](https://github.com/pawsitivegames/midnight-usdm-invoice-relay) - USDM invoice payment application using a Compact contract with public expiry and counterparty-secret checks on Midnight.
 - [Selkie](https://github.com/DpacJones/selkie-usdm-escrow) - Escrow that holds USDM in contract state and releases it to whoever proves knowledge of a secret, with no identity check in the claim path.
 - [SilentBid](https://github.com/efekrbas/midnight-sealed-bid-marketplace) - A zero-knowledge sealed-bid marketplace where bids stay private until settlement.
