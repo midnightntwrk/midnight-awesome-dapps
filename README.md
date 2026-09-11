@@ -106,6 +106,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [Midnight Escrow](https://github.com/tusharpamnani/midnight-escrow) - Privacy-preserving escrow contract demonstrating confidential conditional payments using zk proofs on Midnight
 - [Midnight Private Auction](https://github.com/pplmaverick/midnight-private-auction) - Sealed-bid auction on Midnight using Compact private state so bid amounts stay private until reveal. - [Demo](https://midnight-private-auction.vercel.app)
 - [MidPilot](https://github.com/ANPAN27/MidPilot) - AI spending assistant for Midnight that plans transfers with local policy checks and MCP wallet integration. - [Demo](https://midpilot.vercel.app)
+- [MintKey](https://github.com/ErickRomeroDev/embedded-wallet-shielded-token) - Passkey-owned shielded token mint on Midnight, with a browser-embedded wallet derived from a WebAuthn passkey and mint and burn gated by a ZK owner-commitment proof.
 - [Noctis](https://github.com/NoctisZone/Noctis) - Token launchpad with a private Midnight buying phase: amounts stay hidden until reveal, when the contract checks the per-wallet cap. - [Site](https://noctis.zone)
 - [Pintent](https://github.com/0xAtelerix/pintent) - Cross-chain bridge from Midnight to EVM and non-EVM chains using an intent-based solver model
 - [Selective-Disclosure USDM Invoice Relay](https://github.com/pawsitivegames/midnight-usdm-invoice-relay) - USDM invoice payment application using a Compact contract with public expiry and counterparty-secret checks on Midnight.
