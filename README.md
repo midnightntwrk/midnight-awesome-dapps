@@ -73,7 +73,6 @@ _Tools that help other devs build, test, deploy, or index_
 - [midnight-wallet-kit](https://www.npmjs.com/package/midnight-wallet-kit) - Lightweight toolkit for seamless wallet integration in Midnight dApps
 - [Compact LSP](https://github.com/1NickPappas/compact-lsp) - Language Server Protocol for Compact smart contracts with diagnostics, completion, hover, go-to-definition, references, rename, and formatting.
 - [Compact Playground](https://github.com/Olanetsoft/compact-playground) - Browser-based Compact smart contract compiler, built as a companion to Learn Compact
-- [Compact Syntax Highlighting for VS Code](https://github.com/foxytanuki/compact-vscode) - VS Code extension providing syntax highlighting for Compact smart contracts
 - [compact.vim](https://github.com/1NickPappas/compact.vim) - Vim and Neovim plugin for the Compact language with syntax highlighting, Tree-sitter support, filetype detection, smart indentation, and compiler quickfix integration.
 - [🔹 OpenZeppelin Compact Tools](https://github.com/OpenZeppelin/compact-tools) - Tools for compiling, building, and testing Compact smart contracts
 - [🔹 Web3Fast Midnight](https://midnight.web3fast.dev/) - Fast development tools and services for Midnight blockchain
@@ -103,7 +102,6 @@ _Tools that help other devs build, test, deploy, or index_
 - [DarkPool DEX](https://github.com/Yash11778/Midnight-) - Compact constant-product AMM demo on Midnight that proves swap math with zero-knowledge circuits. - [Demo](https://midnight-inky.vercel.app)
 - [dMarket](https://github.com/bochaco/dmarket) - A decentralized e-commerce marketplace that utilizes a three-party escrow system on the Midnight Network, incorporating asymmetric encryption and zero-knowledge proofs (zk-proofs) to ensure robust user privacy and security
 - [Hydra Stake](https://github.com/statera-protocol/hydra-stake-protocol) - Hydra Stake Protocol is a privacy-preserving liquid staking solution. It allows users to stake their assets while maintaining liquidity through liquid staking tokens (LST), enabling participation in DeFi while earning staking rewards
-- [Midnight Escrow](https://github.com/tusharpamnani/midnight-escrow) - Privacy-preserving escrow contract demonstrating confidential conditional payments using zk proofs on Midnight
 - [Midnight Private Auction](https://github.com/pplmaverick/midnight-private-auction) - Sealed-bid auction on Midnight using Compact private state so bid amounts stay private until reveal. - [Demo](https://midnight-private-auction.vercel.app)
 - [MidPilot](https://github.com/ANPAN27/MidPilot) - AI spending assistant for Midnight that plans transfers with local policy checks and MCP wallet integration. - [Demo](https://midpilot.vercel.app)
 - [Noctis](https://github.com/NoctisZone/Noctis) - Token launchpad with a private Midnight buying phase: amounts stay hidden until reveal, when the contract checks the per-wallet cap. - [Site](https://noctis.zone)

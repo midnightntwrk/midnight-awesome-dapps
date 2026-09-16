@@ -12,6 +12,7 @@
 - [Midnight Vote](https://github.com/armsves/midnightVotingW3PN) - An anonymous governance and polling app
 
 ## Developer Tools
+- [Compact Syntax Highlighting for VS Code](https://github.com/foxytanuki/compact-vscode) - VS Code extension providing syntax highlighting for Compact smart contracts
 - [Explorer](https://github.com/AIQUANT-Tech/explorer) - Simple block explorer for Midnight networks
 - [Midnight Explorer](https://github.com/Tech-Expansion/midnight-explorer-web) - Block explorer for browsing Midnight transactions, blocks, and smart contracts - [Website](https://www.midnightexplorer.com/)
 - [Midnight Indexer](https://github.com/semsorock/midnight-indexer) - An indexing tool for querying Midnight blockchain data
@@ -39,6 +40,7 @@
 ## Finance & DeFi
 - [Asset Tokenization Platform](https://github.com/nicolasLuduena/2025-hackathon-midnight) - Decentralized asset tokenization platform
 - [Midnight Bank](https://github.com/nel349/midnight-bank) - Privacy-first banking dApp
+- [Midnight Escrow](https://github.com/tusharpamnani/midnight-escrow) - Privacy-preserving escrow contract demonstrating confidential conditional payments using zk proofs on Midnight
 - [Statera Protocol](https://github.com/statera-protocol/statera-protocol-midnight) - Over-collateralized stablecoin protocol with modular dApp framework
 - [Tokenless](https://github.com/luislucena16/tokenless) - Natively Midnight-based asset tokenization system
 
