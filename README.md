@@ -111,6 +111,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [Selkie](https://github.com/DpacJones/selkie-usdm-escrow) - Escrow that holds USDM in contract state and releases it to whoever proves knowledge of a secret, with no identity check in the claim path.
 - [SilentBid](https://github.com/efekrbas/midnight-sealed-bid-marketplace) - A zero-knowledge sealed-bid marketplace where bids stay private until settlement.
 - [SilentLedger](https://github.com/bytewizard42i/SilentLedger) - A privacy-preserving verified orderbook dApp
+- [Tally](https://github.com/Preciousbas/tally) - Two-party private loan desk on Midnight: loan amounts and due dates stay off the public ledger, and a party to a settled loan can prove repaid standing with a yes or no check. - [Demo](https://www.tallylend.site)
 
 ## Identity & Privacy
 
