@@ -41,7 +41,6 @@
 
 _Official dApps and tools maintained by the Midnight team (for education + onboarding)_
 
-- ~~[Example Counter](https://github.com/midnightntwrk/example-counter)~~ (**archived** / no longer maintained) — prefer [Example Bboard](https://github.com/midnightntwrk/example-bboard) and [Create Midnight App](https://github.com/midnightntwrk/create-mn-app) below
 - [Hello World Compact](https://github.com/Olanetsoft/hello-world-compact) - Minimal Hello World smart contract for Midnight. Deploy to Preprod and store/read messages on-chain
 - [Example Bboard](https://github.com/midnightntwrk/example-bboard) - Bulletin board with multi-user interactions and privacy patterns
 - [Example ZK Loan](https://github.com/midnightntwrk/example-zkloan) - ZK-powered loan contract demonstrating private state management
