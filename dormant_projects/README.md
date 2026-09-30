@@ -8,6 +8,9 @@
 
 > Found something useful? Star the repo and open an issue to let the original builder know. They might surprise you.
 
+## Getting Started
+- [Example Counter](https://github.com/midnightntwrk/example-counter) - Simple increment/decrement app demonstrating state management
+
 ## Governance
 - [Midnight Vote](https://github.com/armsves/midnightVotingW3PN) - An anonymous governance and polling app
 
