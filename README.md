@@ -41,14 +41,14 @@
 
 _Official dApps and tools maintained by the Midnight team (for education + onboarding)_
 
-- [Hello World Compact](https://github.com/Olanetsoft/hello-world-compact) - Minimal Hello World smart contract for Midnight. Deploy to Preprod and store/read messages on-chain
+- [Example Hello World](https://github.com/midnightntwrk/example-hello-world) - Starter repository for the docs Hello world tutorial, where you write a minimal Compact smart contract, compile it, and deploy it to a local devnet. - [Tutorial](https://docs.midnight.network/getting-started/hello-world)
 - [Example Bboard](https://github.com/midnightntwrk/example-bboard) - Bulletin board with multi-user interactions and privacy patterns
 - [Example ZK Loan](https://github.com/midnightntwrk/example-zkloan) - ZK-powered loan contract demonstrating private state management
 - [Midnight Kitties](https://github.com/midnightntwrk/example-kitties) - A full stack dApp using the NFT smart contract library to deploy Crypto Kitties on Midnight network
 - [Midnight Local Dev](https://github.com/midnightntwrk/midnight-local-dev) -  
 Local development environment for building and testing Midnight  
 smart contracts without connecting to Preprod
-- [Create Midnight App](https://github.com/midnightntwrk/create-mn-app) - CLI tool for scaffolding Midnight smart contracts with automated generation, enhanced data types, a pre-generated wallet, and a full contract-deploy pipeline, available on [npm](https://www.npmjs.com/package/create-midnight-app)
+- [create-mn-app](https://github.com/midnightntwrk/create-mn-app) - CLI that scaffolds a Midnight DApp project with a Compact smart contract, a local devnet, and scripts to deploy and call it. - [npm](https://www.npmjs.com/package/create-mn-app)
 
 ## Smart Contract Primitives
 
