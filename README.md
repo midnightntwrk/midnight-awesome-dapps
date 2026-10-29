@@ -48,7 +48,6 @@ _Official dApps and tools maintained by the Midnight team (for education + onboa
 - [Midnight Local Dev](https://github.com/midnightntwrk/midnight-local-dev) -  
 Local development environment for building and testing Midnight  
 smart contracts without connecting to Preprod
-- [create-mn-app](https://github.com/midnightntwrk/create-mn-app) - CLI that scaffolds a Midnight DApp project with a Compact smart contract, a local devnet, and scripts to deploy and call it. - [npm](https://www.npmjs.com/package/create-mn-app)
 
 ## Smart Contract Primitives
 
