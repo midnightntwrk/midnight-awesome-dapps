@@ -93,6 +93,7 @@ _Tools that help other devs build, test, deploy, or index_
 - [Nightwatch](https://github.com/Kshot3000/Cardano-Midnight-Qwen-Builder/tree/main/apps/nightwatch) - Midnight mainnet health dashboard that charts transaction activity and a transparent 0-100 health score from the NightForge explorer API. - [Live site](https://kshot3000.github.io/Cardano-Midnight-Qwen-Builder/apps/nightwatch/)
 - [Nite ZK Profiler](https://github.com/nite-framework/nite-zk-profiler) - CLI that reports Compact circuit proving cost (rows and k) without generating proving keys, and can fail CI when a circuit exceeds a maxK budget. - [npm](https://www.npmjs.com/package/@nite-framework/nite-zk-profiler)
 - [Pelagos SDK](https://github.com/0xAtelerix/sdk) - Go SDK for building appchains with native Midnight, EVM, and non-EVM integration
+- [🔹 VIA Network](https://github.com/VIA-Labs-Tech/cct-demo) - Cross-chain messaging network that connects Midnight smart contracts to 150+ blockchains, including Cardano and EVM chains, with a reference frontend for transfers between Midnight and Cardano. - [Docs](https://developer.vialabs.tech/docs/examples/midnight/overview/) - [npm](https://www.npmjs.com/package/@via-labs-tech/usdm-bridge)
 
 ## Finance & DeFi
 
