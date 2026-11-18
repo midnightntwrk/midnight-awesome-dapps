@@ -6,6 +6,51 @@ Before you open a pull request, read this guide and follow the [Midnight documen
 
 > The repository name still uses "dApps" for historical reasons. This list covers more than DApps alone.
 
+## Developer Certificate of Origin (DCO)
+All contributions must include a sign-off in every commit message, certifying that you have the right to submit the code under the project license. This is done by adding a `Signed-off-by` trailer using `git commit -s`:
+
+```
+git commit -s -m "feat: your commit message"
+```
+
+This produces a commit message like:
+
+```
+feat: your commit message
+
+Signed-off-by: Your Name <your@email.com>
+```
+
+By signing off, you agree to the [Developer Certificate of Origin (version 1.1)](https://developercertificate.org/).
+
+If you have forgotten to sign off past commits in a PR, you can amend them:
+
+```bash
+# Amend the last commit
+git commit --amend -s --no-edit
+
+# Or rebase to sign off multiple commits (replace N with the number of commits)
+git rebase --signoff HEAD~N
+```
+
+The DCO GitHub App checks pull requests for sign-offs. The required `DCO` check is configured separately through repository protections managed in `midnight-iac`.
+
+### Automating sign-off
+
+To avoid having to remember `-s` on every commit, install a `prepare-commit-msg` hook in your clone of this repo that appends the sign-off automatically:
+
+```bash
+cat > .git/hooks/prepare-commit-msg <<'EOF'
+#!/bin/sh
+NAME=$(git config user.name)
+EMAIL=$(git config user.email)
+grep -qs "^Signed-off-by: " "$1" || printf "\nSigned-off-by: %s <%s>\n" "$NAME" "$EMAIL" >> "$1"
+EOF
+chmod +x .git/hooks/prepare-commit-msg
+```
+
+After installing the hook, every `git commit` in this repo will include a `Signed-off-by` trailer automatically. Make sure your `user.name` and `user.email` are set correctly, since the hook certifies the DCO on your behalf for every commit.
+
 ## Ecosystem attribution (complete before you open a PR)
 
 Midnight is building a public record of ecosystem activity for industry reports and tools such as [Electric Capital](https://www.developerreport.com/). Repositories without the right metadata may not be counted, even when the work is active and high quality.
@@ -22,6 +67,7 @@ The blog post also links to optional Zealy quests for each step. Completing Zeal
 
 ## Table of contents
 
+- [Developer Certificate of Origin (DCO)](#developer-certificate-of-origin-dco)
 - [Ecosystem attribution (complete before you open a PR)](#ecosystem-attribution-complete-before-you-open-a-pr)
 - [Quick checklist](#quick-checklist)
 - [Documentation style guide](#documentation-style-guide)
@@ -90,7 +136,7 @@ If you are a collaborator or a member of the GitHub organization with push acces
 3. Commit and push to the upstream repository:
    ```bash
    git add README.md
-   git commit -m "Add [Project Name] to [section name]"
+   git commit -s -m "Add [Project Name] to [section name]"
    git push origin add-your-project-name
    ```
 4. Open a pull request on GitHub targeting `main`, or use the GitHub CLI:
@@ -121,7 +167,7 @@ If you are a collaborator or a member of the GitHub organization with push acces
 6. **Commit and push** to your fork:
    ```bash
    git add README.md
-   git commit -m "Add [Project Name] to [section name]"
+   git commit -s -m "Add [Project Name] to [section name]"
    git push origin add-your-project-name
    ```
 7. **Open a pull request** on GitHub from your fork into `midnightntwrk/midnight-awesome-dapps` `main`.
@@ -145,7 +191,7 @@ Whether a check blocks merging depends on branch protection settings for this re
 | Check | What it does | Typically blocks merge? |
 |-------|----------------|-------------------------|
 | **scan** | Security scan of the repository | Yes, if it fails |
-| **license/cla** | Contributor License Agreement | Yes, if not signed |
+| **DCO** | Developer Certificate of Origin sign-offs | Yes, when required by branch protection |
 | **add-to-project** | Adds the PR to the DevRel tracking board | No (see below) |
 
 Reviewers also check that your submission follows the [Midnight documentation style guide](Midnight-documentation-style-guide.md). Style guide issues are handled in review even when no automated Vale check runs on this repository.
@@ -349,7 +395,7 @@ Pull requests will not be merged with unresolved required changes. Suggestions w
 - Entry follows the [Midnight documentation style guide](Midnight-documentation-style-guide.md)
 - Correct section and alphabetical order
 - Canonical link and accurate one-line description
-- CLA signed and required CI checks passing (where branch protection applies)
+- Commits signed off for DCO and required CI checks passing (where branch protection applies)
 
 ### Updating your pull request
 
