@@ -136,6 +136,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [Quote of the Day](https://github.com/oluwatobiss/quote-otd) - Prove your authorization to publish without revealing your private creator identity.
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
 - [ShadowVoice](https://github.com/priyalraut703/shadowvoice) - Anonymous student feedback DApp on Midnight where enrollment is proven with zero-knowledge proofs and complaint identity stays private.
+- [VeilCore](https://github.com/hunterincoming/veilcore) - Dated, private records for plant, animal and microbial genetics: details are encrypted in the browser, only a proof code is anchored on Midnight, and holders later prove prior possession or a lab value without revealing the rest. - [Website](https://veilcore.org)
 - [ZIP](https://github.com/oluwatobiss/zip-midnight-mlh-202605-hack) - A privacy-first Proof-of-Humanity application
 - [zkTanitID](https://github.com/carthagexlabs/zk-tanit-id) - Privacy-Preserving Identity Attestations, inspired by Tunisia’s digital sovereignty challenges
 
