@@ -132,6 +132,7 @@ _Privacy-preserving identity, credentials, and proof of personhood_
 - [Midnight Cloak](https://github.com/subc0der/midnight-cloak) - Zero-knowledge identity verification SDK enabling dApps to verify user attributes (age, credentials) without exposing personal data
 - [Midnight-ZK-Judge](https://github.com/efekrbas/Midnight-ZK-Judge) - Privacy-preserving decision circuit that evaluates private inputs against a public threshold on Midnight. - [Demo](https://midnight-zk-judge.vercel.app)
 - [Nightroom](https://github.com/Gutopro/nightroom) - Privacy-preserving room rental protocol using zero-knowledge proofs to verify owner and guest identity without exposing sensitive data on-chain.
+- [Proof of Inner Growth](https://github.com/mark1971-creator/proof-of-inner-growth) - Prove you met a course's practice goal for inner development with a zero-knowledge proof over platform-signed counts, without revealing your entries, your counts, or which enrolled student you are. - [Video](https://youtu.be/9BSL5_c2Ld4)
 - [Proof-of-Age Gate](https://github.com/tomiin/midnight-proof-of-age) - Prove you meet a minimum age without revealing your birth year; ZK selective disclosure in Compact, with a React frontend wired to the 1AM wallet
 - [Quote of the Day](https://github.com/oluwatobiss/quote-otd) - Prove your authorization to publish without revealing your private creator identity.
 - [SentinelDID](https://github.com/bytewizard42i/SentinelDID-poc) - ZK identity and access prototype with selective attributes
